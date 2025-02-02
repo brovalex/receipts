@@ -2648,3 +2648,571 @@
     "createdAt": "2025-01-27T03:46:51.026Z",
     "reference_item_id": 20
 },
+{
+    "name": "Chocolate Chip and Chia Seven Grain with Quinoa Crun...",
+    "quantity": 10.0,
+    "unitOfMeasure": "bars,",
+    "price": 2.99,
+    "pricePerWeight": 0.29900000000000004,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/nuts-seeds-fruit/snack-bars/chocolate-chip-and-chia-seven-grain-with-quinoa-crunchy-bars/p/018627102557",
+    "createdAt": "2025-02-02T03:23:57.360Z",
+    "reference_item_id": {
+    "name": "Black Turtle Beans",
+    "quantity": 540.0,
+    "unitOfMeasure": "mL",
+    "price": 1.49,
+    "pricePerWeight": 0.002759259259259259,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/beans-legumes/black-turtle-beans/p/062356500047",
+    "createdAt": "2025-02-02T03:29:06.281Z",
+    "reference_item_id": 2
+},
+{
+    "name": "Black Beans",
+    "quantity": 540.0,
+    "unitOfMeasure": "mL",
+    "price": 1.49,
+    "pricePerWeight": 0.002759259259259259,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/beans-legumes/black-beans/p/059749930031",
+    "createdAt": "2025-02-02T03:29:06.282Z",
+    "reference_item_id": 2
+},
+{
+    "name": "Black-Eyed Peas",
+    "quantity": 540.0,
+    "unitOfMeasure": "mL",
+    "price": 1.69,
+    "pricePerWeight": 0.0031296296296296293,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/canned-beans/black-eyed-peas/p/062273553171",
+    "createdAt": "2025-02-02T03:29:06.283Z",
+    "reference_item_id": 2
+},
+{
+    "name": "Black Turtle Beans",
+    "quantity": 540.0,
+    "unitOfMeasure": "mL",
+    "price": 1.69,
+    "pricePerWeight": 0.0031296296296296293,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/beans-legumes/black-turtle-beans/p/062273553058",
+    "createdAt": "2025-02-02T03:29:06.284Z",
+    "reference_item_id": 2
+},
+{
+    "name": "Black Beans",
+    "quantity": 540.0,
+    "unitOfMeasure": "mL",
+    "price": 1.79,
+    "pricePerWeight": 0.0033148148148148147,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/canned-beans/black-beans/p/055900006904",
+    "createdAt": "2025-02-02T03:29:06.285Z",
+    "reference_item_id": 2
+},
+{
+    "name": "Black Beans, Organic",
+    "quantity": 398.0,
+    "unitOfMeasure": "mL",
+    "price": 1.99,
+    "pricePerWeight": 0.005,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/beans-legumes/black-beans/p/059749989657",
+    "createdAt": "2025-02-02T03:29:06.286Z",
+    "reference_item_id": 2
+},
+{
+    "name": "Mild Chili Sauce Black Beans",
+    "quantity": 398.0,
+    "unitOfMeasure": "mL",
+    "price": 1.99,
+    "pricePerWeight": 0.005,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/canned-beans/mild-chili-sauce-black-beans/p/039400225737",
+    "createdAt": "2025-02-02T03:29:06.287Z",
+    "reference_item_id": 2
+},
+{
+    "name": "Whole Black Beans",
+    "quantity": 528.0,
+    "unitOfMeasure": "mL",
+    "price": 2.99,
+    "pricePerWeight": 0.005662878787878788,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/canned-beans/whole-black-beans/p/076397889207",
+    "createdAt": "2025-02-02T03:29:06.288Z",
+    "reference_item_id": 2
+},
+{
+    "name": "Refried Black Beans",
+    "quantity": 546.0,
+    "unitOfMeasure": "mL",
+    "price": 2.99,
+    "pricePerWeight": 0.0054761904761904765,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/canned-beans/refried-black-beans/p/076397889160",
+    "createdAt": "2025-02-02T03:29:06.289Z",
+    "reference_item_id": 2
+},
+{
+    "name": "Black Turtle Beans",
+    "quantity": 907.0,
+    "unitOfMeasure": "g",
+    "price": 2.99,
+    "pricePerWeight": 0.003296582138919515,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/dried-beans/black-turtle-beans/p/062356506513",
+    "createdAt": "2025-02-02T03:29:06.291Z",
+    "reference_item_id": 2
+},
+{
+    "name": "Black-Eyed Peas",
+    "quantity": 900.0,
+    "unitOfMeasure": "g",
+    "price": 2.99,
+    "pricePerWeight": 0.0033222222222222225,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/beans-legumes/black-eyed-peas/p/059749982832",
+    "createdAt": "2025-02-02T03:29:06.292Z",
+    "reference_item_id": 2
+},
+{
+    "name": "Canned Refried Black Beans",
+    "quantity": 454.0,
+    "unitOfMeasure": "g",
+    "price": 3.49,
+    "pricePerWeight": 0.007687224669603525,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/beans-legumes/canned-refried-black-beans/p/072878525220",
+    "createdAt": "2025-02-02T03:29:06.293Z",
+    "reference_item_id": 2
+},
+{
+    "name": "Black Eyed Peas",
+    "quantity": 907.0,
+    "unitOfMeasure": "g",
+    "price": 3.49,
+    "pricePerWeight": 0.003847850055126792,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/dried-beans/black-eyed-peas/p/062356507152",
+    "createdAt": "2025-02-02T03:29:06.294Z",
+    "reference_item_id": 2
+},
+{
+    "name": "Dry Black Chickpeas",
+    "quantity": 1.81,
+    "unitOfMeasure": "kg",
+    "price": 3.99,
+    "pricePerWeight": 2.2044198895027627,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/beans-legumes/dry-black-chickpeas/p/062781061205",
+    "createdAt": "2025-02-02T03:29:06.295Z",
+    "reference_item_id": 2
+},
+{
+    "name": "Black Turtle Beans",
+    "quantity": 540.0,
+    "unitOfMeasure": "mL",
+    "price": 1.49,
+    "pricePerWeight": 0.002759259259259259,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/beans-legumes/black-turtle-beans/p/062356500047",
+    "createdAt": "2025-02-02T03:33:43.093Z",
+    "reference_item_id": 2
+},
+{
+    "name": "Black Beans",
+    "quantity": 540.0,
+    "unitOfMeasure": "mL",
+    "price": 1.49,
+    "pricePerWeight": 0.002759259259259259,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/beans-legumes/black-beans/p/059749930031",
+    "createdAt": "2025-02-02T03:33:43.094Z",
+    "reference_item_id": 2
+},
+{
+    "name": "Black-Eyed Peas",
+    "quantity": 540.0,
+    "unitOfMeasure": "mL",
+    "price": 1.69,
+    "pricePerWeight": 0.0031296296296296293,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/canned-beans/black-eyed-peas/p/062273553171",
+    "createdAt": "2025-02-02T03:33:43.095Z",
+    "reference_item_id": 2
+},
+{
+    "name": "Black Turtle Beans",
+    "quantity": 540.0,
+    "unitOfMeasure": "mL",
+    "price": 1.69,
+    "pricePerWeight": 0.0031296296296296293,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/beans-legumes/black-turtle-beans/p/062273553058",
+    "createdAt": "2025-02-02T03:33:43.096Z",
+    "reference_item_id": 2
+},
+{
+    "name": "Black Beans",
+    "quantity": 540.0,
+    "unitOfMeasure": "mL",
+    "price": 1.79,
+    "pricePerWeight": 0.0033148148148148147,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/canned-beans/black-beans/p/055900006904",
+    "createdAt": "2025-02-02T03:33:43.098Z",
+    "reference_item_id": 2
+},
+{
+    "name": "Black Beans, Organic",
+    "quantity": 398.0,
+    "unitOfMeasure": "mL",
+    "price": 1.99,
+    "pricePerWeight": 0.005,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/beans-legumes/black-beans/p/059749989657",
+    "createdAt": "2025-02-02T03:33:43.099Z",
+    "reference_item_id": 2
+},
+{
+    "name": "Mild Chili Sauce Black Beans",
+    "quantity": 398.0,
+    "unitOfMeasure": "mL",
+    "price": 1.99,
+    "pricePerWeight": 0.005,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/canned-beans/mild-chili-sauce-black-beans/p/039400225737",
+    "createdAt": "2025-02-02T03:33:43.100Z",
+    "reference_item_id": 2
+},
+{
+    "name": "Whole Black Beans",
+    "quantity": 528.0,
+    "unitOfMeasure": "mL",
+    "price": 2.99,
+    "pricePerWeight": 0.005662878787878788,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/canned-beans/whole-black-beans/p/076397889207",
+    "createdAt": "2025-02-02T03:33:43.101Z",
+    "reference_item_id": 2
+},
+{
+    "name": "Refried Black Beans",
+    "quantity": 546.0,
+    "unitOfMeasure": "mL",
+    "price": 2.99,
+    "pricePerWeight": 0.0054761904761904765,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/canned-beans/refried-black-beans/p/076397889160",
+    "createdAt": "2025-02-02T03:33:43.102Z",
+    "reference_item_id": 2
+},
+{
+    "name": "Black Turtle Beans",
+    "quantity": 907.0,
+    "unitOfMeasure": "g",
+    "price": 2.99,
+    "pricePerWeight": 0.003296582138919515,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/dried-beans/black-turtle-beans/p/062356506513",
+    "createdAt": "2025-02-02T03:33:43.103Z",
+    "reference_item_id": 2
+},
+{
+    "name": "Black-Eyed Peas",
+    "quantity": 900.0,
+    "unitOfMeasure": "g",
+    "price": 2.99,
+    "pricePerWeight": 0.0033222222222222225,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/beans-legumes/black-eyed-peas/p/059749982832",
+    "createdAt": "2025-02-02T03:33:43.104Z",
+    "reference_item_id": 2
+},
+{
+    "name": "Canned Refried Black Beans",
+    "quantity": 454.0,
+    "unitOfMeasure": "g",
+    "price": 3.49,
+    "pricePerWeight": 0.007687224669603525,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/beans-legumes/canned-refried-black-beans/p/072878525220",
+    "createdAt": "2025-02-02T03:33:43.105Z",
+    "reference_item_id": 2
+},
+{
+    "name": "Black Eyed Peas",
+    "quantity": 907.0,
+    "unitOfMeasure": "g",
+    "price": 3.49,
+    "pricePerWeight": 0.003847850055126792,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/dried-beans/black-eyed-peas/p/062356507152",
+    "createdAt": "2025-02-02T03:33:43.106Z",
+    "reference_item_id": 2
+},
+{
+    "name": "Dry Black Chickpeas",
+    "quantity": 1.81,
+    "unitOfMeasure": "kg",
+    "price": 3.99,
+    "pricePerWeight": 2.2044198895027627,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/beans-legumes/dry-black-chickpeas/p/062781061205",
+    "createdAt": "2025-02-02T03:33:43.108Z",
+    "reference_item_id": 2
+},
+{
+    "name": "Black Turtle Beans",
+    "quantity": 540.0,
+    "unitOfMeasure": "mL",
+    "price": 1.49,
+    "pricePerWeight": 0.002759259259259259,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/beans-legumes/black-turtle-beans/p/062356500047",
+    "createdAt": "2025-02-02T03:33:59.469Z",
+    "reference_item_id": 2
+},
+{
+    "name": "Black Beans",
+    "quantity": 540.0,
+    "unitOfMeasure": "mL",
+    "price": 1.49,
+    "pricePerWeight": 0.002759259259259259,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/beans-legumes/black-beans/p/059749930031",
+    "createdAt": "2025-02-02T03:33:59.470Z",
+    "reference_item_id": 2
+},
+{
+    "name": "Black-Eyed Peas",
+    "quantity": 540.0,
+    "unitOfMeasure": "mL",
+    "price": 1.69,
+    "pricePerWeight": 0.0031296296296296293,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/canned-beans/black-eyed-peas/p/062273553171",
+    "createdAt": "2025-02-02T03:33:59.470Z",
+    "reference_item_id": 2
+},
+{
+    "name": "Black Turtle Beans",
+    "quantity": 540.0,
+    "unitOfMeasure": "mL",
+    "price": 1.69,
+    "pricePerWeight": 0.0031296296296296293,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/beans-legumes/black-turtle-beans/p/062273553058",
+    "createdAt": "2025-02-02T03:33:59.471Z",
+    "reference_item_id": 2
+},
+{
+    "name": "Black Beans",
+    "quantity": 540.0,
+    "unitOfMeasure": "mL",
+    "price": 1.79,
+    "pricePerWeight": 0.0033148148148148147,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/canned-beans/black-beans/p/055900006904",
+    "createdAt": "2025-02-02T03:33:59.472Z",
+    "reference_item_id": 2
+},
+{
+    "name": "Black Beans, Organic",
+    "quantity": 398.0,
+    "unitOfMeasure": "mL",
+    "price": 1.99,
+    "pricePerWeight": 0.005,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/beans-legumes/black-beans/p/059749989657",
+    "createdAt": "2025-02-02T03:33:59.473Z",
+    "reference_item_id": 2
+},
+{
+    "name": "Mild Chili Sauce Black Beans",
+    "quantity": 398.0,
+    "unitOfMeasure": "mL",
+    "price": 1.99,
+    "pricePerWeight": 0.005,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/canned-beans/mild-chili-sauce-black-beans/p/039400225737",
+    "createdAt": "2025-02-02T03:33:59.473Z",
+    "reference_item_id": 2
+},
+{
+    "name": "Whole Black Beans",
+    "quantity": 528.0,
+    "unitOfMeasure": "mL",
+    "price": 2.99,
+    "pricePerWeight": 0.005662878787878788,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/canned-beans/whole-black-beans/p/076397889207",
+    "createdAt": "2025-02-02T03:33:59.474Z",
+    "reference_item_id": 2
+},
+{
+    "name": "Refried Black Beans",
+    "quantity": 546.0,
+    "unitOfMeasure": "mL",
+    "price": 2.99,
+    "pricePerWeight": 0.0054761904761904765,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/canned-beans/refried-black-beans/p/076397889160",
+    "createdAt": "2025-02-02T03:33:59.475Z",
+    "reference_item_id": 2
+},
+{
+    "name": "Black Turtle Beans",
+    "quantity": 907.0,
+    "unitOfMeasure": "g",
+    "price": 2.99,
+    "pricePerWeight": 0.003296582138919515,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/dried-beans/black-turtle-beans/p/062356506513",
+    "createdAt": "2025-02-02T03:33:59.476Z",
+    "reference_item_id": 2
+},
+{
+    "name": "Black-Eyed Peas",
+    "quantity": 900.0,
+    "unitOfMeasure": "g",
+    "price": 2.99,
+    "pricePerWeight": 0.0033222222222222225,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/beans-legumes/black-eyed-peas/p/059749982832",
+    "createdAt": "2025-02-02T03:33:59.477Z",
+    "reference_item_id": 2
+},
+{
+    "name": "Canned Refried Black Beans",
+    "quantity": 454.0,
+    "unitOfMeasure": "g",
+    "price": 3.49,
+    "pricePerWeight": 0.007687224669603525,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/beans-legumes/canned-refried-black-beans/p/072878525220",
+    "createdAt": "2025-02-02T03:33:59.477Z",
+    "reference_item_id": 2
+},
+{
+    "name": "Black Eyed Peas",
+    "quantity": 907.0,
+    "unitOfMeasure": "g",
+    "price": 3.49,
+    "pricePerWeight": 0.003847850055126792,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/dried-beans/black-eyed-peas/p/062356507152",
+    "createdAt": "2025-02-02T03:33:59.478Z",
+    "reference_item_id": 2
+},
+{
+    "name": "Dry Black Chickpeas",
+    "quantity": 1.81,
+    "unitOfMeasure": "kg",
+    "price": 3.99,
+    "pricePerWeight": 2.2044198895027627,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/beans-legumes/dry-black-chickpeas/p/062781061205",
+    "createdAt": "2025-02-02T03:33:59.479Z",
+    "reference_item_id": 2
+},
+{
+    "name": "Black Turtle Beans",
+    "quantity": 540.0,
+    "unitOfMeasure": "mL",
+    "price": 1.49,
+    "pricePerWeight": 0.002759259259259259,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/beans-legumes/black-turtle-beans/p/062356500047",
+    "createdAt": "2025-02-02T03:34:21.496Z",
+    "reference_item_id": 2
+},
+{
+    "name": "Black Beans",
+    "quantity": 540.0,
+    "unitOfMeasure": "mL",
+    "price": 1.49,
+    "pricePerWeight": 0.002759259259259259,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/beans-legumes/black-beans/p/059749930031",
+    "createdAt": "2025-02-02T03:34:21.496Z",
+    "reference_item_id": 2
+},
+{
+    "name": "Black-Eyed Peas",
+    "quantity": 540.0,
+    "unitOfMeasure": "mL",
+    "price": 1.69,
+    "pricePerWeight": 0.0031296296296296293,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/canned-beans/black-eyed-peas/p/062273553171",
+    "createdAt": "2025-02-02T03:34:21.497Z",
+    "reference_item_id": 2
+},
+{
+    "name": "Black Turtle Beans",
+    "quantity": 540.0,
+    "unitOfMeasure": "mL",
+    "price": 1.69,
+    "pricePerWeight": 0.0031296296296296293,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/beans-legumes/black-turtle-beans/p/062273553058",
+    "createdAt": "2025-02-02T03:34:21.498Z",
+    "reference_item_id": 2
+},
+{
+    "name": "Black Beans",
+    "quantity": 540.0,
+    "unitOfMeasure": "mL",
+    "price": 1.79,
+    "pricePerWeight": 0.0033148148148148147,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/canned-beans/black-beans/p/055900006904",
+    "createdAt": "2025-02-02T03:34:21.499Z",
+    "reference_item_id": 2
+},
+{
+    "name": "Black Beans, Organic",
+    "quantity": 398.0,
+    "unitOfMeasure": "mL",
+    "price": 1.99,
+    "pricePerWeight": 0.005,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/beans-legumes/black-beans/p/059749989657",
+    "createdAt": "2025-02-02T03:34:21.499Z",
+    "reference_item_id": 2
+},
+{
+    "name": "Mild Chili Sauce Black Beans",
+    "quantity": 398.0,
+    "unitOfMeasure": "mL",
+    "price": 1.99,
+    "pricePerWeight": 0.005,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/canned-beans/mild-chili-sauce-black-beans/p/039400225737",
+    "createdAt": "2025-02-02T03:34:21.500Z",
+    "reference_item_id": 2
+},
+{
+    "name": "Whole Black Beans",
+    "quantity": 528.0,
+    "unitOfMeasure": "mL",
+    "price": 2.99,
+    "pricePerWeight": 0.005662878787878788,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/canned-beans/whole-black-beans/p/076397889207",
+    "createdAt": "2025-02-02T03:34:21.501Z",
+    "reference_item_id": 2
+},
+{
+    "name": "Refried Black Beans",
+    "quantity": 546.0,
+    "unitOfMeasure": "mL",
+    "price": 2.99,
+    "pricePerWeight": 0.0054761904761904765,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/canned-beans/refried-black-beans/p/076397889160",
+    "createdAt": "2025-02-02T03:34:21.502Z",
+    "reference_item_id": 2
+},
+{
+    "name": "Black Turtle Beans",
+    "quantity": 907.0,
+    "unitOfMeasure": "g",
+    "price": 2.99,
+    "pricePerWeight": 0.003296582138919515,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/dried-beans/black-turtle-beans/p/062356506513",
+    "createdAt": "2025-02-02T03:34:21.502Z",
+    "reference_item_id": 2
+},
+{
+    "name": "Black-Eyed Peas",
+    "quantity": 900.0,
+    "unitOfMeasure": "g",
+    "price": 2.99,
+    "pricePerWeight": 0.0033222222222222225,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/beans-legumes/black-eyed-peas/p/059749982832",
+    "createdAt": "2025-02-02T03:34:21.503Z",
+    "reference_item_id": 2
+},
+{
+    "name": "Canned Refried Black Beans",
+    "quantity": 454.0,
+    "unitOfMeasure": "g",
+    "price": 3.49,
+    "pricePerWeight": 0.007687224669603525,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/beans-legumes/canned-refried-black-beans/p/072878525220",
+    "createdAt": "2025-02-02T03:34:21.504Z",
+    "reference_item_id": 2
+},
+{
+    "name": "Black Eyed Peas",
+    "quantity": 907.0,
+    "unitOfMeasure": "g",
+    "price": 3.49,
+    "pricePerWeight": 0.003847850055126792,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/dried-beans/black-eyed-peas/p/062356507152",
+    "createdAt": "2025-02-02T03:34:21.505Z",
+    "reference_item_id": 2
+},
+{
+    "name": "Dry Black Chickpeas",
+    "quantity": 1.81,
+    "unitOfMeasure": "kg",
+    "price": 3.99,
+    "pricePerWeight": 2.2044198895027627,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/beans-legumes/dry-black-chickpeas/p/062781061205",
+    "createdAt": "2025-02-02T03:34:21.505Z",
+    "reference_item_id": 2
+},
