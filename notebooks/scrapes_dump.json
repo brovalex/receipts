@@ -1,0 +1,2650 @@
+{
+    "name": "Chicken 'N Rib BBQ Sauce",
+    "quantity": "455",
+    "unitOfMeasure": "mL",
+    "price": 3.29,
+    "pricePerWeight": 0.007230769230769231,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/condiments-toppings/bbq-marinade-sauces/chicken-n-rib-bbq-sauce/p/068100078589",
+    "createdAt": "2025-01-27T03:04:36.799Z",
+    "reference_item_id": 1
+},
+{
+    "name": "BBQ Sauce",
+    "quantity": "455",
+    "unitOfMeasure": "mL",
+    "price": 3.29,
+    "pricePerWeight": 0.007230769230769231,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/condiments-toppings/bbq-marinade-sauces/bbq-sauce/p/068100078527",
+    "createdAt": "2025-01-27T03:04:36.799Z",
+    "reference_item_id": 1
+},
+{
+    "name": "Garlic BBQ Sauce",
+    "quantity": "455",
+    "unitOfMeasure": "mL",
+    "price": 3.29,
+    "pricePerWeight": 0.007230769230769231,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/condiments-toppings/bbq-marinade-sauces/garlic-bbq-sauce/p/068100078558",
+    "createdAt": "2025-01-27T03:04:36.800Z",
+    "reference_item_id": 1
+},
+{
+    "name": "Halal Chicken Flavoured Bouillon Cubes",
+    "quantity": "80",
+    "unitOfMeasure": "g",
+    "price": 1.29,
+    "pricePerWeight": 0.016125,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/herbs-spices-sauces/stock-gravy/halal-chicken-flavoured-bouillon-cubes/p/068400804895",
+    "createdAt": "2025-01-27T03:04:40.077Z",
+    "reference_item_id": 3
+},
+{
+    "name": "Chicken Bouillon Cubes",
+    "quantity": "69",
+    "unitOfMeasure": "g",
+    "price": 2.79,
+    "pricePerWeight": 0.04043478260869565,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/herbs-spices-sauces/stock-gravy/chicken-bouillon-cubes/p/055220000019",
+    "createdAt": "2025-01-27T03:04:40.077Z",
+    "reference_item_id": 3
+},
+{
+    "name": "Instant Chicken Stock Mix",
+    "quantity": "150",
+    "unitOfMeasure": "g",
+    "price": 3.49,
+    "pricePerWeight": 0.023266666666666668,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/herbs-spices-sauces/stock-gravy/instant-chicken-stock-mix/p/066345700159",
+    "createdAt": "2025-01-27T03:04:40.078Z",
+    "reference_item_id": 3
+},
+{
+    "name": "Chicken Concentrated Liquid Stock, Bovril",
+    "quantity": "250",
+    "unitOfMeasure": "mL",
+    "price": 4.49,
+    "pricePerWeight": 0.01796,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/herbs-spices-sauces/stock-gravy/chicken-concentrated-liquid-stock/p/061400000571",
+    "createdAt": "2025-01-27T03:04:40.078Z",
+    "reference_item_id": 3
+},
+{
+    "name": "Gummy Berries, Swedish Berries",
+    "quantity": "100",
+    "unitOfMeasure": "g",
+    "price": 1.99,
+    "pricePerWeight": 0.0199,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/candy-gum/gummy-berries/p/057700227961",
+    "createdAt": "2025-01-27T03:04:43.058Z",
+    "reference_item_id": 4
+},
+{
+    "name": "Berries Flavoured Gummy Candy, Swedish Berries",
+    "quantity": "154",
+    "unitOfMeasure": "g",
+    "price": 2.79,
+    "pricePerWeight": 0.018116883116883118,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/candy-gum/berries-flavoured-gummy-candy/p/057700017913",
+    "createdAt": "2025-01-27T03:04:43.059Z",
+    "reference_item_id": 4
+},
+{
+    "name": "Cream Flavoured Gummy Berries, Swedish Berries",
+    "quantity": "154",
+    "unitOfMeasure": "g",
+    "price": 2.79,
+    "pricePerWeight": 0.018116883116883118,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/candy-gum/cream-flavoured-gummy-berries/p/057700017920",
+    "createdAt": "2025-01-27T03:04:43.059Z",
+    "reference_item_id": 4
+},
+{
+    "name": "Gummy Berries, Swedish Berries",
+    "quantity": "315",
+    "unitOfMeasure": "g",
+    "price": 3.99,
+    "pricePerWeight": 0.012666666666666668,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/candy-gum/gummy-berries/p/057700018095",
+    "createdAt": "2025-01-27T03:04:43.059Z",
+    "reference_item_id": 4
+},
+{
+    "name": "Classic Flavour Chips, Value Pack",
+    "quantity": "235",
+    "unitOfMeasure": "g",
+    "price": 2.98,
+    "pricePerWeight": 0.012680851063829787,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/salty-snacks/chips/classic-flavour-chips/p/060410047019",
+    "createdAt": "2025-01-27T03:04:46.990Z",
+    "reference_item_id": 7
+},
+{
+    "name": "Lightly Salted Classic Flavour Chips, Value Pack",
+    "quantity": "235",
+    "unitOfMeasure": "g",
+    "price": 2.98,
+    "pricePerWeight": 0.012680851063829787,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/salty-snacks/chips/lightly-salted-classic-flavour-chips/p/060410047118",
+    "createdAt": "2025-01-27T03:04:46.990Z",
+    "reference_item_id": 7
+},
+{
+    "name": "Classic Flavour Chips, Party Size",
+    "quantity": "415",
+    "unitOfMeasure": "g",
+    "price": 4.99,
+    "pricePerWeight": 0.012024096385542169,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/salty-snacks/chips/classic-flavour-chips/p/060410047002",
+    "createdAt": "2025-01-27T03:04:46.990Z",
+    "reference_item_id": 7
+},
+{
+    "name": "Flavoured Snacks Variety Pack, Classic Mix",
+    "quantity": "448",
+    "unitOfMeasure": "g",
+    "price": 8.99,
+    "pricePerWeight": 0.020066964285714285,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/salty-snacks/chips/flavoured-snacks-variety-pack/p/060410074572",
+    "createdAt": "2025-01-27T03:04:46.991Z",
+    "reference_item_id": 7
+},
+{
+    "name": "Assorted Classic Chips Variety Pack, Mega Size",
+    "quantity": "1176",
+    "unitOfMeasure": "g",
+    "price": 19.99,
+    "pricePerWeight": 0.01699829931972789,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/salty-snacks/chips/assorted-classic-chips-variety-pack/p/060410074060",
+    "createdAt": "2025-01-27T03:04:46.991Z",
+    "reference_item_id": 7
+},
+{
+    "name": "Milk Chocolate with Milk Filling Bar",
+    "quantity": "21",
+    "unitOfMeasure": "g",
+    "price": 0.79,
+    "pricePerWeight": 0.03761904761904762,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chocolate/milk-chocolate-with-milk-filling-bar/p/062020000033",
+    "createdAt": "2025-01-27T03:21:26.218Z",
+    "reference_item_id": 8
+},
+{
+    "name": "Chocolate Bar, Oh Henry!",
+    "quantity": "58",
+    "unitOfMeasure": "g",
+    "price": 1.29,
+    "pricePerWeight": 0.02224137931034483,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chocolate/chocolate-bar/p/068000792820",
+    "createdAt": "2025-01-27T03:21:26.219Z",
+    "reference_item_id": 8
+},
+{
+    "name": "Cookie N' Cream Chocolate Bar",
+    "quantity": "43",
+    "unitOfMeasure": "g",
+    "price": 1.29,
+    "pricePerWeight": 0.030000000000000002,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chocolate/cookie-n-cream-chocolate-bar/p/068000001137",
+    "createdAt": "2025-01-27T03:21:26.219Z",
+    "reference_item_id": 8
+},
+{
+    "name": "Creamy Milk Chocolate Bar with Whole Almonds",
+    "quantity": "43",
+    "unitOfMeasure": "g",
+    "price": 1.29,
+    "pricePerWeight": 0.030000000000000002,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chocolate/creamy-milk-chocolate-bar-with-whole-almonds/p/056600000308",
+    "createdAt": "2025-01-27T03:21:26.219Z",
+    "reference_item_id": 8
+},
+{
+    "name": "Hazelnut Swiss Milk Chocolate Bar",
+    "quantity": "100",
+    "unitOfMeasure": "g",
+    "price": 1.49,
+    "pricePerWeight": 0.0149,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chocolate/hazelnut-swiss-milk-chocolate-bar/p/059749986595",
+    "createdAt": "2025-01-27T03:21:26.219Z",
+    "reference_item_id": 8
+},
+{
+    "name": "Swiss Milk Chocolate Bar",
+    "quantity": "100",
+    "unitOfMeasure": "g",
+    "price": 1.49,
+    "pricePerWeight": 0.0149,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chocolate/swiss-milk-chocolate-bar/p/059749986571",
+    "createdAt": "2025-01-27T03:21:26.219Z",
+    "reference_item_id": 8
+},
+{
+    "name": "Chewy Caramel and Nut Granola Bars Coated With Milk ...",
+    "quantity": "172",
+    "unitOfMeasure": "g",
+    "price": 1.99,
+    "pricePerWeight": 0.011569767441860465,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chewy-bars-fruit-snacks/chewy-caramel-and-nut-granola-bars-coated-with-milk-chocolate/p/059749950695",
+    "createdAt": "2025-01-27T03:21:26.220Z",
+    "reference_item_id": 8
+},
+{
+    "name": "Milk Chocolate Bar",
+    "quantity": "100",
+    "unitOfMeasure": "g",
+    "price": 1.99,
+    "pricePerWeight": 0.0199,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chocolate/milk-chocolate-bar/p/069694016117",
+    "createdAt": "2025-01-27T03:21:26.220Z",
+    "reference_item_id": 8
+},
+{
+    "name": "Milk chocolate bar with raisins and hazelnuts",
+    "quantity": "100",
+    "unitOfMeasure": "g",
+    "price": 1.99,
+    "pricePerWeight": 0.0199,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chocolate/milk-chocolate-bar-with-raisins-and-hazelnuts/p/069694016131",
+    "createdAt": "2025-01-27T03:21:26.220Z",
+    "reference_item_id": 8
+},
+{
+    "name": "Creamy Milk Chocolate Bar",
+    "quantity": "100",
+    "unitOfMeasure": "g",
+    "price": 2.25,
+    "pricePerWeight": 0.0225,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chocolate/creamy-milk-chocolate-bar/p/056600000612",
+    "createdAt": "2025-01-27T03:21:26.220Z",
+    "reference_item_id": 8
+},
+{
+    "name": "Creamy Milk Chocolate Bar with Whole Almonds",
+    "quantity": "100",
+    "unitOfMeasure": "g",
+    "price": 2.25,
+    "pricePerWeight": 0.0225,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chocolate/creamy-milk-chocolate-bar-with-whole-almonds/p/056600000605",
+    "createdAt": "2025-01-27T03:21:26.220Z",
+    "reference_item_id": 8
+},
+{
+    "name": "Chocolate Bar with Almonds and Caramel, Skor",
+    "quantity": "90",
+    "unitOfMeasure": "g",
+    "price": 2.25,
+    "pricePerWeight": 0.025,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chocolate/chocolate-bar-with-almonds-and-caramel/p/056600610903",
+    "createdAt": "2025-01-27T03:21:26.221Z",
+    "reference_item_id": 8
+},
+{
+    "name": "Cookies & Creme Chocolate Bar, Cookies'N'Creme",
+    "quantity": "108",
+    "unitOfMeasure": "g",
+    "price": 2.25,
+    "pricePerWeight": 0.020833333333333332,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chocolate/cookies-creme-chocolate-bar/p/068000610995",
+    "createdAt": "2025-01-27T03:21:26.221Z",
+    "reference_item_id": 8
+},
+{
+    "name": "Peanut Butter Chocolate Bar, Reese's",
+    "quantity": "120",
+    "unitOfMeasure": "g",
+    "price": 2.25,
+    "pricePerWeight": 0.01875,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chocolate/peanut-butter-chocolate-bar/p/056600793132",
+    "createdAt": "2025-01-27T03:21:26.221Z",
+    "reference_item_id": 8
+},
+{
+    "name": "Oreo Cookie Bits and Vanilla Creme Chocolate Bar, Da...",
+    "quantity": "95",
+    "unitOfMeasure": "g",
+    "price": 2.33,
+    "pricePerWeight": 0.024526315789473684,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chocolate/oreo-cookie-bits-and-vanilla-creme-chocolate-bar/p/061200014648",
+    "createdAt": "2025-01-27T03:21:26.221Z",
+    "reference_item_id": 8
+},
+{
+    "name": "Creamy Salted Caramel Milk Chocolate Bar, Dairy Milk",
+    "quantity": "100",
+    "unitOfMeasure": "g",
+    "price": 2.33,
+    "pricePerWeight": 0.0233,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chocolate/creamy-salted-caramel-milk-chocolate-bar/p/061200016130",
+    "createdAt": "2025-01-27T03:21:26.221Z",
+    "reference_item_id": 8
+},
+{
+    "name": "Hazelnut Milk Chocolate Bar, Dairy Milk",
+    "quantity": "100",
+    "unitOfMeasure": "g",
+    "price": 2.33,
+    "pricePerWeight": 0.0233,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chocolate/hazelnut-milk-chocolate-bar/p/061200225938",
+    "createdAt": "2025-01-27T03:21:26.222Z",
+    "reference_item_id": 8
+},
+{
+    "name": "Fruit and Nut Milk Chocolate Bar, Dairy Milk",
+    "quantity": "100",
+    "unitOfMeasure": "g",
+    "price": 2.33,
+    "pricePerWeight": 0.0233,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chocolate/fruit-and-nut-milk-chocolate-bar/p/061200225921",
+    "createdAt": "2025-01-27T03:21:26.222Z",
+    "reference_item_id": 8
+},
+{
+    "name": "Chocolatey Indulgence Milk Chocolate Bar, Dairy Milk",
+    "quantity": "95",
+    "unitOfMeasure": "g",
+    "price": 2.33,
+    "pricePerWeight": 0.024526315789473684,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chocolate/chocolatey-indulgence-milk-chocolate-bar/p/061200016123",
+    "createdAt": "2025-01-27T03:21:26.222Z",
+    "reference_item_id": 8
+},
+{
+    "name": "Milk Chocolate Bar with Mini Eggs Candies, Dairy Milk",
+    "quantity": "100",
+    "unitOfMeasure": "g",
+    "price": 2.33,
+    "pricePerWeight": 0.0233,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chocolate/milk-chocolate-bar-with-mini-eggs-candies/p/061200015089",
+    "createdAt": "2025-01-27T03:21:26.222Z",
+    "reference_item_id": 8
+},
+{
+    "name": "Milk Chocolate Bar, Dairy Milk",
+    "quantity": "100",
+    "unitOfMeasure": "g",
+    "price": 2.33,
+    "pricePerWeight": 0.0233,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chocolate/milk-chocolate-bar/p/061200225914",
+    "createdAt": "2025-01-27T03:21:26.223Z",
+    "reference_item_id": 8
+},
+{
+    "name": "Milk Chocolate Bar with Almonds, Dairy Milk",
+    "quantity": "100",
+    "unitOfMeasure": "g",
+    "price": 2.33,
+    "pricePerWeight": 0.0233,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chocolate/milk-chocolate-bar-with-almonds/p/061200002201",
+    "createdAt": "2025-01-27T03:21:26.223Z",
+    "reference_item_id": 8
+},
+{
+    "name": "Sea Salt and Caramel Flavoured Swiss Milk Chocolate Bar",
+    "quantity": "100",
+    "unitOfMeasure": "g",
+    "price": 2.49,
+    "pricePerWeight": 0.024900000000000002,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chocolate/sea-salt-and-caramel-flavoured-swiss-milk-chocolate-bar/p/059749986458",
+    "createdAt": "2025-01-27T03:21:26.223Z",
+    "reference_item_id": 8
+},
+{
+    "name": "Milk Chocolate Bar with Mint Centre, Aero",
+    "quantity": "95",
+    "unitOfMeasure": "g",
+    "price": 2.79,
+    "pricePerWeight": 0.02936842105263158,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chocolate/milk-chocolate-bar-with-mint-centre/p/059800501293",
+    "createdAt": "2025-01-27T03:21:26.223Z",
+    "reference_item_id": 8
+},
+{
+    "name": "Milk Chocolate Bar, Crunch",
+    "quantity": "100",
+    "unitOfMeasure": "g",
+    "price": 2.79,
+    "pricePerWeight": 0.0279,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chocolate/milk-chocolate-bar/p/059800749497",
+    "createdAt": "2025-01-27T03:21:26.223Z",
+    "reference_item_id": 8
+},
+{
+    "name": "Milk Mousse Chocolate Truffle\u2122 Bar, Aero",
+    "quantity": "105",
+    "unitOfMeasure": "g",
+    "price": 2.79,
+    "pricePerWeight": 0.026571428571428572,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chocolate/milk-mousse-chocolate-truffle-bar/p/059800511025",
+    "createdAt": "2025-01-27T03:21:26.224Z",
+    "reference_item_id": 8
+},
+{
+    "name": "Milk Chocolate Bar with Cookie Pieces, Crunch",
+    "quantity": "100",
+    "unitOfMeasure": "g",
+    "price": 2.79,
+    "pricePerWeight": 0.0279,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chocolate/milk-chocolate-bar-with-cookie-pieces/p/059800750486",
+    "createdAt": "2025-01-27T03:21:26.224Z",
+    "reference_item_id": 8
+},
+{
+    "name": "Hazelnut Milk Chocolate Bar, Swiss Classic",
+    "quantity": "100",
+    "unitOfMeasure": "g",
+    "price": 3.29,
+    "pricePerWeight": 0.0329,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chocolate/hazelnut-milk-chocolate-bar/p/037466019871",
+    "createdAt": "2025-01-27T03:21:26.224Z",
+    "reference_item_id": 8
+},
+{
+    "name": "Milk Chocolate Bar, Swiss Classic",
+    "quantity": "100",
+    "unitOfMeasure": "g",
+    "price": 3.29,
+    "pricePerWeight": 0.0329,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chocolate/milk-chocolate-bar/p/037466019864",
+    "createdAt": "2025-01-27T03:21:26.224Z",
+    "reference_item_id": 8
+},
+{
+    "name": "Milk Chocolate Bar with Rum, Raisins, and Hazelnuts",
+    "quantity": "100",
+    "unitOfMeasure": "g",
+    "price": 3.49,
+    "pricePerWeight": 0.0349,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chocolate/milk-chocolate-bar-with-rum-raisins-and-hazelnuts/p/050255012006",
+    "createdAt": "2025-01-27T03:21:26.224Z",
+    "reference_item_id": 8
+},
+{
+    "name": "Semi-sweet Chocolate Chips",
+    "quantity": "270",
+    "unitOfMeasure": "g",
+    "price": 4.29,
+    "pricePerWeight": 0.01588888888888889,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/baking-ingredients/chocolate-cocoa/semi-sweet-chocolate-chips/p/059749997089",
+    "createdAt": "2025-01-27T03:21:29.713Z",
+    "reference_item_id": 9
+},
+{
+    "name": "Mini Semi-sweet Chocolate Chips",
+    "quantity": "270",
+    "unitOfMeasure": "g",
+    "price": 4.29,
+    "pricePerWeight": 0.01588888888888889,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/baking-ingredients/chocolate-cocoa/mini-semi-sweet-chocolate-chips/p/059749997041",
+    "createdAt": "2025-01-27T03:21:29.713Z",
+    "reference_item_id": 9
+},
+{
+    "name": "Semi-Sweet Chocolate Chips, Chipits",
+    "quantity": "270",
+    "unitOfMeasure": "g",
+    "price": 4.99,
+    "pricePerWeight": 0.01848148148148148,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/baking-ingredients/chocolate-cocoa/semi-sweet-chocolate-chips/p/056600902886",
+    "createdAt": "2025-01-27T03:21:29.714Z",
+    "reference_item_id": 9
+},
+{
+    "name": "Semi-Sweet Mini Chocolate Chips, Chipits",
+    "quantity": "270",
+    "unitOfMeasure": "g",
+    "price": 4.99,
+    "pricePerWeight": 0.01848148148148148,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/baking-ingredients/chocolate-cocoa/semi-sweet-mini-chocolate-chips/p/056600902848",
+    "createdAt": "2025-01-27T03:21:29.714Z",
+    "reference_item_id": 9
+},
+{
+    "name": "Semi-Sweet Chocolate Chips",
+    "quantity": "925",
+    "unitOfMeasure": "g",
+    "price": 9.99,
+    "pricePerWeight": 0.0108,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/baking-ingredients/chocolate-cocoa/semi-sweet-chocolate-chips/p/059749997096",
+    "createdAt": "2025-01-27T03:21:29.714Z",
+    "reference_item_id": 9
+},
+{
+    "name": "Oreo Cookie Bits and Vanilla Creme Chocolate Bar, Da...",
+    "quantity": 95.0,
+    "unitOfMeasure": "g",
+    "price": 2.33,
+    "pricePerWeight": 0.024526315789473684,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chocolate/oreo-cookie-bits-and-vanilla-creme-chocolate-bar/p/061200014648",
+    "createdAt": "2025-01-27T03:31:16.504Z",
+    "reference_item_id": 10
+},
+{
+    "name": "Mini Chocolate Sandwich Cookies",
+    "quantity": 200.0,
+    "unitOfMeasure": "g",
+    "price": 2.5,
+    "pricePerWeight": 0.0125,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/cookies-cakes/mini-chocolate-sandwich-cookies/p/066721028853",
+    "createdAt": "2025-01-27T03:31:16.504Z",
+    "reference_item_id": 10
+},
+{
+    "name": "Mini Chocolate Sandwich Cookies",
+    "quantity": 150.0,
+    "unitOfMeasure": "g",
+    "price": 2.5,
+    "pricePerWeight": 0.016666666666666666,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/cookies-cakes/mini-chocolate-sandwich-cookies/p/066721028792",
+    "createdAt": "2025-01-27T03:31:16.504Z",
+    "reference_item_id": 10
+},
+{
+    "name": "Double Stuffed Vanilla Sandwich Cookies, Golden",
+    "quantity": 261.0,
+    "unitOfMeasure": "g",
+    "price": 2.5,
+    "pricePerWeight": 0.009578544061302681,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/cookies-cakes/double-stuffed-vanilla-sandwich-cookies/p/066721026620",
+    "createdAt": "2025-01-27T03:31:16.505Z",
+    "reference_item_id": 10
+},
+{
+    "name": "Double Stuffed Chocolate Sandwich Cookies",
+    "quantity": 261.0,
+    "unitOfMeasure": "g",
+    "price": 2.5,
+    "pricePerWeight": 0.009578544061302681,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/cookies-cakes/double-stuffed-chocolate-sandwich-cookies/p/066721026606",
+    "createdAt": "2025-01-27T03:31:16.505Z",
+    "reference_item_id": 10
+},
+{
+    "name": "Birthday Cake Flavoured Chocolate Sandwich Cookies",
+    "quantity": 261.0,
+    "unitOfMeasure": "g",
+    "price": 2.5,
+    "pricePerWeight": 0.009578544061302681,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/cookies-cakes/birthday-cake-flavoured-chocolate-sandwich-cookies/p/066721026637",
+    "createdAt": "2025-01-27T03:31:16.505Z",
+    "reference_item_id": 10
+},
+{
+    "name": "Chocolate Sandwich Cookies, Thins",
+    "quantity": 261.0,
+    "unitOfMeasure": "g",
+    "price": 2.5,
+    "pricePerWeight": 0.009578544061302681,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/cookies-cakes/chocolate-sandwich-cookies/p/066721028990",
+    "createdAt": "2025-01-27T03:31:16.505Z",
+    "reference_item_id": 10
+},
+{
+    "name": "Maple Sandwich Cookies",
+    "quantity": 261.0,
+    "unitOfMeasure": "g",
+    "price": 2.5,
+    "pricePerWeight": 0.009578544061302681,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/bread-bakery-products/desserts-pastries/cookies-scones/maple-sandwich-cookies/p/066721028921",
+    "createdAt": "2025-01-27T03:31:16.505Z",
+    "reference_item_id": 10
+},
+{
+    "name": "Vanilla Sandwich Cookies, Thins",
+    "quantity": 261.0,
+    "unitOfMeasure": "g",
+    "price": 2.5,
+    "pricePerWeight": 0.009578544061302681,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/cookies-cakes/vanilla-sandwich-cookies/p/066721028983",
+    "createdAt": "2025-01-27T03:31:16.506Z",
+    "reference_item_id": 10
+},
+{
+    "name": "Chocolate Sandwich Cookies, The Original",
+    "quantity": 270.0,
+    "unitOfMeasure": "g",
+    "price": 2.5,
+    "pricePerWeight": 0.009259259259259259,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/cookies-cakes/chocolate-sandwich-cookies/p/066721026590",
+    "createdAt": "2025-01-27T03:31:16.506Z",
+    "reference_item_id": 10
+},
+{
+    "name": "Vanilla Sandwich Cookies, Golden",
+    "quantity": 270.0,
+    "unitOfMeasure": "g",
+    "price": 2.5,
+    "pricePerWeight": 0.009259259259259259,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/cookies-cakes/vanilla-sandwich-cookies/p/066721026613",
+    "createdAt": "2025-01-27T03:31:16.506Z",
+    "reference_item_id": 10
+},
+{
+    "name": "Mini Vanilla Sandwich Cookies Snak Paks, Golden",
+    "quantity": 150.0,
+    "unitOfMeasure": "g",
+    "price": 2.5,
+    "pricePerWeight": 0.016666666666666666,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/bread-bakery-products/desserts-pastries/cookies-scones/mini-vanilla-sandwich-cookies-snak-paks/p/066721029126",
+    "createdAt": "2025-01-27T03:31:16.506Z",
+    "reference_item_id": 10
+},
+{
+    "name": "Chocolate Sandwich Cookies",
+    "quantity": 439.0,
+    "unitOfMeasure": "g",
+    "price": 3.99,
+    "pricePerWeight": 0.00908883826879271,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/bread-bakery-products/desserts-pastries/cookies-scones/chocolate-sandwich-cookies/p/066721028105",
+    "createdAt": "2025-01-27T03:31:16.506Z",
+    "reference_item_id": 10
+},
+{
+    "name": "Mega Stuffed Chocolate Sandwich Cookies",
+    "quantity": 374.0,
+    "unitOfMeasure": "g",
+    "price": 3.99,
+    "pricePerWeight": 0.010668449197860964,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/cookies-cakes/mega-stuffed-chocolate-sandwich-cookies/p/066721025456",
+    "createdAt": "2025-01-27T03:31:16.507Z",
+    "reference_item_id": 10
+},
+{
+    "name": "Birthday Cake Flavoured Chocolate Sandwich Cookies, ...",
+    "quantity": 482.0,
+    "unitOfMeasure": "g",
+    "price": 3.99,
+    "pricePerWeight": 0.008278008298755187,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/cookies-cakes/birthday-cake-flavoured-chocolate-sandwich-cookies/p/066721025791",
+    "createdAt": "2025-01-27T03:31:16.507Z",
+    "reference_item_id": 10
+},
+{
+    "name": "Double Stuffed Chocolate Sandwich Cookies, Value Pack",
+    "quantity": 436.0,
+    "unitOfMeasure": "g",
+    "price": 3.99,
+    "pricePerWeight": 0.009151376146788992,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/bread-bakery-products/desserts-pastries/cookies-scones/double-stuffed-chocolate-sandwich-cookies/p/066721028082",
+    "createdAt": "2025-01-27T03:31:16.507Z",
+    "reference_item_id": 10
+},
+{
+    "name": "Chocolate Peanut Butter Pie Sandwich Cookies, Value ...",
+    "quantity": 482.0,
+    "unitOfMeasure": "g",
+    "price": 3.99,
+    "pricePerWeight": 0.008278008298755187,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/cookies-cakes/chocolate-peanut-butter-pie-sandwich-cookies/p/066721026682",
+    "createdAt": "2025-01-27T03:31:16.507Z",
+    "reference_item_id": 10
+},
+{
+    "name": "Oreo Cookie Cola Flavoured Soft Drink, Zero Sugar",
+    "quantity": 1332.0,
+    "unitOfMeasure": "mL",
+    "price": 3.99,
+    "pricePerWeight": 0.0029954954954954957,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/beverages/soft-drinks/cola/oreo-cookie-cola-flavoured-soft-drink/p/067000013362",
+    "createdAt": "2025-01-27T03:31:16.507Z",
+    "reference_item_id": 10
+},
+{
+    "name": "Soft Snack Cake Golden Cookies, Oreo Cakesters",
+    "quantity": 285.0,
+    "unitOfMeasure": "g",
+    "price": 3.99,
+    "pricePerWeight": 0.014,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/bread-bakery-products/desserts-pastries/cookies-scones/soft-snack-cake-golden-cookies/p/066721029317",
+    "createdAt": "2025-01-27T03:31:16.508Z",
+    "reference_item_id": 10
+},
+{
+    "name": "Original Flavour Soft Snack Cake Cookies, Oreo Cakes...",
+    "quantity": 285.0,
+    "unitOfMeasure": "g",
+    "price": 3.99,
+    "pricePerWeight": 0.014,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/bread-bakery-products/desserts-pastries/cookies-scones/original-flavour-soft-snack-cake-cookies/p/066721027337",
+    "createdAt": "2025-01-27T03:31:16.508Z",
+    "reference_item_id": 10
+},
+{
+    "name": "Vanilla Frozen Dessert with Sandwich Cookies",
+    "quantity": 1.5,
+    "unitOfMeasure": "L",
+    "price": 4.99,
+    "pricePerWeight": 3.3266666666666667,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/frozen/ice-cream-treats/ice-cream/vanilla-frozen-dessert-with-sandwich-cookies/p/055000403603",
+    "createdAt": "2025-01-27T03:31:16.508Z",
+    "reference_item_id": 10
+},
+{
+    "name": "Chocolate Sandwich Cookies, Party Size!",
+    "quantity": 685.0,
+    "unitOfMeasure": "g",
+    "price": 6.99,
+    "pricePerWeight": 0.010204379562043796,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/cookies-cakes/chocolate-sandwich-cookies/p/066721029003",
+    "createdAt": "2025-01-27T03:31:16.508Z",
+    "reference_item_id": 10
+},
+{
+    "name": "Gluten-Free Chocolate Sandwich Cookies",
+    "quantity": 342.0,
+    "unitOfMeasure": "g",
+    "price": 7.99,
+    "pricePerWeight": 0.023362573099415206,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/cookies-cakes/gluten-free-chocolate-sandwich-cookies/p/066721027788",
+    "createdAt": "2025-01-27T03:31:16.508Z",
+    "reference_item_id": 10
+},
+{
+    "name": "Assorted Flavoured Sandwich Cookies Packs",
+    "quantity": 482.0,
+    "unitOfMeasure": "g",
+    "price": 9.99,
+    "pricePerWeight": 0.020726141078838176,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/cookies-cakes/assorted-flavoured-sandwich-cookies-packs/p/066721028259",
+    "createdAt": "2025-01-27T03:31:16.509Z",
+    "reference_item_id": 10
+},
+{
+    "name": "Snowflake Shaped Crackers, Ritz",
+    "quantity": 180.0,
+    "unitOfMeasure": "g",
+    "price": 0.62,
+    "pricePerWeight": 0.0034444444444444444,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/salty-snacks/crackers/snowflake-shaped-crackers/p/066721028372",
+    "createdAt": "2025-01-27T03:31:20.506Z",
+    "reference_item_id": 12
+},
+{
+    "name": "Low Sodium Crackers",
+    "quantity": 180.0,
+    "unitOfMeasure": "g",
+    "price": 2.5,
+    "pricePerWeight": 0.013888888888888888,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/salty-snacks/crackers/low-sodium-crackers/p/066721028402",
+    "createdAt": "2025-01-27T03:31:20.506Z",
+    "reference_item_id": 12
+},
+{
+    "name": "Cheddar Cheese Crackers",
+    "quantity": 180.0,
+    "unitOfMeasure": "g",
+    "price": 2.5,
+    "pricePerWeight": 0.013888888888888888,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/salty-snacks/crackers/cheddar-cheese-crackers/p/066721028594",
+    "createdAt": "2025-01-27T03:31:20.506Z",
+    "reference_item_id": 12
+},
+{
+    "name": "Cheese Flavoured Bits Sandwiches Crackers, Ritz",
+    "quantity": 180.0,
+    "unitOfMeasure": "g",
+    "price": 2.5,
+    "pricePerWeight": 0.013888888888888888,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/salty-snacks/crackers/cheese-flavoured-bits-sandwiches-crackers/p/066721002167",
+    "createdAt": "2025-01-27T03:31:20.506Z",
+    "reference_item_id": 12
+},
+{
+    "name": "Original Flavour Crackers",
+    "quantity": 180.0,
+    "unitOfMeasure": "g",
+    "price": 2.5,
+    "pricePerWeight": 0.013888888888888888,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/salty-snacks/crackers/original-flavour-crackers/p/066721028419",
+    "createdAt": "2025-01-27T03:31:20.506Z",
+    "reference_item_id": 12
+},
+{
+    "name": "Smoky Bacon Flavoured Crackers, Bacon Dippers",
+    "quantity": 180.0,
+    "unitOfMeasure": "g",
+    "price": 2.5,
+    "pricePerWeight": 0.013888888888888888,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/salty-snacks/crackers/smoky-bacon-flavoured-crackers/p/066721028389",
+    "createdAt": "2025-01-27T03:31:20.507Z",
+    "reference_item_id": 12
+},
+{
+    "name": "Swiss Cheese Flavoured Crackers",
+    "quantity": 180.0,
+    "unitOfMeasure": "g",
+    "price": 2.5,
+    "pricePerWeight": 0.013888888888888888,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/salty-snacks/crackers/swiss-cheese-flavoured-crackers/p/066721028600",
+    "createdAt": "2025-01-27T03:31:20.507Z",
+    "reference_item_id": 12
+},
+{
+    "name": "Cheddar Cheese Crackers",
+    "quantity": 180.0,
+    "unitOfMeasure": "g",
+    "price": 2.5,
+    "pricePerWeight": 0.013888888888888888,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/salty-snacks/crackers/cheddar-cheese-crackers/p/066721028617",
+    "createdAt": "2025-01-27T03:31:20.507Z",
+    "reference_item_id": 12
+},
+{
+    "name": "Cheese Flavoured Cracker Sandwiches",
+    "quantity": 180.0,
+    "unitOfMeasure": "g",
+    "price": 2.5,
+    "pricePerWeight": 0.013888888888888888,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/salty-snacks/crackers/cheese-flavoured-cracker-sandwiches/p/066721016232",
+    "createdAt": "2025-01-27T03:31:20.507Z",
+    "reference_item_id": 12
+},
+{
+    "name": "Mini Crackers",
+    "quantity": 180.0,
+    "unitOfMeasure": "g",
+    "price": 2.5,
+    "pricePerWeight": 0.013888888888888888,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/salty-snacks/crackers/mini-crackers/p/066721027726",
+    "createdAt": "2025-01-27T03:31:20.507Z",
+    "reference_item_id": 12
+},
+{
+    "name": "Peanut Butter Sandwich Crackers",
+    "quantity": 180.0,
+    "unitOfMeasure": "g",
+    "price": 2.5,
+    "pricePerWeight": 0.013888888888888888,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/salty-snacks/crackers/peanut-butter-sandwich-crackers/p/066721002143",
+    "createdAt": "2025-01-27T03:31:20.508Z",
+    "reference_item_id": 12
+},
+{
+    "name": "Crackers, Sociables",
+    "quantity": 180.0,
+    "unitOfMeasure": "g",
+    "price": 2.5,
+    "pricePerWeight": 0.013888888888888888,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/salty-snacks/crackers/crackers/p/066721028396",
+    "createdAt": "2025-01-27T03:31:20.508Z",
+    "reference_item_id": 12
+},
+{
+    "name": "Cheddar Cheese Bits Crackers",
+    "quantity": 180.0,
+    "unitOfMeasure": "g",
+    "price": 2.5,
+    "pricePerWeight": 0.013888888888888888,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/salty-snacks/crackers/cheddar-cheese-bits-crackers/p/066721028655",
+    "createdAt": "2025-01-27T03:31:20.508Z",
+    "reference_item_id": 12
+},
+{
+    "name": "Cheddar Cheese and Jalapeno Flavoured Crackers, Ritz",
+    "quantity": 200.0,
+    "unitOfMeasure": "g",
+    "price": 2.5,
+    "pricePerWeight": 0.0125,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/salty-snacks/crackers/cheddar-cheese-and-jalapeno-flavoured-crackers/p/066721028297",
+    "createdAt": "2025-01-27T03:31:20.508Z",
+    "reference_item_id": 12
+},
+{
+    "name": "Mini Crackers",
+    "quantity": 200.0,
+    "unitOfMeasure": "g",
+    "price": 2.5,
+    "pricePerWeight": 0.0125,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/salty-snacks/crackers/mini-crackers/p/066721027740",
+    "createdAt": "2025-01-27T03:31:20.509Z",
+    "reference_item_id": 12
+},
+{
+    "name": "Cheese Flavoured Crackers, Snackwiches",
+    "quantity": 304.0,
+    "unitOfMeasure": "g",
+    "price": 3.99,
+    "pricePerWeight": 0.013125000000000001,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/salty-snacks/crackers/cheese-flavoured-crackers/p/066721018885",
+    "createdAt": "2025-01-27T03:31:20.509Z",
+    "reference_item_id": 12
+},
+{
+    "name": "Original Flavour Baked Chips",
+    "quantity": 240.0,
+    "unitOfMeasure": "g",
+    "price": 3.99,
+    "pricePerWeight": 0.016625,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/salty-snacks/chips/original-flavour-baked-chips/p/066721028464",
+    "createdAt": "2025-01-27T03:31:20.509Z",
+    "reference_item_id": 12
+},
+{
+    "name": "Cheddar Flavoured Baked Chips",
+    "quantity": 240.0,
+    "unitOfMeasure": "g",
+    "price": 3.99,
+    "pricePerWeight": 0.016625,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/salty-snacks/chips/cheddar-flavoured-baked-chips/p/066721028457",
+    "createdAt": "2025-01-27T03:31:20.509Z",
+    "reference_item_id": 12
+},
+{
+    "name": "Original Crackers",
+    "quantity": 350.0,
+    "unitOfMeasure": "g",
+    "price": 4.99,
+    "pricePerWeight": 0.014257142857142857,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/salty-snacks/crackers/original-crackers/p/066721002495",
+    "createdAt": "2025-01-27T03:31:20.509Z",
+    "reference_item_id": 12
+},
+{
+    "name": "Original Crackers",
+    "quantity": 900.0,
+    "unitOfMeasure": "g",
+    "price": 9.99,
+    "pricePerWeight": 0.0111,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/salty-snacks/crackers/original-crackers/p/066721017604",
+    "createdAt": "2025-01-27T03:31:20.510Z",
+    "reference_item_id": 12
+},
+{
+    "name": "Crackers and Cheese Flavoured Dip, Handi-Snacks",
+    "quantity": 270.0,
+    "unitOfMeasure": "g",
+    "price": 9.99,
+    "pricePerWeight": 0.037,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/salty-snacks/crackers/crackers-and-cheese-flavoured-dip/p/066721029089",
+    "createdAt": "2025-01-27T03:31:20.510Z",
+    "reference_item_id": 12
+},
+{
+    "name": "All Purpose Flour",
+    "quantity": 1.0,
+    "unitOfMeasure": "kg",
+    "price": 3.99,
+    "pricePerWeight": 3.99,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/baking-ingredients/flour-baking-essentials/all-purpose-flour/p/059000016320",
+    "createdAt": "2025-01-27T03:31:23.841Z",
+    "reference_item_id": 13
+},
+{
+    "name": "All Purpose Unbleached Flour",
+    "quantity": 2.5,
+    "unitOfMeasure": "kg",
+    "price": 4.49,
+    "pricePerWeight": 1.796,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/baking-ingredients/flour-baking-essentials/all-purpose-unbleached-flour/p/059000016597",
+    "createdAt": "2025-01-27T03:31:23.842Z",
+    "reference_item_id": 13
+},
+{
+    "name": "All Purpose Flour",
+    "quantity": 2.5,
+    "unitOfMeasure": "kg",
+    "price": 4.49,
+    "pricePerWeight": 1.796,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/baking-ingredients/flour-baking-essentials/all-purpose-flour/p/059000016580",
+    "createdAt": "2025-01-27T03:31:23.842Z",
+    "reference_item_id": 13
+},
+{
+    "name": "Homestyle White Bread Flour",
+    "quantity": 2.5,
+    "unitOfMeasure": "kg",
+    "price": 4.49,
+    "pricePerWeight": 1.796,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/baking-ingredients/flour-baking-essentials/homestyle-white-bread-flour/p/059000015231",
+    "createdAt": "2025-01-27T03:31:23.842Z",
+    "reference_item_id": 13
+},
+{
+    "name": "All Purpose Whole Wheat Flour",
+    "quantity": 2.5,
+    "unitOfMeasure": "kg",
+    "price": 4.49,
+    "pricePerWeight": 1.796,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/baking-ingredients/flour-baking-essentials/all-purpose-whole-wheat-flour/p/059000015101",
+    "createdAt": "2025-01-27T03:31:23.842Z",
+    "reference_item_id": 13
+},
+{
+    "name": "All Purpose Gluten-Free Flour Blend",
+    "quantity": 907.0,
+    "unitOfMeasure": "g",
+    "price": 8.49,
+    "pricePerWeight": 0.00936052921719956,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/baking-ingredients/flour-baking-essentials/all-purpose-gluten-free-flour-blend/p/059000700007",
+    "createdAt": "2025-01-27T03:31:23.842Z",
+    "reference_item_id": 13
+},
+{
+    "name": "Almond Flour",
+    "quantity": 500.0,
+    "unitOfMeasure": "g",
+    "price": 16.99,
+    "pricePerWeight": 0.033979999999999996,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/baking-ingredients/flour-baking-essentials/almond-flour/p/059000121000",
+    "createdAt": "2025-01-27T03:31:23.843Z",
+    "reference_item_id": 13
+},
+{
+    "name": "All Purpose Flour",
+    "quantity": 10.0,
+    "unitOfMeasure": "kg",
+    "price": 18.99,
+    "pricePerWeight": 1.8989999999999998,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/baking-ingredients/flour-baking-essentials/all-purpose-flour/p/059000016528",
+    "createdAt": "2025-01-27T03:31:23.843Z",
+    "reference_item_id": 13
+},
+{
+    "name": "Dark Chocolate Chewy Granola Bars, Trail mix",
+    "quantity": 5.0,
+    "unitOfMeasure": "bars",
+    "price": 2.99,
+    "pricePerWeight": 0.5980000000000001,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chewy-bars-fruit-snacks/dark-chocolate-chewy-granola-bars/p/065633278462",
+    "createdAt": "2025-01-27T03:31:27.120Z",
+    "reference_item_id": 14
+},
+{
+    "name": "Maple and Brown Sugar Crunchy Granola Bars, Crunchy",
+    "quantity": 210.0,
+    "unitOfMeasure": "g",
+    "price": 2.99,
+    "pricePerWeight": 0.014238095238095239,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chewy-bars-fruit-snacks/maple-and-brown-sugar-crunchy-granola-bars/p/065633156814",
+    "createdAt": "2025-01-27T03:31:27.120Z",
+    "reference_item_id": 14
+},
+{
+    "name": "Peanut Butter Crunchy Granola Bars, Crunchy",
+    "quantity": 10.0,
+    "unitOfMeasure": "bars",
+    "price": 2.99,
+    "pricePerWeight": 0.29900000000000004,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chewy-bars-fruit-snacks/peanut-butter-crunchy-granola-bars/p/065633074712",
+    "createdAt": "2025-01-27T03:31:27.120Z",
+    "reference_item_id": 14
+},
+{
+    "name": "Apple Crisp Crunchy Granola Bars, Crunchy",
+    "quantity": 10.0,
+    "unitOfMeasure": "bars",
+    "price": 2.99,
+    "pricePerWeight": 0.29900000000000004,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chewy-bars-fruit-snacks/apple-crisp-crunchy-granola-bars/p/065633073463",
+    "createdAt": "2025-01-27T03:31:27.120Z",
+    "reference_item_id": 14
+},
+{
+    "name": "Mixed Berry Chewy Granola Bars, Trail Mix",
+    "quantity": 175.0,
+    "unitOfMeasure": "g",
+    "price": 2.99,
+    "pricePerWeight": 0.017085714285714287,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chewy-bars-fruit-snacks/mixed-berry-chewy-granola-bars/p/065633447967",
+    "createdAt": "2025-01-27T03:31:27.121Z",
+    "reference_item_id": 14
+},
+{
+    "name": "Roasted Almond Crunchy Granola Bars, Crunchy",
+    "quantity": 10.0,
+    "unitOfMeasure": "bars",
+    "price": 2.99,
+    "pricePerWeight": 0.29900000000000004,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chewy-bars-fruit-snacks/roasted-almond-crunchy-granola-bars/p/065633074729",
+    "createdAt": "2025-01-27T03:31:27.121Z",
+    "reference_item_id": 14
+},
+{
+    "name": "Fruit amd Nut Chewy Granola Bars, Trail Mix",
+    "quantity": 5.0,
+    "unitOfMeasure": "bars",
+    "price": 2.99,
+    "pricePerWeight": 0.5980000000000001,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/nuts-seeds-fruit/snack-bars/fruit-amd-nut-chewy-granola-bars/p/065633128507",
+    "createdAt": "2025-01-27T03:31:27.121Z",
+    "reference_item_id": 14
+},
+{
+    "name": "Oats 'N' Honey Crunchy Granola Bars, Protein",
+    "quantity": 10.0,
+    "unitOfMeasure": "bars",
+    "price": 2.99,
+    "pricePerWeight": 0.29900000000000004,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chewy-bars-fruit-snacks/oats-n-honey-crunchy-granola-bars/p/065633074705",
+    "createdAt": "2025-01-27T03:31:27.121Z",
+    "reference_item_id": 14
+},
+{
+    "name": "Double Chocolate Flavour Granola Bars, Lunch Box",
+    "quantity": 5.0,
+    "unitOfMeasure": "bars",
+    "price": 2.99,
+    "pricePerWeight": 0.5980000000000001,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chewy-bars-fruit-snacks/double-chocolate-flavour-granola-bars/p/065633465329",
+    "createdAt": "2025-01-27T03:31:27.121Z",
+    "reference_item_id": 14
+},
+{
+    "name": "Oat and Dark Chocolate Crunchy Granola Bars, Crunchy",
+    "quantity": 210.0,
+    "unitOfMeasure": "g",
+    "price": 2.99,
+    "pricePerWeight": 0.014238095238095239,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pharmacy/vitamins-supplements-dietary-products/meal-replacements-bars/oat-and-dark-chocolate-crunchy-granola-bars/p/065633146044",
+    "createdAt": "2025-01-27T03:31:27.122Z",
+    "reference_item_id": 14
+},
+{
+    "name": "Peanut Butter and Dark Chocolate Chewy Granola Bars,...",
+    "quantity": 4.0,
+    "unitOfMeasure": "bars",
+    "price": 2.99,
+    "pricePerWeight": 0.7475,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chewy-bars-fruit-snacks/peanut-butter-and-dark-chocolate-chewy-granola-bars/p/065633437616",
+    "createdAt": "2025-01-27T03:31:27.122Z",
+    "reference_item_id": 14
+},
+{
+    "name": "Peanut Butter Coated Peanut Chewy Granola Bars, Swee...",
+    "quantity": 210.0,
+    "unitOfMeasure": "g",
+    "price": 2.99,
+    "pricePerWeight": 0.014238095238095239,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chewy-bars-fruit-snacks/peanut-butter-coated-peanut-chewy-granola-bars/p/065633157750",
+    "createdAt": "2025-01-27T03:31:27.122Z",
+    "reference_item_id": 14
+},
+{
+    "name": "Cashew Butter Coated Cashew Chewy Granola Bars, Swee...",
+    "quantity": 192.0,
+    "unitOfMeasure": "g",
+    "price": 2.99,
+    "pricePerWeight": 0.015572916666666667,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chewy-bars-fruit-snacks/cashew-butter-coated-cashew-chewy-granola-bars/p/065633157385",
+    "createdAt": "2025-01-27T03:31:27.122Z",
+    "reference_item_id": 14
+},
+{
+    "name": "Almond Butter Coated Almond Chewy Granola Bars, Swee...",
+    "quantity": 210.0,
+    "unitOfMeasure": "g",
+    "price": 2.99,
+    "pricePerWeight": 0.014238095238095239,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chewy-bars-fruit-snacks/almond-butter-coated-almond-chewy-granola-bars/p/065633157392",
+    "createdAt": "2025-01-27T03:31:27.122Z",
+    "reference_item_id": 14
+},
+{
+    "name": "Dark Chocolate and Nuts Chewy Granola Bars Dipped in...",
+    "quantity": 210.0,
+    "unitOfMeasure": "g",
+    "price": 2.99,
+    "pricePerWeight": 0.014238095238095239,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chewy-bars-fruit-snacks/dark-chocolate-and-nuts-chewy-granola-bars-dipped-in-chocolate/p/065633157361",
+    "createdAt": "2025-01-27T03:31:27.123Z",
+    "reference_item_id": 14
+},
+{
+    "name": "Salted Caramel and Chocolate Granola Bars, Sweet & S...",
+    "quantity": 210.0,
+    "unitOfMeasure": "g",
+    "price": 2.99,
+    "pricePerWeight": 0.014238095238095239,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chewy-bars-fruit-snacks/salted-caramel-and-chocolate-granola-bars/p/065633158092",
+    "createdAt": "2025-01-27T03:31:27.123Z",
+    "reference_item_id": 14
+},
+{
+    "name": "Peanut, Almond and Dark Chocolate Chewy Granola Bars...",
+    "quantity": 4.0,
+    "unitOfMeasure": "bars",
+    "price": 2.99,
+    "pricePerWeight": 0.7475,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chewy-bars-fruit-snacks/peanut-almond-and-dark-chocolate-chewy-granola-bars/p/065633437593",
+    "createdAt": "2025-01-27T03:31:27.123Z",
+    "reference_item_id": 14
+},
+{
+    "name": "Pecan Crunch Granola Bars, Crunchy",
+    "quantity": 210.0,
+    "unitOfMeasure": "g",
+    "price": 2.99,
+    "pricePerWeight": 0.014238095238095239,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chewy-bars-fruit-snacks/pecan-crunch-granola-bars/p/065633163638",
+    "createdAt": "2025-01-27T03:31:27.123Z",
+    "reference_item_id": 14
+},
+{
+    "name": "S'Mores Granola Bars, Lunch Box",
+    "quantity": 130.0,
+    "unitOfMeasure": "g",
+    "price": 2.99,
+    "pricePerWeight": 0.023000000000000003,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pharmacy/vitamins-supplements-dietary-products/meal-replacements-bars/s-mores-granola-bars/p/065633142060",
+    "createdAt": "2025-01-27T03:31:27.123Z",
+    "reference_item_id": 14
+},
+{
+    "name": "Roasted Mixed Nut Granola Bars, Sweet & Salty",
+    "quantity": 210.0,
+    "unitOfMeasure": "g",
+    "price": 2.99,
+    "pricePerWeight": 0.014238095238095239,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/nuts-seeds-fruit/snack-bars/roasted-mixed-nut-granola-bars/p/065633157354",
+    "createdAt": "2025-01-27T03:31:27.124Z",
+    "reference_item_id": 14
+},
+{
+    "name": "Dark Chocolate and Nut Chewy Granola Bars, Sweet & S...",
+    "quantity": 525.0,
+    "unitOfMeasure": "g",
+    "price": 6.99,
+    "pricePerWeight": 0.013314285714285714,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chewy-bars-fruit-snacks/dark-chocolate-and-nut-chewy-granola-bars/p/065633163348",
+    "createdAt": "2025-01-27T03:31:27.124Z",
+    "reference_item_id": 14
+},
+{
+    "name": "Peanut Butter Coated Peanut Chewy Granola Bars Value...",
+    "quantity": 980.0,
+    "unitOfMeasure": "g",
+    "price": 12.49,
+    "pricePerWeight": 0.012744897959183673,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chewy-bars-fruit-snacks/peanut-butter-coated-peanut-chewy-granola-bars-value-pack/p/065633185944",
+    "createdAt": "2025-01-27T03:31:27.124Z",
+    "reference_item_id": 14
+},
+{
+    "name": "Assorted Flavours Chewy Granola Bars Value Pack, Swe...",
+    "quantity": 980.0,
+    "unitOfMeasure": "g",
+    "price": 12.49,
+    "pricePerWeight": 0.012744897959183673,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chewy-bars-fruit-snacks/assorted-flavours-chewy-granola-bars-value-pack/p/065633185142",
+    "createdAt": "2025-01-27T03:31:27.124Z",
+    "reference_item_id": 14
+},
+{
+    "name": "Oats and Honey Granola Bars Value Pack, Crunchy",
+    "quantity": 1.28,
+    "unitOfMeasure": "kg",
+    "price": 12.49,
+    "pricePerWeight": 9.7578125,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chewy-bars-fruit-snacks/oats-and-honey-granola-bars-value-pack/p/065633185920",
+    "createdAt": "2025-01-27T03:31:27.125Z",
+    "reference_item_id": 14
+},
+{
+    "name": "Gluten Free Peanut Butter Fruit and Nut Energy Bar",
+    "quantity": 48.0,
+    "unitOfMeasure": "g",
+    "price": 1.99,
+    "pricePerWeight": 0.04145833333333333,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/nuts-seeds-fruit/snack-bars/gluten-free-peanut-butter-fruit-and-nut-energy-bar/p/021908509624",
+    "createdAt": "2025-01-27T03:31:30.668Z",
+    "reference_item_id": 15
+},
+{
+    "name": "Gluten Free Cashew Fruit and Nut Energy Bar",
+    "quantity": 48.0,
+    "unitOfMeasure": "g",
+    "price": 1.99,
+    "pricePerWeight": 0.04145833333333333,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/nuts-seeds-fruit/snack-bars/gluten-free-cashew-fruit-and-nut-energy-bar/p/021908509532",
+    "createdAt": "2025-01-27T03:31:30.669Z",
+    "reference_item_id": 15
+},
+{
+    "name": "Dark Chocolate Chewy Granola Bars, Trail mix",
+    "quantity": 5.0,
+    "unitOfMeasure": "bars",
+    "price": 2.99,
+    "pricePerWeight": 0.5980000000000001,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chewy-bars-fruit-snacks/dark-chocolate-chewy-granola-bars/p/065633278462",
+    "createdAt": "2025-01-27T03:31:30.669Z",
+    "reference_item_id": 15
+},
+{
+    "name": "Maple and Brown Sugar Crunchy Granola Bars, Crunchy",
+    "quantity": 210.0,
+    "unitOfMeasure": "g",
+    "price": 2.99,
+    "pricePerWeight": 0.014238095238095239,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chewy-bars-fruit-snacks/maple-and-brown-sugar-crunchy-granola-bars/p/065633156814",
+    "createdAt": "2025-01-27T03:31:30.669Z",
+    "reference_item_id": 15
+},
+{
+    "name": "Peanut Butter Crunchy Granola Bars, Crunchy",
+    "quantity": 10.0,
+    "unitOfMeasure": "bars",
+    "price": 2.99,
+    "pricePerWeight": 0.29900000000000004,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chewy-bars-fruit-snacks/peanut-butter-crunchy-granola-bars/p/065633074712",
+    "createdAt": "2025-01-27T03:31:30.669Z",
+    "reference_item_id": 15
+},
+{
+    "name": "Apple Crisp Crunchy Granola Bars, Crunchy",
+    "quantity": 10.0,
+    "unitOfMeasure": "bars",
+    "price": 2.99,
+    "pricePerWeight": 0.29900000000000004,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chewy-bars-fruit-snacks/apple-crisp-crunchy-granola-bars/p/065633073463",
+    "createdAt": "2025-01-27T03:31:30.669Z",
+    "reference_item_id": 15
+},
+{
+    "name": "Mixed Berry Chewy Granola Bars, Trail Mix",
+    "quantity": 175.0,
+    "unitOfMeasure": "g",
+    "price": 2.99,
+    "pricePerWeight": 0.017085714285714287,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chewy-bars-fruit-snacks/mixed-berry-chewy-granola-bars/p/065633447967",
+    "createdAt": "2025-01-27T03:31:30.670Z",
+    "reference_item_id": 15
+},
+{
+    "name": "Roasted Almond Crunchy Granola Bars, Crunchy",
+    "quantity": 10.0,
+    "unitOfMeasure": "bars",
+    "price": 2.99,
+    "pricePerWeight": 0.29900000000000004,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chewy-bars-fruit-snacks/roasted-almond-crunchy-granola-bars/p/065633074729",
+    "createdAt": "2025-01-27T03:31:30.670Z",
+    "reference_item_id": 15
+},
+{
+    "name": "Fruit amd Nut Chewy Granola Bars, Trail Mix",
+    "quantity": 5.0,
+    "unitOfMeasure": "bars",
+    "price": 2.99,
+    "pricePerWeight": 0.5980000000000001,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/nuts-seeds-fruit/snack-bars/fruit-amd-nut-chewy-granola-bars/p/065633128507",
+    "createdAt": "2025-01-27T03:31:30.670Z",
+    "reference_item_id": 15
+},
+{
+    "name": "Oats 'N' Honey Crunchy Granola Bars, Protein",
+    "quantity": 10.0,
+    "unitOfMeasure": "bars",
+    "price": 2.99,
+    "pricePerWeight": 0.29900000000000004,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chewy-bars-fruit-snacks/oats-n-honey-crunchy-granola-bars/p/065633074705",
+    "createdAt": "2025-01-27T03:31:30.670Z",
+    "reference_item_id": 15
+},
+{
+    "name": "Double Chocolate Flavour Granola Bars, Lunch Box",
+    "quantity": 5.0,
+    "unitOfMeasure": "bars",
+    "price": 2.99,
+    "pricePerWeight": 0.5980000000000001,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chewy-bars-fruit-snacks/double-chocolate-flavour-granola-bars/p/065633465329",
+    "createdAt": "2025-01-27T03:31:30.670Z",
+    "reference_item_id": 15
+},
+{
+    "name": "Oat and Dark Chocolate Crunchy Granola Bars, Crunchy",
+    "quantity": 210.0,
+    "unitOfMeasure": "g",
+    "price": 2.99,
+    "pricePerWeight": 0.014238095238095239,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pharmacy/vitamins-supplements-dietary-products/meal-replacements-bars/oat-and-dark-chocolate-crunchy-granola-bars/p/065633146044",
+    "createdAt": "2025-01-27T03:31:30.671Z",
+    "reference_item_id": 15
+},
+{
+    "name": "Peanut Butter and Dark Chocolate Chewy Granola Bars,...",
+    "quantity": 4.0,
+    "unitOfMeasure": "bars",
+    "price": 2.99,
+    "pricePerWeight": 0.7475,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chewy-bars-fruit-snacks/peanut-butter-and-dark-chocolate-chewy-granola-bars/p/065633437616",
+    "createdAt": "2025-01-27T03:31:30.671Z",
+    "reference_item_id": 15
+},
+{
+    "name": "Peanut Butter Coated Peanut Chewy Granola Bars, Swee...",
+    "quantity": 210.0,
+    "unitOfMeasure": "g",
+    "price": 2.99,
+    "pricePerWeight": 0.014238095238095239,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chewy-bars-fruit-snacks/peanut-butter-coated-peanut-chewy-granola-bars/p/065633157750",
+    "createdAt": "2025-01-27T03:31:30.671Z",
+    "reference_item_id": 15
+},
+{
+    "name": "Cashew Butter Coated Cashew Chewy Granola Bars, Swee...",
+    "quantity": 192.0,
+    "unitOfMeasure": "g",
+    "price": 2.99,
+    "pricePerWeight": 0.015572916666666667,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chewy-bars-fruit-snacks/cashew-butter-coated-cashew-chewy-granola-bars/p/065633157385",
+    "createdAt": "2025-01-27T03:31:30.671Z",
+    "reference_item_id": 15
+},
+{
+    "name": "Almond Butter Coated Almond Chewy Granola Bars, Swee...",
+    "quantity": 210.0,
+    "unitOfMeasure": "g",
+    "price": 2.99,
+    "pricePerWeight": 0.014238095238095239,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chewy-bars-fruit-snacks/almond-butter-coated-almond-chewy-granola-bars/p/065633157392",
+    "createdAt": "2025-01-27T03:31:30.672Z",
+    "reference_item_id": 15
+},
+{
+    "name": "Dark Chocolate and Nuts Chewy Granola Bars Dipped in...",
+    "quantity": 210.0,
+    "unitOfMeasure": "g",
+    "price": 2.99,
+    "pricePerWeight": 0.014238095238095239,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chewy-bars-fruit-snacks/dark-chocolate-and-nuts-chewy-granola-bars-dipped-in-chocolate/p/065633157361",
+    "createdAt": "2025-01-27T03:31:30.672Z",
+    "reference_item_id": 15
+},
+{
+    "name": "Salted Caramel and Chocolate Granola Bars, Sweet & S...",
+    "quantity": 210.0,
+    "unitOfMeasure": "g",
+    "price": 2.99,
+    "pricePerWeight": 0.014238095238095239,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chewy-bars-fruit-snacks/salted-caramel-and-chocolate-granola-bars/p/065633158092",
+    "createdAt": "2025-01-27T03:31:30.672Z",
+    "reference_item_id": 15
+},
+{
+    "name": "Peanut, Almond and Dark Chocolate Chewy Granola Bars...",
+    "quantity": 4.0,
+    "unitOfMeasure": "bars",
+    "price": 2.99,
+    "pricePerWeight": 0.7475,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chewy-bars-fruit-snacks/peanut-almond-and-dark-chocolate-chewy-granola-bars/p/065633437593",
+    "createdAt": "2025-01-27T03:31:30.672Z",
+    "reference_item_id": 15
+},
+{
+    "name": "Dark Chocolate Cherry Chewy Bars, Trail Mix",
+    "quantity": 175.0,
+    "unitOfMeasure": "g",
+    "price": 2.99,
+    "pricePerWeight": 0.017085714285714287,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chewy-bars-fruit-snacks/dark-chocolate-cherry-chewy-bars/p/065633218499",
+    "createdAt": "2025-01-27T03:31:30.672Z",
+    "reference_item_id": 15
+},
+{
+    "name": "Pecan Crunch Granola Bars, Crunchy",
+    "quantity": 210.0,
+    "unitOfMeasure": "g",
+    "price": 2.99,
+    "pricePerWeight": 0.014238095238095239,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chewy-bars-fruit-snacks/pecan-crunch-granola-bars/p/065633163638",
+    "createdAt": "2025-01-27T03:31:30.673Z",
+    "reference_item_id": 15
+},
+{
+    "name": "S'Mores Granola Bars, Lunch Box",
+    "quantity": 130.0,
+    "unitOfMeasure": "g",
+    "price": 2.99,
+    "pricePerWeight": 0.023000000000000003,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pharmacy/vitamins-supplements-dietary-products/meal-replacements-bars/s-mores-granola-bars/p/065633142060",
+    "createdAt": "2025-01-27T03:31:30.673Z",
+    "reference_item_id": 15
+},
+{
+    "name": "Roasted Mixed Nut Granola Bars, Sweet & Salty",
+    "quantity": 210.0,
+    "unitOfMeasure": "g",
+    "price": 2.99,
+    "pricePerWeight": 0.014238095238095239,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/nuts-seeds-fruit/snack-bars/roasted-mixed-nut-granola-bars/p/065633157354",
+    "createdAt": "2025-01-27T03:31:30.673Z",
+    "reference_item_id": 15
+},
+{
+    "name": "Dark Chocolate and Nut Chewy Granola Bars, Sweet & S...",
+    "quantity": 525.0,
+    "unitOfMeasure": "g",
+    "price": 6.99,
+    "pricePerWeight": 0.013314285714285714,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chewy-bars-fruit-snacks/dark-chocolate-and-nut-chewy-granola-bars/p/065633163348",
+    "createdAt": "2025-01-27T03:31:30.673Z",
+    "reference_item_id": 15
+},
+{
+    "name": "Peanut Butter Coated Peanut Chewy Granola Bars Value...",
+    "quantity": 980.0,
+    "unitOfMeasure": "g",
+    "price": 12.49,
+    "pricePerWeight": 0.012744897959183673,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chewy-bars-fruit-snacks/peanut-butter-coated-peanut-chewy-granola-bars-value-pack/p/065633185944",
+    "createdAt": "2025-01-27T03:31:30.673Z",
+    "reference_item_id": 15
+},
+{
+    "name": "Assorted Flavours Chewy Granola Bars Value Pack, Swe...",
+    "quantity": 980.0,
+    "unitOfMeasure": "g",
+    "price": 12.49,
+    "pricePerWeight": 0.012744897959183673,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chewy-bars-fruit-snacks/assorted-flavours-chewy-granola-bars-value-pack/p/065633185142",
+    "createdAt": "2025-01-27T03:31:30.674Z",
+    "reference_item_id": 15
+},
+{
+    "name": "Oats and Honey Granola Bars Value Pack, Crunchy",
+    "quantity": 1.28,
+    "unitOfMeasure": "kg",
+    "price": 12.49,
+    "pricePerWeight": 9.7578125,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chewy-bars-fruit-snacks/oats-and-honey-granola-bars-value-pack/p/065633185920",
+    "createdAt": "2025-01-27T03:31:30.674Z",
+    "reference_item_id": 15
+},
+{
+    "name": "Polar Ice Flavoured Sugar-Free Gum, Excel",
+    "quantity": 1.0,
+    "unitOfMeasure": "un",
+    "price": 1.29,
+    "pricePerWeight": 1.29,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/candy-gum/polar-ice-flavoured-sugar-free-gum/p/064900000447",
+    "createdAt": "2025-01-27T03:31:34.014Z",
+    "reference_item_id": 16
+},
+{
+    "name": "Spearmint Flavoured Sugar-Free Gum, Excel",
+    "quantity": 1.0,
+    "unitOfMeasure": "un",
+    "price": 1.29,
+    "pricePerWeight": 1.29,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/candy-gum/spearmint-flavoured-sugar-free-gum/p/064900000317",
+    "createdAt": "2025-01-27T03:31:34.014Z",
+    "reference_item_id": 16
+},
+{
+    "name": "Peppermint Flavoured Sugar-Free Gum, Excel",
+    "quantity": 1.0,
+    "unitOfMeasure": "un",
+    "price": 1.29,
+    "pricePerWeight": 1.29,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/candy-gum/peppermint-flavoured-sugar-free-gum/p/064900000324",
+    "createdAt": "2025-01-27T03:31:34.014Z",
+    "reference_item_id": 16
+},
+{
+    "name": "Bubblemint Flavoured Sugar-Free Gum, Excel White",
+    "quantity": 1.0,
+    "unitOfMeasure": "un",
+    "price": 1.29,
+    "pricePerWeight": 1.29,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/candy-gum/bubblemint-flavoured-sugar-free-gum/p/064900409554",
+    "createdAt": "2025-01-27T03:31:34.014Z",
+    "reference_item_id": 16
+},
+{
+    "name": "Spearmint Sugar-Free Gum, Excel White",
+    "quantity": 1.0,
+    "unitOfMeasure": "un",
+    "price": 1.29,
+    "pricePerWeight": 1.29,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/candy-gum/spearmint-sugar-free-gum/p/064900409561",
+    "createdAt": "2025-01-27T03:31:34.015Z",
+    "reference_item_id": 16
+},
+{
+    "name": "Winterfresh\u00ae Flavoured Sugar-Free Gum, Excel",
+    "quantity": 1.0,
+    "unitOfMeasure": "un",
+    "price": 1.29,
+    "pricePerWeight": 1.29,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/candy-gum/winterfresh-flavoured-sugar-free-gum/p/064900000348",
+    "createdAt": "2025-01-27T03:31:34.015Z",
+    "reference_item_id": 16
+},
+{
+    "name": "Spearmint Flavoured Sugar-Free Mints, Excel",
+    "quantity": 34.0,
+    "unitOfMeasure": "g",
+    "price": 2.49,
+    "pricePerWeight": 0.07323529411764707,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/candy-gum/spearmint-flavoured-sugar-free-mints/p/064900409424",
+    "createdAt": "2025-01-27T03:31:34.015Z",
+    "reference_item_id": 16
+},
+{
+    "name": "Peppermint Flavoured Sugar-Free Mints, Excel",
+    "quantity": 34.0,
+    "unitOfMeasure": "g",
+    "price": 2.49,
+    "pricePerWeight": 0.07323529411764707,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/candy-gum/peppermint-flavoured-sugar-free-mints/p/064900409431",
+    "createdAt": "2025-01-27T03:31:34.015Z",
+    "reference_item_id": 16
+},
+{
+    "name": "Winterfresh Flavoured Mints, Excel",
+    "quantity": 34.0,
+    "unitOfMeasure": "g",
+    "price": 2.49,
+    "pricePerWeight": 0.07323529411764707,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/candy-gum/winterfresh-flavoured-mints/p/064900409417",
+    "createdAt": "2025-01-27T03:31:34.015Z",
+    "reference_item_id": 16
+},
+{
+    "name": "Iced Mint Flavoured Sugar-Free Gum",
+    "quantity": 54.0,
+    "unitOfMeasure": "un",
+    "price": 3.79,
+    "pricePerWeight": 0.07018518518518518,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/candy-gum/iced-mint-flavoured-sugar-free-gum/p/058496462543",
+    "createdAt": "2025-01-27T03:31:34.016Z",
+    "reference_item_id": 16
+},
+{
+    "name": "Bubblemint Flavoured Sugar-Free Gum, White",
+    "quantity": 54.0,
+    "unitOfMeasure": "un",
+    "price": 3.79,
+    "pricePerWeight": 0.07018518518518518,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/candy-gum/bubblemint-flavoured-sugar-free-gum/p/058496462482",
+    "createdAt": "2025-01-27T03:31:34.016Z",
+    "reference_item_id": 16
+},
+{
+    "name": "Mint Flavoured Sugar-Free Gum",
+    "quantity": 54.0,
+    "unitOfMeasure": "un",
+    "price": 3.79,
+    "pricePerWeight": 0.07018518518518518,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/candy-gum/mint-flavoured-sugar-free-gum/p/058496462444",
+    "createdAt": "2025-01-27T03:31:34.016Z",
+    "reference_item_id": 16
+},
+{
+    "name": "Strong Mint Flavoured Sugar-Free Gum",
+    "quantity": 54.0,
+    "unitOfMeasure": "un",
+    "price": 3.79,
+    "pricePerWeight": 0.07018518518518518,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/candy-gum/strong-mint-flavoured-sugar-free-gum/p/058496462888",
+    "createdAt": "2025-01-27T03:31:34.016Z",
+    "reference_item_id": 16
+},
+{
+    "name": "Iced Mint Flavoured Sugar-Free Gum, White",
+    "quantity": 54.0,
+    "unitOfMeasure": "un",
+    "price": 3.79,
+    "pricePerWeight": 0.07018518518518518,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/candy-gum/iced-mint-flavoured-sugar-free-gum/p/058496462529",
+    "createdAt": "2025-01-27T03:31:34.017Z",
+    "reference_item_id": 16
+},
+{
+    "name": "White Spearmint Sugar-Free Gum, White",
+    "quantity": 54.0,
+    "unitOfMeasure": "un",
+    "price": 3.79,
+    "pricePerWeight": 0.07018518518518518,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/candy-gum/white-spearmint-sugar-free-gum/p/058496462505",
+    "createdAt": "2025-01-27T03:31:34.017Z",
+    "reference_item_id": 16
+},
+{
+    "name": "Spearmint Flavoured Sugar-Free Gum",
+    "quantity": 54.0,
+    "unitOfMeasure": "un",
+    "price": 3.79,
+    "pricePerWeight": 0.07018518518518518,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/candy-gum/spearmint-flavoured-sugar-free-gum/p/058496462468",
+    "createdAt": "2025-01-27T03:31:34.017Z",
+    "reference_item_id": 16
+},
+{
+    "name": "Bottle of Spearmint Flavoured Chewing Gum, Excel",
+    "quantity": 60.0,
+    "unitOfMeasure": "un",
+    "price": 4.79,
+    "pricePerWeight": 0.07983333333333334,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/candy-gum/bottle-of-spearmint-flavoured-chewing-gum/p/064900407475",
+    "createdAt": "2025-01-27T03:31:34.017Z",
+    "reference_item_id": 16
+},
+{
+    "name": "Bottle of Polar Ice\u00ae Flavoured Chewing Gum, Excel",
+    "quantity": 60.0,
+    "unitOfMeasure": "un",
+    "price": 4.79,
+    "pricePerWeight": 0.07983333333333334,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/candy-gum/bottle-of-polar-ice-flavoured-chewing-gum/p/064900407482",
+    "createdAt": "2025-01-27T03:31:34.017Z",
+    "reference_item_id": 16
+},
+{
+    "name": "Peppermint Flavoured Sugar-Free Gum, Excel",
+    "quantity": 60.0,
+    "unitOfMeasure": "un",
+    "price": 4.79,
+    "pricePerWeight": 0.07983333333333334,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/candy-gum/peppermint-flavoured-sugar-free-gum/p/064900425059",
+    "createdAt": "2025-01-27T03:31:34.018Z",
+    "reference_item_id": 16
+},
+{
+    "name": "Spearmint Flavoured Chewing Gums, White",
+    "quantity": 60.0,
+    "unitOfMeasure": "un",
+    "price": 4.79,
+    "pricePerWeight": 0.07983333333333334,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/candy-gum/spearmint-flavoured-chewing-gums/p/064900422164",
+    "createdAt": "2025-01-27T03:31:34.018Z",
+    "reference_item_id": 16
+},
+{
+    "name": "Bubblemint Flavoured Sugar-Free Gum, Excel White",
+    "quantity": 60.0,
+    "unitOfMeasure": "un",
+    "price": 4.79,
+    "pricePerWeight": 0.07983333333333334,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/candy-gum/bubblemint-flavoured-sugar-free-gum/p/064900420757",
+    "createdAt": "2025-01-27T03:31:34.018Z",
+    "reference_item_id": 16
+},
+{
+    "name": "Spearmint Flavoured Sugar-Free Gum, Excel",
+    "quantity": 40.0,
+    "unitOfMeasure": "un",
+    "price": 4.79,
+    "pricePerWeight": 0.11975,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/candy-gum/spearmint-flavoured-sugar-free-gum/p/064900431432",
+    "createdAt": "2025-01-27T03:31:34.018Z",
+    "reference_item_id": 16
+},
+{
+    "name": "Light Hot Chocolate Mix in Packets, Carnation",
+    "quantity": 130.0,
+    "unitOfMeasure": "g",
+    "price": 4.99,
+    "pricePerWeight": 0.038384615384615385,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/beverages/tea-hot-drinks/hot-chocolate/light-hot-chocolate-mix-in-packets/p/065000368529",
+    "createdAt": "2025-01-27T03:32:49.215Z",
+    "reference_item_id": 17
+},
+{
+    "name": "Marshmallow Hot Chocolate Mix in Packets, Carnation",
+    "quantity": 250.0,
+    "unitOfMeasure": "g",
+    "price": 4.99,
+    "pricePerWeight": 0.019960000000000002,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/beverages/tea-hot-drinks/hot-chocolate/marshmallow-hot-chocolate-mix-in-packets/p/065000133523",
+    "createdAt": "2025-01-27T03:32:49.215Z",
+    "reference_item_id": 17
+},
+{
+    "name": "Hot Chocolate Mix Variety Pack, Carnation",
+    "quantity": 175.0,
+    "unitOfMeasure": "g",
+    "price": 4.99,
+    "pricePerWeight": 0.028514285714285714,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/beverages/tea-hot-drinks/hot-chocolate/hot-chocolate-mix-variety-pack/p/065000116113",
+    "createdAt": "2025-01-27T03:32:49.215Z",
+    "reference_item_id": 17
+},
+{
+    "name": "Rich and Creamy Hot Chocolate Mix In Packets, Carnation",
+    "quantity": 250.0,
+    "unitOfMeasure": "g",
+    "price": 4.99,
+    "pricePerWeight": 0.019960000000000002,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/beverages/tea-hot-drinks/hot-chocolate/rich-and-creamy-hot-chocolate-mix-in-packets/p/065000133547",
+    "createdAt": "2025-01-27T03:32:49.215Z",
+    "reference_item_id": 17
+},
+{
+    "name": "Chocolate Malt Powder Energy Drink Mix, Milo",
+    "quantity": 400.0,
+    "unitOfMeasure": "g",
+    "price": 5.49,
+    "pricePerWeight": 0.013725000000000001,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/beverages/drink-mixes/powdered-drink-mixes/chocolate-malt-powder-energy-drink-mix/p/055000031400",
+    "createdAt": "2025-01-27T03:32:49.216Z",
+    "reference_item_id": 17
+},
+{
+    "name": "Chocolate Syrup",
+    "quantity": 700.0,
+    "unitOfMeasure": "mL",
+    "price": 6.29,
+    "pricePerWeight": 0.008985714285714286,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/beverages/drink-mixes/liquid-drink-mixes/chocolate-syrup/p/055000031318",
+    "createdAt": "2025-01-27T03:32:49.216Z",
+    "reference_item_id": 17
+},
+{
+    "name": "Chocolate Milk Powder Mix with Less Sugar",
+    "quantity": 540.0,
+    "unitOfMeasure": "g",
+    "price": 6.29,
+    "pricePerWeight": 0.011648148148148149,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/beverages/drink-mixes/powdered-drink-mixes/chocolate-milk-powder-mix-with-less-sugar/p/055000139045",
+    "createdAt": "2025-01-27T03:32:49.216Z",
+    "reference_item_id": 17
+},
+{
+    "name": "Reduced Sugar Chocolate Syrup",
+    "quantity": 510.0,
+    "unitOfMeasure": "mL",
+    "price": 6.29,
+    "pricePerWeight": 0.012333333333333333,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/beverages/drink-mixes/liquid-drink-mixes/reduced-sugar-chocolate-syrup/p/055000200226",
+    "createdAt": "2025-01-27T03:32:49.216Z",
+    "reference_item_id": 17
+},
+{
+    "name": "Frozen Hot Chocolate Powder, Carnation",
+    "quantity": 450.0,
+    "unitOfMeasure": "g",
+    "price": 6.49,
+    "pricePerWeight": 0.014422222222222223,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/beverages/drink-mixes/powdered-drink-mixes/frozen-hot-chocolate-powder/p/065000116052",
+    "createdAt": "2025-01-27T03:32:49.217Z",
+    "reference_item_id": 17
+},
+{
+    "name": "Hot Chocolate Mix, Carnation",
+    "quantity": 400.0,
+    "unitOfMeasure": "g",
+    "price": 6.49,
+    "pricePerWeight": 0.016225,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/beverages/tea-hot-drinks/hot-chocolate/hot-chocolate-mix/p/055000382311",
+    "createdAt": "2025-01-27T03:32:49.217Z",
+    "reference_item_id": 17
+},
+{
+    "name": "Hot Chocolate Powder with Marshmallows, Carnation",
+    "quantity": 450.0,
+    "unitOfMeasure": "g",
+    "price": 6.49,
+    "pricePerWeight": 0.014422222222222223,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/beverages/drink-mixes/powdered-drink-mixes/hot-chocolate-powder-with-marshmallows/p/065000116076",
+    "createdAt": "2025-01-27T03:32:49.217Z",
+    "reference_item_id": 17
+},
+{
+    "name": "Turtles Hot Chocolate Mix, Carnation",
+    "quantity": 400.0,
+    "unitOfMeasure": "g",
+    "price": 6.49,
+    "pricePerWeight": 0.016225,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/beverages/tea-hot-drinks/hot-chocolate/turtles-hot-chocolate-mix/p/065000116298",
+    "createdAt": "2025-01-27T03:32:49.217Z",
+    "reference_item_id": 17
+},
+{
+    "name": "Seedless Strawberry Jam, Pure",
+    "quantity": 250.0,
+    "unitOfMeasure": "mL",
+    "price": 4.79,
+    "pricePerWeight": 0.01916,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/cereals-spreads-syrups/jams-jellies/seedless-strawberry-jam/p/051500090022",
+    "createdAt": "2025-01-27T03:32:52.019Z",
+    "reference_item_id": 18
+},
+{
+    "name": "Strawberry and Concentrated White Grape Juice Spread...",
+    "quantity": 310.0,
+    "unitOfMeasure": "mL",
+    "price": 5.99,
+    "pricePerWeight": 0.01932258064516129,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/cereals-spreads-syrups/jams-jellies/strawberry-and-concentrated-white-grape-juice-spread/p/051500040188",
+    "createdAt": "2025-01-27T03:32:52.020Z",
+    "reference_item_id": 18
+},
+{
+    "name": "Strawberry Jam, Pure",
+    "quantity": 500.0,
+    "unitOfMeasure": "mL",
+    "price": 5.99,
+    "pricePerWeight": 0.011980000000000001,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/cereals-spreads-syrups/jams-jellies/strawberry-jam/p/051500025925",
+    "createdAt": "2025-01-27T03:32:52.020Z",
+    "reference_item_id": 18
+},
+{
+    "name": "Frozen Peanut Butter and Strawberry Jam Sandwich, Un...",
+    "quantity": 580.0,
+    "unitOfMeasure": "g",
+    "price": 12.99,
+    "pricePerWeight": 0.02239655172413793,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/cereals-spreads-syrups/breakfast-bars-pastries/frozen-peanut-butter-and-strawberry-jam-sandwich/p/051500175200",
+    "createdAt": "2025-01-27T03:32:52.020Z",
+    "reference_item_id": 18
+},
+{
+    "name": "Original Flavour Macaroni and Cheese",
+    "quantity": 200.0,
+    "unitOfMeasure": "g",
+    "price": 1.25,
+    "pricePerWeight": 0.00625,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/sides/potato-rice-sides/original-flavour-macaroni-and-cheese/p/068100904826",
+    "createdAt": "2025-01-27T03:32:55.237Z",
+    "reference_item_id": 19
+},
+{
+    "name": "Original Flavour Macaroni and Cheese Snack Cup",
+    "quantity": 58.0,
+    "unitOfMeasure": "g",
+    "price": 1.99,
+    "pricePerWeight": 0.03431034482758621,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/sides/pasta-sides/original-flavour-macaroni-and-cheese-snack-cup/p/068100006957",
+    "createdAt": "2025-01-27T03:32:55.238Z",
+    "reference_item_id": 19
+},
+{
+    "name": "Three Cheese Flavoured Macaroni and Cheese Snack Cup",
+    "quantity": 58.0,
+    "unitOfMeasure": "g",
+    "price": 1.99,
+    "pricePerWeight": 0.03431034482758621,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/sides/pasta-sides/three-cheese-flavoured-macaroni-and-cheese-snack-cup/p/068100006971",
+    "createdAt": "2025-01-27T03:32:55.238Z",
+    "reference_item_id": 19
+},
+{
+    "name": "3-Cheese Flavoured Macaroni and Cheese",
+    "quantity": 175.0,
+    "unitOfMeasure": "g",
+    "price": 2.29,
+    "pricePerWeight": 0.013085714285714286,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/sides/pasta-sides/3-cheese-flavoured-macaroni-and-cheese/p/068100904895",
+    "createdAt": "2025-01-27T03:32:55.238Z",
+    "reference_item_id": 19
+},
+{
+    "name": "White Cheddar Flavoured Macaroni and Cheese",
+    "quantity": 175.0,
+    "unitOfMeasure": "g",
+    "price": 2.29,
+    "pricePerWeight": 0.013085714285714286,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/sides/pasta-sides/white-cheddar-flavoured-macaroni-and-cheese/p/068100904840",
+    "createdAt": "2025-01-27T03:32:55.238Z",
+    "reference_item_id": 19
+},
+{
+    "name": "Extra Creamy Macaroni and Cheese",
+    "quantity": 175.0,
+    "unitOfMeasure": "g",
+    "price": 2.29,
+    "pricePerWeight": 0.013085714285714286,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/sides/potato-rice-sides/extra-creamy-macaroni-and-cheese/p/068100904864",
+    "createdAt": "2025-01-27T03:32:55.239Z",
+    "reference_item_id": 19
+},
+{
+    "name": "Original Flavour Macaroni and Cheese, Paw Patrol",
+    "quantity": 156.0,
+    "unitOfMeasure": "g",
+    "price": 2.29,
+    "pricePerWeight": 0.01467948717948718,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/noodles-vermicelli/original-flavour-macaroni-and-cheese/p/068100903096",
+    "createdAt": "2025-01-27T03:32:55.239Z",
+    "reference_item_id": 19
+},
+{
+    "name": "Frozen White Cheddar, Bacon and Garlic Macaroni and ...",
+    "quantity": 340.0,
+    "unitOfMeasure": "g",
+    "price": 2.99,
+    "pricePerWeight": 0.008794117647058824,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/frozen/pizza-pasta/frozen-pasta/frozen-white-cheddar-bacon-and-garlic-macaroni-and-cheese/p/068100905632",
+    "createdAt": "2025-01-27T03:32:55.239Z",
+    "reference_item_id": 19
+},
+{
+    "name": "Frozen 4-Cheese Macaroni and Cheese, Deluxe",
+    "quantity": 340.0,
+    "unitOfMeasure": "g",
+    "price": 2.99,
+    "pricePerWeight": 0.008794117647058824,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/cooked-meals/ready-to-cook/frozen-meals/frozen-4-cheese-macaroni-and-cheese/p/068100905335",
+    "createdAt": "2025-01-27T03:32:55.239Z",
+    "reference_item_id": 19
+},
+{
+    "name": "Frozen Creamy Cheddar Flavoured Macaroni and Cheese,...",
+    "quantity": 340.0,
+    "unitOfMeasure": "g",
+    "price": 2.99,
+    "pricePerWeight": 0.008794117647058824,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/cooked-meals/ready-to-cook/frozen-meals/frozen-creamy-cheddar-flavoured-macaroni-and-cheese/p/068100905328",
+    "createdAt": "2025-01-27T03:32:55.239Z",
+    "reference_item_id": 19
+},
+{
+    "name": "Gluten-Free Original Flavour Macaroni and Cheese",
+    "quantity": 170.0,
+    "unitOfMeasure": "g",
+    "price": 3.99,
+    "pricePerWeight": 0.023470588235294118,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/sides/pasta-sides/gluten-free-original-flavour-macaroni-and-cheese/p/068100905199",
+    "createdAt": "2025-01-27T03:32:55.240Z",
+    "reference_item_id": 19
+},
+{
+    "name": "White Cheddar Flavoured Plant Based Sauce and Shell ...",
+    "quantity": 170.0,
+    "unitOfMeasure": "g",
+    "price": 3.99,
+    "pricePerWeight": 0.023470588235294118,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/sides/pasta-sides/white-cheddar-flavoured-plant-based-sauce-and-shell-pasta/p/990016700240",
+    "createdAt": "2025-01-27T03:32:55.240Z",
+    "reference_item_id": 19
+},
+{
+    "name": "Original Flavour Macaroni and Plant-Based Sauce, NotCo",
+    "quantity": 170.0,
+    "unitOfMeasure": "g",
+    "price": 3.99,
+    "pricePerWeight": 0.023470588235294118,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/sides/pasta-sides/original-flavour-macaroni-and-plant-based-sauce/p/990016700233",
+    "createdAt": "2025-01-27T03:32:55.240Z",
+    "reference_item_id": 19
+},
+{
+    "name": "Shell Pasta and Velveeta Cheese Sauce, Deluxe",
+    "quantity": 350.0,
+    "unitOfMeasure": "g",
+    "price": 4.99,
+    "pricePerWeight": 0.014257142857142857,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/sides/pasta-sides/shell-pasta-and-velveeta-cheese-sauce/p/068100058581",
+    "createdAt": "2025-01-27T03:32:55.240Z",
+    "reference_item_id": 19
+},
+{
+    "name": "Original Flavour Macaroni and Cheese",
+    "quantity": 1000.0,
+    "unitOfMeasure": "g",
+    "price": 4.99,
+    "pricePerWeight": 0.0049900000000000005,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/sides/pasta-sides/original-flavour-macaroni-and-cheese/p/068100905380",
+    "createdAt": "2025-01-27T03:32:55.241Z",
+    "reference_item_id": 19
+},
+{
+    "name": "Macaroni and White Cheddar Cheese, Deluxe",
+    "quantity": 349.0,
+    "unitOfMeasure": "g",
+    "price": 5.99,
+    "pricePerWeight": 0.01716332378223496,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/sides/pasta-sides/macaroni-and-white-cheddar-cheese/p/068100905533",
+    "createdAt": "2025-01-27T03:32:55.241Z",
+    "reference_item_id": 19
+},
+{
+    "name": "Macaroni and Old Cheddar Cheese, Deluxe",
+    "quantity": 349.0,
+    "unitOfMeasure": "g",
+    "price": 5.99,
+    "pricePerWeight": 0.01716332378223496,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/sides/pasta-sides/macaroni-and-old-cheddar-cheese/p/068100905526",
+    "createdAt": "2025-01-27T03:32:55.241Z",
+    "reference_item_id": 19
+},
+{
+    "name": "Original Flavour Macaroni and Cheese",
+    "quantity": 2400.0,
+    "unitOfMeasure": "g",
+    "price": 12.99,
+    "pricePerWeight": 0.0054125,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/sides/potato-rice-sides/original-flavour-macaroni-and-cheese/p/068100904901",
+    "createdAt": "2025-01-27T03:32:55.241Z",
+    "reference_item_id": 19
+},
+{
+    "name": "General Tao Stir-fry Oriental Sauce",
+    "quantity": 355.0,
+    "unitOfMeasure": "mL",
+    "price": 2.49,
+    "pricePerWeight": 0.007014084507042254,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/world-cuisine/mediterranean/general-tao-stir-fry-oriental-sauce/p/059749992497",
+    "createdAt": "2025-01-27T03:33:07.464Z",
+    "reference_item_id": 21
+},
+{
+    "name": "Windshield Washer Fluid, 4 Seasons",
+    "quantity": 3.78,
+    "unitOfMeasure": "L",
+    "price": 4.49,
+    "pricePerWeight": 1.187830687830688,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/household-cleaning/household-cleaning/other-cleaning-products/windshield-washer-fluid/p/059749886963",
+    "createdAt": "2025-01-27T03:33:07.464Z",
+    "reference_item_id": 21
+},
+{
+    "name": "General Tao Tempura Style Chicken",
+    "quantity": 900.0,
+    "unitOfMeasure": "g",
+    "price": 10.99,
+    "pricePerWeight": 0.012211111111111112,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/cooked-meals/ready-to-cook/frozen-meals/general-tao-tempura-style-chicken/p/881621002600",
+    "createdAt": "2025-01-27T03:33:07.464Z",
+    "reference_item_id": 21
+},
+{
+    "name": "General Tao Stir-fry Oriental Sauce",
+    "quantity": 355.0,
+    "unitOfMeasure": "mL",
+    "price": 2.49,
+    "pricePerWeight": 0.007014084507042254,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/world-cuisine/mediterranean/general-tao-stir-fry-oriental-sauce/p/059749992497",
+    "createdAt": "2025-01-27T03:34:55.812Z",
+    "reference_item_id": 21
+},
+{
+    "name": "Windshield Washer Fluid, 4 Seasons",
+    "quantity": 3.78,
+    "unitOfMeasure": "L",
+    "price": 4.49,
+    "pricePerWeight": 1.187830687830688,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/household-cleaning/household-cleaning/other-cleaning-products/windshield-washer-fluid/p/059749886963",
+    "createdAt": "2025-01-27T03:34:55.812Z",
+    "reference_item_id": 21
+},
+{
+    "name": "General Tao Tempura Style Chicken",
+    "quantity": 900.0,
+    "unitOfMeasure": "g",
+    "price": 10.99,
+    "pricePerWeight": 0.012211111111111112,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/cooked-meals/ready-to-cook/frozen-meals/general-tao-tempura-style-chicken/p/881621002600",
+    "createdAt": "2025-01-27T03:34:55.812Z",
+    "reference_item_id": 21
+},
+{
+    "name": "Original Flavour Macaroni and Cheese",
+    "quantity": 200.0,
+    "unitOfMeasure": "g",
+    "price": 1.25,
+    "pricePerWeight": 0.00625,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/sides/potato-rice-sides/original-flavour-macaroni-and-cheese/p/068100904826",
+    "createdAt": "2025-01-27T03:42:53.595Z",
+    "reference_item_id": 19
+},
+{
+    "name": "Original Flavour Macaroni and Cheese Snack Cup",
+    "quantity": 58.0,
+    "unitOfMeasure": "g",
+    "price": 1.99,
+    "pricePerWeight": 0.03431034482758621,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/sides/pasta-sides/original-flavour-macaroni-and-cheese-snack-cup/p/068100006957",
+    "createdAt": "2025-01-27T03:42:53.595Z",
+    "reference_item_id": 19
+},
+{
+    "name": "Three Cheese Flavoured Macaroni and Cheese Snack Cup",
+    "quantity": 58.0,
+    "unitOfMeasure": "g",
+    "price": 1.99,
+    "pricePerWeight": 0.03431034482758621,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/sides/pasta-sides/three-cheese-flavoured-macaroni-and-cheese-snack-cup/p/068100006971",
+    "createdAt": "2025-01-27T03:42:53.596Z",
+    "reference_item_id": 19
+},
+{
+    "name": "3-Cheese Flavoured Macaroni and Cheese",
+    "quantity": 175.0,
+    "unitOfMeasure": "g",
+    "price": 2.29,
+    "pricePerWeight": 0.013085714285714286,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/sides/pasta-sides/3-cheese-flavoured-macaroni-and-cheese/p/068100904895",
+    "createdAt": "2025-01-27T03:42:53.596Z",
+    "reference_item_id": 19
+},
+{
+    "name": "White Cheddar Flavoured Macaroni and Cheese",
+    "quantity": 175.0,
+    "unitOfMeasure": "g",
+    "price": 2.29,
+    "pricePerWeight": 0.013085714285714286,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/sides/pasta-sides/white-cheddar-flavoured-macaroni-and-cheese/p/068100904840",
+    "createdAt": "2025-01-27T03:42:53.596Z",
+    "reference_item_id": 19
+},
+{
+    "name": "Extra Creamy Macaroni and Cheese",
+    "quantity": 175.0,
+    "unitOfMeasure": "g",
+    "price": 2.29,
+    "pricePerWeight": 0.013085714285714286,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/sides/potato-rice-sides/extra-creamy-macaroni-and-cheese/p/068100904864",
+    "createdAt": "2025-01-27T03:42:53.596Z",
+    "reference_item_id": 19
+},
+{
+    "name": "Original Flavour Macaroni and Cheese, Paw Patrol",
+    "quantity": 156.0,
+    "unitOfMeasure": "g",
+    "price": 2.29,
+    "pricePerWeight": 0.01467948717948718,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/noodles-vermicelli/original-flavour-macaroni-and-cheese/p/068100903096",
+    "createdAt": "2025-01-27T03:42:53.597Z",
+    "reference_item_id": 19
+},
+{
+    "name": "Frozen White Cheddar, Bacon and Garlic Macaroni and ...",
+    "quantity": 340.0,
+    "unitOfMeasure": "g",
+    "price": 2.99,
+    "pricePerWeight": 0.008794117647058824,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/frozen/pizza-pasta/frozen-pasta/frozen-white-cheddar-bacon-and-garlic-macaroni-and-cheese/p/068100905632",
+    "createdAt": "2025-01-27T03:42:53.597Z",
+    "reference_item_id": 19
+},
+{
+    "name": "Frozen 4-Cheese Macaroni and Cheese, Deluxe",
+    "quantity": 340.0,
+    "unitOfMeasure": "g",
+    "price": 2.99,
+    "pricePerWeight": 0.008794117647058824,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/cooked-meals/ready-to-cook/frozen-meals/frozen-4-cheese-macaroni-and-cheese/p/068100905335",
+    "createdAt": "2025-01-27T03:42:53.597Z",
+    "reference_item_id": 19
+},
+{
+    "name": "Frozen Creamy Cheddar Flavoured Macaroni and Cheese,...",
+    "quantity": 340.0,
+    "unitOfMeasure": "g",
+    "price": 2.99,
+    "pricePerWeight": 0.008794117647058824,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/cooked-meals/ready-to-cook/frozen-meals/frozen-creamy-cheddar-flavoured-macaroni-and-cheese/p/068100905328",
+    "createdAt": "2025-01-27T03:42:53.597Z",
+    "reference_item_id": 19
+},
+{
+    "name": "Gluten-Free Original Flavour Macaroni and Cheese",
+    "quantity": 170.0,
+    "unitOfMeasure": "g",
+    "price": 3.99,
+    "pricePerWeight": 0.023470588235294118,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/sides/pasta-sides/gluten-free-original-flavour-macaroni-and-cheese/p/068100905199",
+    "createdAt": "2025-01-27T03:42:53.597Z",
+    "reference_item_id": 19
+},
+{
+    "name": "White Cheddar Flavoured Plant Based Sauce and Shell ...",
+    "quantity": 170.0,
+    "unitOfMeasure": "g",
+    "price": 3.99,
+    "pricePerWeight": 0.023470588235294118,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/sides/pasta-sides/white-cheddar-flavoured-plant-based-sauce-and-shell-pasta/p/990016700240",
+    "createdAt": "2025-01-27T03:42:53.598Z",
+    "reference_item_id": 19
+},
+{
+    "name": "Original Flavour Macaroni and Plant-Based Sauce, NotCo",
+    "quantity": 170.0,
+    "unitOfMeasure": "g",
+    "price": 3.99,
+    "pricePerWeight": 0.023470588235294118,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/sides/pasta-sides/original-flavour-macaroni-and-plant-based-sauce/p/990016700233",
+    "createdAt": "2025-01-27T03:42:53.598Z",
+    "reference_item_id": 19
+},
+{
+    "name": "Shell Pasta and Velveeta Cheese Sauce, Deluxe",
+    "quantity": 350.0,
+    "unitOfMeasure": "g",
+    "price": 4.99,
+    "pricePerWeight": 0.014257142857142857,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/sides/pasta-sides/shell-pasta-and-velveeta-cheese-sauce/p/068100058581",
+    "createdAt": "2025-01-27T03:42:53.598Z",
+    "reference_item_id": 19
+},
+{
+    "name": "Original Flavour Macaroni and Cheese",
+    "quantity": 1000.0,
+    "unitOfMeasure": "g",
+    "price": 4.99,
+    "pricePerWeight": 0.0049900000000000005,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/sides/pasta-sides/original-flavour-macaroni-and-cheese/p/068100905380",
+    "createdAt": "2025-01-27T03:42:53.598Z",
+    "reference_item_id": 19
+},
+{
+    "name": "Macaroni and White Cheddar Cheese, Deluxe",
+    "quantity": 349.0,
+    "unitOfMeasure": "g",
+    "price": 5.99,
+    "pricePerWeight": 0.01716332378223496,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/sides/pasta-sides/macaroni-and-white-cheddar-cheese/p/068100905533",
+    "createdAt": "2025-01-27T03:42:53.599Z",
+    "reference_item_id": 19
+},
+{
+    "name": "Macaroni and Old Cheddar Cheese, Deluxe",
+    "quantity": 349.0,
+    "unitOfMeasure": "g",
+    "price": 5.99,
+    "pricePerWeight": 0.01716332378223496,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/sides/pasta-sides/macaroni-and-old-cheddar-cheese/p/068100905526",
+    "createdAt": "2025-01-27T03:42:53.599Z",
+    "reference_item_id": 19
+},
+{
+    "name": "Original Flavour Macaroni and Cheese",
+    "quantity": 2400.0,
+    "unitOfMeasure": "g",
+    "price": 12.99,
+    "pricePerWeight": 0.0054125,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/sides/potato-rice-sides/original-flavour-macaroni-and-cheese/p/068100904901",
+    "createdAt": "2025-01-27T03:42:53.599Z",
+    "reference_item_id": 19
+},
+{
+    "name": "Milk Chocolate Truffles, Lindor",
+    "quantity": 36.0,
+    "unitOfMeasure": "g",
+    "price": 0.37,
+    "pricePerWeight": 0.010277777777777778,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chocolate/milk-chocolate-truffles/p/037466017082",
+    "createdAt": "2025-01-27T03:46:51.020Z",
+    "reference_item_id": 20
+},
+{
+    "name": "Milk Chocolate with Milk Filling Bar",
+    "quantity": 21.0,
+    "unitOfMeasure": "g",
+    "price": 0.79,
+    "pricePerWeight": 0.03761904761904762,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chocolate/milk-chocolate-with-milk-filling-bar/p/062020000033",
+    "createdAt": "2025-01-27T03:46:51.020Z",
+    "reference_item_id": 20
+},
+{
+    "name": "Candy Coated Milk Chocolate, Smarties",
+    "quantity": 45.0,
+    "unitOfMeasure": "g",
+    "price": 0.99,
+    "pricePerWeight": 0.022,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chocolate/candy-coated-milk-chocolate/p/059800000604",
+    "createdAt": "2025-01-27T03:46:51.020Z",
+    "reference_item_id": 20
+},
+{
+    "name": "Coconut Milk Powder",
+    "quantity": 50.0,
+    "unitOfMeasure": "g",
+    "price": 0.99,
+    "pricePerWeight": 0.019799999999999998,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/dairy-eggs/milk-cream-butter/lactose-free-non-dairy-milk/coconut-milk-powder/p/055270851241",
+    "createdAt": "2025-01-27T03:46:51.021Z",
+    "reference_item_id": 20
+},
+{
+    "name": "Coconut Milk",
+    "quantity": 400.0,
+    "unitOfMeasure": "mL",
+    "price": 1.29,
+    "pricePerWeight": 0.003225,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/dairy-eggs/milk-cream-butter/lactose-free-non-dairy-milk/coconut-milk/p/624913007262",
+    "createdAt": "2025-01-27T03:46:51.021Z",
+    "reference_item_id": 20
+},
+{
+    "name": "Milk Chocolate Coated Peanut Candies",
+    "quantity": 49.0,
+    "unitOfMeasure": "g",
+    "price": 1.29,
+    "pricePerWeight": 0.026326530612244898,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chocolate/milk-chocolate-coated-peanut-candies/p/058496812324",
+    "createdAt": "2025-01-27T03:46:51.021Z",
+    "reference_item_id": 20
+},
+{
+    "name": "Pure Creamed Coconut",
+    "quantity": 141.0,
+    "unitOfMeasure": "g",
+    "price": 1.29,
+    "pricePerWeight": 0.009148936170212766,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/baking-ingredients/canned-powdered-milk/pure-creamed-coconut/p/055270876046",
+    "createdAt": "2025-01-27T03:46:51.021Z",
+    "reference_item_id": 20
+},
+{
+    "name": "Creamy Milk Chocolate Bar with Whole Almonds",
+    "quantity": 43.0,
+    "unitOfMeasure": "g",
+    "price": 1.29,
+    "pricePerWeight": 0.030000000000000002,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chocolate/creamy-milk-chocolate-bar-with-whole-almonds/p/056600000308",
+    "createdAt": "2025-01-27T03:46:51.021Z",
+    "reference_item_id": 20
+},
+{
+    "name": "Hazelnut Swiss Milk Chocolate Bar",
+    "quantity": 100.0,
+    "unitOfMeasure": "g",
+    "price": 1.49,
+    "pricePerWeight": 0.0149,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chocolate/hazelnut-swiss-milk-chocolate-bar/p/059749986595",
+    "createdAt": "2025-01-27T03:46:51.022Z",
+    "reference_item_id": 20
+},
+{
+    "name": "Coconut Milk",
+    "quantity": 400.0,
+    "unitOfMeasure": "mL",
+    "price": 1.49,
+    "pricePerWeight": 0.003725,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/fruit/coconut-milk/p/055270851326",
+    "createdAt": "2025-01-27T03:46:51.022Z",
+    "reference_item_id": 20
+},
+{
+    "name": "Coconut Milk",
+    "quantity": 400.0,
+    "unitOfMeasure": "mL",
+    "price": 1.49,
+    "pricePerWeight": 0.003725,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/dairy-eggs/milk-cream-butter/lactose-free-non-dairy-milk/coconut-milk/p/055270851210",
+    "createdAt": "2025-01-27T03:46:51.022Z",
+    "reference_item_id": 20
+},
+{
+    "name": "Coconut Milk",
+    "quantity": 400.0,
+    "unitOfMeasure": "mL",
+    "price": 1.49,
+    "pricePerWeight": 0.003725,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/baking-ingredients/canned-powdered-milk/coconut-milk/p/062781689522",
+    "createdAt": "2025-01-27T03:46:51.022Z",
+    "reference_item_id": 20
+},
+{
+    "name": "Swiss Milk Chocolate Bar",
+    "quantity": 100.0,
+    "unitOfMeasure": "g",
+    "price": 1.49,
+    "pricePerWeight": 0.0149,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chocolate/swiss-milk-chocolate-bar/p/059749986571",
+    "createdAt": "2025-01-27T03:46:51.022Z",
+    "reference_item_id": 20
+},
+{
+    "name": "2% Peppermint Flavoured Eggnog",
+    "quantity": 1.0,
+    "unitOfMeasure": "L",
+    "price": 1.64,
+    "pricePerWeight": 1.64,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/dairy-eggs/milk-cream-butter/2-whole-milk/2-peppermint-flavoured-eggnog/p/059749993036",
+    "createdAt": "2025-01-27T03:46:51.023Z",
+    "reference_item_id": 20
+},
+{
+    "name": "Evaporated Milk",
+    "quantity": 354.0,
+    "unitOfMeasure": "mL",
+    "price": 1.77,
+    "pricePerWeight": 0.005,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/baking-ingredients/canned-powdered-milk/evaporated-milk/p/059749948111",
+    "createdAt": "2025-01-27T03:46:51.023Z",
+    "reference_item_id": 20
+},
+{
+    "name": "Milk Chocolate Egg with Surprise Toy",
+    "quantity": 20.0,
+    "unitOfMeasure": "g",
+    "price": 1.79,
+    "pricePerWeight": 0.0895,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chocolate/milk-chocolate-egg-with-surprise-toy/p/062020000057",
+    "createdAt": "2025-01-27T03:46:51.023Z",
+    "reference_item_id": 20
+},
+{
+    "name": "Chicken Flavoured Dog Treats, Soft & Chewy",
+    "quantity": 113.0,
+    "unitOfMeasure": "g",
+    "price": 1.79,
+    "pricePerWeight": 0.01584070796460177,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pet-care/dogs/dog-treats-care/chicken-flavoured-dog-treats/p/871802002246",
+    "createdAt": "2025-01-27T03:46:51.023Z",
+    "reference_item_id": 20
+},
+{
+    "name": "Steak and Cheese Flavoured Dog Treats, Soft & Chewy",
+    "quantity": 113.0,
+    "unitOfMeasure": "g",
+    "price": 1.79,
+    "pricePerWeight": 0.01584070796460177,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pet-care/dogs/dry-dog-food/steak-and-cheese-flavoured-dog-treats/p/871802002260",
+    "createdAt": "2025-01-27T03:46:51.023Z",
+    "reference_item_id": 20
+},
+{
+    "name": "Coconut Milk",
+    "quantity": 400.0,
+    "unitOfMeasure": "mL",
+    "price": 1.79,
+    "pricePerWeight": 0.004475,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/baking-ingredients/canned-powdered-milk/coconut-milk/p/059749962728",
+    "createdAt": "2025-01-27T03:46:51.023Z",
+    "reference_item_id": 20
+},
+{
+    "name": "Steak Flavoured Dog Treats, Soft & Chewy",
+    "quantity": 113.0,
+    "unitOfMeasure": "g",
+    "price": 1.79,
+    "pricePerWeight": 0.01584070796460177,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pet-care/dogs/dog-treats-care/steak-flavoured-dog-treats/p/871802002239",
+    "createdAt": "2025-01-27T03:46:51.024Z",
+    "reference_item_id": 20
+},
+{
+    "name": "Milk Chocolate Egg with Surprise Toy",
+    "quantity": 20.0,
+    "unitOfMeasure": "g",
+    "price": 1.79,
+    "pricePerWeight": 0.0895,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chocolate/milk-chocolate-egg-with-surprise-toy/p/062020000064",
+    "createdAt": "2025-01-27T03:46:51.024Z",
+    "reference_item_id": 20
+},
+{
+    "name": "Milk Chocolate Covered Wafers with Milky Hazelnut Fi...",
+    "quantity": 43.0,
+    "unitOfMeasure": "g",
+    "price": 1.79,
+    "pricePerWeight": 0.041627906976744185,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chocolate/milk-chocolate-covered-wafers-with-milky-hazelnut-filling/p/062020000682",
+    "createdAt": "2025-01-27T03:46:51.024Z",
+    "reference_item_id": 20
+},
+{
+    "name": "Peanut Butter and Milk Chocolate Cups, Big Gup",
+    "quantity": 79.0,
+    "unitOfMeasure": "g",
+    "price": 1.79,
+    "pricePerWeight": 0.022658227848101266,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chocolate/peanut-butter-and-milk-chocolate-cups/p/056600760394",
+    "createdAt": "2025-01-27T03:46:51.024Z",
+    "reference_item_id": 20
+},
+{
+    "name": "Chewy Caramel and Nut Granola Bars Coated With Milk ...",
+    "quantity": 172.0,
+    "unitOfMeasure": "g",
+    "price": 1.99,
+    "pricePerWeight": 0.011569767441860465,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chewy-bars-fruit-snacks/chewy-caramel-and-nut-granola-bars-coated-with-milk-chocolate/p/059749950695",
+    "createdAt": "2025-01-27T03:46:51.025Z",
+    "reference_item_id": 20
+},
+{
+    "name": "Coffee sweetening whitener",
+    "quantity": 300.0,
+    "unitOfMeasure": "ml",
+    "price": 1.99,
+    "pricePerWeight": 0.006633333333333333,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/dairy-eggs/milk-cream-butter/cream-creamers/coffee-sweetening-whitener/p/624913008368",
+    "createdAt": "2025-01-27T03:46:51.025Z",
+    "reference_item_id": 20
+},
+{
+    "name": "Coconut Milk",
+    "quantity": 400.0,
+    "unitOfMeasure": "mL",
+    "price": 1.99,
+    "pricePerWeight": 0.004975,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/dairy-eggs/milk-cream-butter/lactose-free-non-dairy-milk/coconut-milk/p/069112230514",
+    "createdAt": "2025-01-27T03:46:51.025Z",
+    "reference_item_id": 20
+},
+{
+    "name": "1% Chocolate Milk",
+    "quantity": 1.0,
+    "unitOfMeasure": "L",
+    "price": 1.99,
+    "pricePerWeight": 1.99,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/dairy-eggs/milk-cream-butter/flavoured-milk/1-chocolate-milk/p/055300113035",
+    "createdAt": "2025-01-27T03:46:51.025Z",
+    "reference_item_id": 20
+},
+{
+    "name": "Milk Chocolate Bar",
+    "quantity": 100.0,
+    "unitOfMeasure": "g",
+    "price": 1.99,
+    "pricePerWeight": 0.0199,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chocolate/milk-chocolate-bar/p/069694016117",
+    "createdAt": "2025-01-27T03:46:51.026Z",
+    "reference_item_id": 20
+},
+{
+    "name": "Sweetened Condensed Coffee Whitener",
+    "quantity": 297.0,
+    "unitOfMeasure": "mL",
+    "price": 1.99,
+    "pricePerWeight": 0.0067003367003367,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/dairy-eggs/milk-cream-butter/cream-creamers/sweetened-condensed-coffee-whitener/p/055270958285",
+    "createdAt": "2025-01-27T03:46:51.026Z",
+    "reference_item_id": 20
+},
+{
+    "name": "Milk chocolate bar with raisins and hazelnuts",
+    "quantity": 100.0,
+    "unitOfMeasure": "g",
+    "price": 1.99,
+    "pricePerWeight": 0.0199,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chocolate/milk-chocolate-bar-with-raisins-and-hazelnuts/p/069694016131",
+    "createdAt": "2025-01-27T03:46:51.026Z",
+    "reference_item_id": 20
+},
