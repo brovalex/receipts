@@ -1,9 +1,6 @@
-// This is your Prisma schema file,
-// learn more about it in the docs: https://pris.ly/d/prisma-schema
-
 generator client {
-  provider = "prisma-client-js"
-  recursive_type_depth = -1
+  provider             = "prisma-client-js"
+  recursive_type_depth = "-1"
 }
 
 datasource db {
@@ -12,83 +9,82 @@ datasource db {
 }
 
 model Receipt {
-  id              Int       @id @default(autoincrement())
-  expenses        Expense[]
-  imageFiles      ImageFile[]
-  
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
+  id         Int         @id @default(autoincrement())
+  createdAt  DateTime    @default(now())
+  updatedAt  DateTime    @updatedAt
+  expenses   Expense[]
+  imageFiles ImageFile[]
 }
 
 model Expense {
-  id        Int   @id @default(autoincrement())
-  priceEach Float
-  quantity  Float
-
-  receiptId       Int
-  receipt         Receipt       @relation(fields: [receiptId], references: [id])
-  receiptTextId   Int?           @unique
-  receiptText     ReceiptText?   @relation(fields: [receiptTextId], references: [id])
-  productId       Int?
-  product         Product?   @relation(fields: [productId], references: [id])
-
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
+  id            Int          @id @default(autoincrement())
+  priceEach     Float
+  quantity      Float
+  receiptId     Int
+  receiptTextId Int?         @unique
+  productId     Int?
+  createdAt     DateTime     @default(now())
+  updatedAt     DateTime     @updatedAt
+  product       Product?     @relation(fields: [productId], references: [id])
+  receiptText   ReceiptText? @relation(fields: [receiptTextId], references: [id])
+  receipt       Receipt      @relation(fields: [receiptId], references: [id])
 }
 
 model Product {
-  id              Int       @id @default(autoincrement())
+  id              Int           @id @default(autoincrement())
   name            String
   weight          Float
   unitOfMeasure   String
   referenceItemId Int
-  referenceItem   ReferenceItem @relation(fields: [referenceItemId], references: [id])
-
+  createdAt       DateTime      @default(now())
+  updatedAt       DateTime      @updatedAt
   expenses        Expense[]
-  
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
+  referenceItem   ReferenceItem @relation(fields: [referenceItemId], references: [id])
 }
-
 
 model ReceiptText {
-  id              Int     @id @default(autoincrement())
-  text            String
-  boundingBox     String? // it's actually a JSON, need to deserialize after; eventually use Postgress
-
-  expense         Expense?
-
-  imageFileId     Int
-  imageFile       ImageFile @relation(fields: [imageFileId], references: [id])
-
-  createdAt DateTime  @default(now())
-  updatedAt DateTime  @updatedAt
+  id          Int       @id @default(autoincrement())
+  text        String
+  boundingBox String?
+  imageFileId Int
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+  expense     Expense?
+  imageFile   ImageFile @relation(fields: [imageFileId], references: [id])
 }
 
-model ImageFile {                                         // as opposed to RawImageFile (not implemented yet) 
-  id       Int     @id @default(autoincrement())
-  url      String                                         // ./store/optimized_images/1.jpg
-
-  receiptId       Int?
-  receipt         Receipt?     @relation(fields: [receiptId], references: [id])
-  receiptTexts     ReceiptText[]
-
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt   
+model ImageFile {
+  id           Int           @id @default(autoincrement())
+  url          String
+  receiptId    Int?
+  createdAt    DateTime      @default(now())
+  updatedAt    DateTime      @updatedAt
+  receipt      Receipt?      @relation(fields: [receiptId], references: [id])
+  receiptTexts ReceiptText[]
 }
 
 model ReferenceItem {
-  id              Int           @id @default(autoincrement())
-  name            String
-  quantity        Float
-  unitOfMeasure   String
+  id             Int       @id @default(autoincrement())
+  name           String
+  quantity       Float
+  unitOfMeasure  String
+  price          Float
+  pricePerWeight Float
+  referenceUrl   String?
+  createdAt      DateTime  @default(now())
+  updatedAt      DateTime  @updatedAt
+  products       Product[]
+}
 
-  price           Float
-  pricePerWeight  Float
-  referenceUrl    String?
-
-  products         Product[]
-
-  createdAt DateTime  @default(now())
-  updatedAt DateTime  @updatedAt
+model ProductPriceProof {
+  id                Int     @id @default(autoincrement())
+  name              String?
+  quantity          String?
+  unitOfMeasure     String?
+  price             Float?
+  pricePerWeight    Float?
+  referenceURL      String?
+  screenshot        String?
+  createdAt         String?
+  reference_item_id Int?
 }
