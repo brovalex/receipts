@@ -2656,7 +2656,9 @@
     "pricePerWeight": 0.29900000000000004,
     "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/nuts-seeds-fruit/snack-bars/chocolate-chip-and-chia-seven-grain-with-quinoa-crunchy-bars/p/018627102557",
     "createdAt": "2025-02-02T03:23:57.360Z",
-    "reference_item_id": {
+    "reference_item_id": 14
+},
+{
     "name": "Black Turtle Beans",
     "quantity": 540.0,
     "unitOfMeasure": "mL",
