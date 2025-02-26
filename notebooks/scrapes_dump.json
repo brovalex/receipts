@@ -3218,3 +3218,2537 @@
     "createdAt": "2025-02-02T03:34:21.505Z",
     "reference_item_id": 2
 },
+{
+    "name": "Black Turtle Beans",
+    "quantity": 540.0,
+    "unitOfMeasure": "mL",
+    "price": 1.49,
+    "pricePerWeight": 0.002759259259259259,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/beans-legumes/black-turtle-beans/p/062356500047",
+    "createdAt": "2025-02-02T17:32:07.231Z",
+    "reference_item_id": 2
+},
+{
+    "name": "Black Beans",
+    "quantity": 540.0,
+    "unitOfMeasure": "mL",
+    "price": 1.49,
+    "pricePerWeight": 0.002759259259259259,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/beans-legumes/black-beans/p/059749930031",
+    "createdAt": "2025-02-02T17:32:07.264Z",
+    "reference_item_id": 2
+},
+{
+    "name": "Black Turtle Beans",
+    "quantity": 540.0,
+    "unitOfMeasure": "mL",
+    "price": 1.69,
+    "pricePerWeight": 0.0031296296296296293,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/beans-legumes/black-turtle-beans/p/062273553058",
+    "createdAt": "2025-02-02T17:32:07.295Z",
+    "reference_item_id": 2
+},
+{
+    "name": "Black-Eyed Peas",
+    "quantity": 540.0,
+    "unitOfMeasure": "mL",
+    "price": 1.69,
+    "pricePerWeight": 0.0031296296296296293,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/canned-beans/black-eyed-peas/p/062273553171",
+    "createdAt": "2025-02-02T17:32:07.326Z",
+    "reference_item_id": 2
+},
+{
+    "name": "Black Beans",
+    "quantity": 540.0,
+    "unitOfMeasure": "mL",
+    "price": 1.79,
+    "pricePerWeight": 0.0033148148148148147,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/canned-beans/black-beans/p/055900006904",
+    "createdAt": "2025-02-02T17:32:07.359Z",
+    "reference_item_id": 2
+},
+{
+    "name": "Black Beans, Organic",
+    "quantity": 398.0,
+    "unitOfMeasure": "mL",
+    "price": 1.99,
+    "pricePerWeight": 0.005,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/beans-legumes/black-beans/p/059749989657",
+    "createdAt": "2025-02-02T17:32:07.390Z",
+    "reference_item_id": 2
+},
+{
+    "name": "Mild Chili Sauce Black Beans",
+    "quantity": 398.0,
+    "unitOfMeasure": "mL",
+    "price": 1.99,
+    "pricePerWeight": 0.005,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/canned-beans/mild-chili-sauce-black-beans/p/039400225737",
+    "createdAt": "2025-02-02T17:32:07.421Z",
+    "reference_item_id": 2
+},
+{
+    "name": "Black Turtle Beans",
+    "quantity": 907.0,
+    "unitOfMeasure": "g",
+    "price": 2.99,
+    "pricePerWeight": 0.003296582138919515,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/dried-beans/black-turtle-beans/p/062356506513",
+    "createdAt": "2025-02-02T17:32:07.453Z",
+    "reference_item_id": 2
+},
+{
+    "name": "Black-Eyed Peas",
+    "quantity": 900.0,
+    "unitOfMeasure": "g",
+    "price": 2.99,
+    "pricePerWeight": 0.0033222222222222225,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/beans-legumes/black-eyed-peas/p/059749982832",
+    "createdAt": "2025-02-02T17:32:07.484Z",
+    "reference_item_id": 2
+},
+{
+    "name": "Whole Black Beans",
+    "quantity": 528.0,
+    "unitOfMeasure": "mL",
+    "price": 2.99,
+    "pricePerWeight": 0.005662878787878788,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/canned-beans/whole-black-beans/p/076397889207",
+    "createdAt": "2025-02-02T17:32:07.514Z",
+    "reference_item_id": 2
+},
+{
+    "name": "Refried Black Beans",
+    "quantity": 546.0,
+    "unitOfMeasure": "mL",
+    "price": 2.99,
+    "pricePerWeight": 0.0054761904761904765,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/canned-beans/refried-black-beans/p/076397889160",
+    "createdAt": "2025-02-02T17:32:07.545Z",
+    "reference_item_id": 2
+},
+{
+    "name": "Black Eyed Peas",
+    "quantity": 907.0,
+    "unitOfMeasure": "g",
+    "price": 3.49,
+    "pricePerWeight": 0.003847850055126792,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/dried-beans/black-eyed-peas/p/062356507152",
+    "createdAt": "2025-02-02T17:32:07.575Z",
+    "reference_item_id": 2
+},
+{
+    "name": "Canned Refried Black Beans",
+    "quantity": 454.0,
+    "unitOfMeasure": "g",
+    "price": 3.49,
+    "pricePerWeight": 0.007687224669603525,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/beans-legumes/canned-refried-black-beans/p/072878525220",
+    "createdAt": "2025-02-02T17:32:07.608Z",
+    "reference_item_id": 2
+},
+{
+    "name": "Dry Black Chickpeas",
+    "quantity": 1.81,
+    "unitOfMeasure": "kg",
+    "price": 3.99,
+    "pricePerWeight": 2.2044198895027627,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/beans-legumes/dry-black-chickpeas/p/062781061205",
+    "createdAt": "2025-02-02T17:32:07.640Z",
+    "reference_item_id": 2
+},
+{
+    "name": "Black Turtle Beans",
+    "quantity": 540.0,
+    "unitOfMeasure": "mL",
+    "price": 1.49,
+    "pricePerWeight": 0.002759259259259259,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/beans-legumes/black-turtle-beans/p/062356500047",
+    "createdAt": "2025-02-02T19:16:27.517Z"
+},
+{
+    "name": "Black Beans",
+    "quantity": 540.0,
+    "unitOfMeasure": "mL",
+    "price": 1.49,
+    "pricePerWeight": 0.002759259259259259,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/beans-legumes/black-beans/p/059749930031",
+    "createdAt": "2025-02-02T19:16:27.556Z"
+},
+{
+    "name": "Black Turtle Beans",
+    "quantity": 540.0,
+    "unitOfMeasure": "mL",
+    "price": 1.69,
+    "pricePerWeight": 0.0031296296296296293,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/beans-legumes/black-turtle-beans/p/062273553058",
+    "createdAt": "2025-02-02T19:16:27.594Z"
+},
+{
+    "name": "Black-Eyed Peas",
+    "quantity": 540.0,
+    "unitOfMeasure": "mL",
+    "price": 1.69,
+    "pricePerWeight": 0.0031296296296296293,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/canned-beans/black-eyed-peas/p/062273553171",
+    "createdAt": "2025-02-02T19:16:27.630Z"
+},
+{
+    "name": "Black Beans",
+    "quantity": 540.0,
+    "unitOfMeasure": "mL",
+    "price": 1.79,
+    "pricePerWeight": 0.0033148148148148147,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/canned-beans/black-beans/p/055900006904",
+    "createdAt": "2025-02-02T19:16:27.664Z"
+},
+{
+    "name": "Black Beans, Organic",
+    "quantity": 398.0,
+    "unitOfMeasure": "mL",
+    "price": 1.99,
+    "pricePerWeight": 0.005,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/beans-legumes/black-beans/p/059749989657",
+    "createdAt": "2025-02-02T19:16:27.696Z"
+},
+{
+    "name": "Mild Chili Sauce Black Beans",
+    "quantity": 398.0,
+    "unitOfMeasure": "mL",
+    "price": 1.99,
+    "pricePerWeight": 0.005,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/canned-beans/mild-chili-sauce-black-beans/p/039400225737",
+    "createdAt": "2025-02-02T19:16:27.728Z"
+},
+{
+    "name": "Black Turtle Beans",
+    "quantity": 907.0,
+    "unitOfMeasure": "g",
+    "price": 2.99,
+    "pricePerWeight": 0.003296582138919515,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/dried-beans/black-turtle-beans/p/062356506513",
+    "createdAt": "2025-02-02T19:16:27.762Z"
+},
+{
+    "name": "Black-Eyed Peas",
+    "quantity": 900.0,
+    "unitOfMeasure": "g",
+    "price": 2.99,
+    "pricePerWeight": 0.0033222222222222225,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/beans-legumes/black-eyed-peas/p/059749982832",
+    "createdAt": "2025-02-02T19:16:27.799Z"
+},
+{
+    "name": "Whole Black Beans",
+    "quantity": 528.0,
+    "unitOfMeasure": "mL",
+    "price": 2.99,
+    "pricePerWeight": 0.005662878787878788,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/canned-beans/whole-black-beans/p/076397889207",
+    "createdAt": "2025-02-02T19:16:27.838Z"
+},
+{
+    "name": "Refried Black Beans",
+    "quantity": 546.0,
+    "unitOfMeasure": "mL",
+    "price": 2.99,
+    "pricePerWeight": 0.0054761904761904765,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/canned-beans/refried-black-beans/p/076397889160",
+    "createdAt": "2025-02-02T19:16:27.877Z"
+},
+{
+    "name": "Black Eyed Peas",
+    "quantity": 907.0,
+    "unitOfMeasure": "g",
+    "price": 3.49,
+    "pricePerWeight": 0.003847850055126792,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/dried-beans/black-eyed-peas/p/062356507152",
+    "createdAt": "2025-02-02T19:16:27.916Z"
+},
+{
+    "name": "Canned Refried Black Beans",
+    "quantity": 454.0,
+    "unitOfMeasure": "g",
+    "price": 3.49,
+    "pricePerWeight": 0.007687224669603525,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/beans-legumes/canned-refried-black-beans/p/072878525220",
+    "createdAt": "2025-02-02T19:16:27.953Z"
+},
+{
+    "name": "Dry Black Chickpeas",
+    "quantity": 1.81,
+    "unitOfMeasure": "kg",
+    "price": 3.99,
+    "pricePerWeight": 2.2044198895027627,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/beans-legumes/dry-black-chickpeas/p/062781061205",
+    "createdAt": "2025-02-02T19:16:27.998Z"
+},
+{
+    "name": "Corn Bran Toasted Cereal, Squares",
+    "quantity": 375.0,
+    "unitOfMeasure": "g",
+    "price": 2.99,
+    "pricePerWeight": 0.007973333333333334,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/cereals-spreads-syrups/family-cereals/corn-bran-toasted-cereal/p/055577106617",
+    "createdAt": "2025-02-02T19:16:48.394Z"
+},
+{
+    "name": "Fat-Free Corn Flakes Cereal",
+    "quantity": 680.0,
+    "unitOfMeasure": "g",
+    "price": 4.88,
+    "pricePerWeight": 0.007176470588235294,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/cereals-spreads-syrups/family-cereals/fat-free-corn-flakes-cereal/p/059749968416",
+    "createdAt": "2025-02-02T19:16:48.428Z"
+},
+{
+    "name": "Organic Honey'D Corn Flakes Cereal",
+    "quantity": 300.0,
+    "unitOfMeasure": "g",
+    "price": 5.49,
+    "pricePerWeight": 0.0183,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/organic-groceries/pantry/organic-cereals-spreads-syrup/organic-honey-d-corn-flakes-cereal/p/058449602187",
+    "createdAt": "2025-02-02T19:16:48.459Z"
+},
+{
+    "name": "Corn Cereal Value Pack, Corn Flakes",
+    "quantity": 600.0,
+    "unitOfMeasure": "g",
+    "price": 7.49,
+    "pricePerWeight": 0.012483333333333334,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/cereals-spreads-syrups/family-cereals/corn-cereal-value-pack/p/064100143111",
+    "createdAt": "2025-02-02T19:16:48.491Z"
+},
+{
+    "name": "Chocolate Chip And Chia Seven Grain With Quinoa Crun...",
+    "quantity": 10.0,
+    "unitOfMeasure": "bars,",
+    "price": 2.99,
+    "pricePerWeight": 0.29900000000000004,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/nuts-seeds-fruit/snack-bars/chocolate-chip-and-chia-seven-grain-with-quinoa-crunchy-bars/p/018627102557",
+    "createdAt": "2025-02-02T19:18:32.406Z"
+},
+{
+    "name": "Cranberry & Pumpkin Seed Crisps",
+    "quantity": 150.0,
+    "unitOfMeasure": "g",
+    "price": 3.99,
+    "pricePerWeight": 0.026600000000000002,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/salty-snacks/flatbreads-crisps/cranberry-pumpkin-seed-crisps/p/059749912754",
+    "createdAt": "2025-02-02T19:18:32.439Z"
+},
+{
+    "name": "Chocolate Chip Granola Bars",
+    "quantity": 120.0,
+    "unitOfMeasure": "g",
+    "price": 4.99,
+    "pricePerWeight": 0.04158333333333333,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chewy-bars-fruit-snacks/chocolate-chip-granola-bars/p/687456213019",
+    "createdAt": "2025-02-02T19:18:32.472Z"
+},
+{
+    "name": "Chocolate Chip Chewy Bars Coated With Milk Chocolate...",
+    "quantity": 18.0,
+    "unitOfMeasure": "bars",
+    "price": 7.47,
+    "pricePerWeight": 0.415,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chewy-bars-fruit-snacks/chocolate-chip-chewy-bars-coated-with-milk-chocolate/p/059749895088",
+    "createdAt": "2025-02-02T19:18:32.505Z"
+},
+{
+    "name": "Chocolat Chip Chewy Bars, Value Pack",
+    "quantity": 1.26,
+    "unitOfMeasure": "kg",
+    "price": 12.97,
+    "pricePerWeight": 10.293650793650794,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chewy-bars-fruit-snacks/chocolat-chip-chewy-bars/p/059749979498",
+    "createdAt": "2025-02-02T19:18:32.538Z"
+},
+{
+    "name": "Chocolate Chips Chewy Bars, Value Pack, Chewy",
+    "quantity": 960.0,
+    "unitOfMeasure": "g",
+    "price": 13.99,
+    "pricePerWeight": 0.014572916666666666,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/snacks/sweet-snacks-candy/chewy-bars-fruit-snacks/chocolate-chips-chewy-bars-value-pack/p/055577120200",
+    "createdAt": "2025-02-02T19:18:32.571Z"
+},
+{
+    "name": "Masala Noodles Instant Soup",
+    "quantity": 75.0,
+    "unitOfMeasure": "g",
+    "price": 0.39,
+    "pricePerWeight": 0.0052,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/dried-beans/masala-noodles-instant-soup/p/055000490955",
+    "createdAt": "2025-02-02T19:22:43.809Z"
+},
+{
+    "name": "Vegetable Flavoured Instant Noodles",
+    "quantity": 85.0,
+    "unitOfMeasure": "g",
+    "price": 0.49,
+    "pricePerWeight": 0.005764705882352941,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/noodles-vermicelli/vegetable-flavoured-instant-noodles/p/059491000204",
+    "createdAt": "2025-02-02T19:22:43.840Z"
+},
+{
+    "name": "Spicy Chicken Flavoured Instant Noodles",
+    "quantity": 85.0,
+    "unitOfMeasure": "g",
+    "price": 0.49,
+    "pricePerWeight": 0.005764705882352941,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/noodles-vermicelli/spicy-chicken-flavoured-instant-noodles/p/059491000778",
+    "createdAt": "2025-02-02T19:22:43.870Z"
+},
+{
+    "name": "Beef Flavoured Instant Noodles",
+    "quantity": 85.0,
+    "unitOfMeasure": "g",
+    "price": 0.49,
+    "pricePerWeight": 0.005764705882352941,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/noodles-vermicelli/beef-flavoured-instant-noodles/p/059491000358",
+    "createdAt": "2025-02-02T19:22:43.901Z"
+},
+{
+    "name": "Chicken Flavoured Instant Noodles",
+    "quantity": 85.0,
+    "unitOfMeasure": "g",
+    "price": 0.49,
+    "pricePerWeight": 0.005764705882352941,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/noodles-vermicelli/chicken-flavoured-instant-noodles/p/059491000501",
+    "createdAt": "2025-02-02T19:22:43.932Z"
+},
+{
+    "name": "Spicy Beef Flavoured Instant Noodles",
+    "quantity": 85.0,
+    "unitOfMeasure": "g",
+    "price": 0.49,
+    "pricePerWeight": 0.005764705882352941,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/noodles-vermicelli/spicy-beef-flavoured-instant-noodles/p/059491000785",
+    "createdAt": "2025-02-02T19:22:43.963Z"
+},
+{
+    "name": "Curry Chicken Flavoured Instant Noodles",
+    "quantity": 85.0,
+    "unitOfMeasure": "g",
+    "price": 0.49,
+    "pricePerWeight": 0.005764705882352941,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/noodles-vermicelli/curry-chicken-flavoured-instant-noodles/p/059491000761",
+    "createdAt": "2025-02-02T19:22:43.995Z"
+},
+{
+    "name": "Chicken Flavoured Instant Noodle Soup",
+    "quantity": 65.0,
+    "unitOfMeasure": "g",
+    "price": 0.99,
+    "pricePerWeight": 0.01523076923076923,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/soups/chicken-flavoured-instant-noodle-soup/p/059749891134",
+    "createdAt": "2025-02-02T19:22:44.025Z"
+},
+{
+    "name": "Beef Flavoured Instant Noodle Soup",
+    "quantity": 65.0,
+    "unitOfMeasure": "g",
+    "price": 0.99,
+    "pricePerWeight": 0.01523076923076923,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/soups/beef-flavoured-instant-noodle-soup/p/059749891141",
+    "createdAt": "2025-02-02T19:22:44.055Z"
+},
+{
+    "name": "Chicken Flavoured Instant Noodles",
+    "quantity": 55.0,
+    "unitOfMeasure": "g",
+    "price": 0.99,
+    "pricePerWeight": 0.018,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/noodles-vermicelli/chicken-flavoured-instant-noodles/p/8850987101090",
+    "createdAt": "2025-02-02T19:22:44.085Z"
+},
+{
+    "name": "Beef Flavoured Instant Noodles",
+    "quantity": 60.0,
+    "unitOfMeasure": "g",
+    "price": 0.99,
+    "pricePerWeight": 0.0165,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/noodles-vermicelli/beef-flavoured-instant-noodles/p/8850987141508",
+    "createdAt": "2025-02-02T19:22:44.116Z"
+},
+{
+    "name": "Pork Flavoured Instant Noodles",
+    "quantity": 60.0,
+    "unitOfMeasure": "g",
+    "price": 0.99,
+    "pricePerWeight": 0.0165,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/dried-beans/pork-flavoured-instant-noodles/p/8850987101076",
+    "createdAt": "2025-02-02T19:22:44.147Z"
+},
+{
+    "name": "Shrimp Flavoured Instant Noodles",
+    "quantity": 60.0,
+    "unitOfMeasure": "g",
+    "price": 0.99,
+    "pricePerWeight": 0.0165,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/noodles-vermicelli/shrimp-flavoured-instant-noodles/p/8850987101083",
+    "createdAt": "2025-02-02T19:22:44.177Z"
+},
+{
+    "name": "Spicy Chicken Flavoured Instant Noodle Soup",
+    "quantity": 64.0,
+    "unitOfMeasure": "g",
+    "price": 1.19,
+    "pricePerWeight": 0.01859375,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/noodles-vermicelli/spicy-chicken-flavoured-instant-noodle-soup/p/059491002550",
+    "createdAt": "2025-02-02T19:22:44.208Z"
+},
+{
+    "name": "Vegetable Flavoured Instant Noodle Soup",
+    "quantity": 64.0,
+    "unitOfMeasure": "g",
+    "price": 1.19,
+    "pricePerWeight": 0.01859375,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/noodles-vermicelli/vegetable-flavoured-instant-noodle-soup/p/059491002208",
+    "createdAt": "2025-02-02T19:22:44.239Z"
+},
+{
+    "name": "Beef Flavoured Instant Noodles Soup",
+    "quantity": 64.0,
+    "unitOfMeasure": "g",
+    "price": 1.19,
+    "pricePerWeight": 0.01859375,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/noodles-vermicelli/beef-flavoured-instant-noodles-soup/p/059491002352",
+    "createdAt": "2025-02-02T19:22:44.272Z"
+},
+{
+    "name": "Chicken Flavoured Instant Noodle Soup",
+    "quantity": 64.0,
+    "unitOfMeasure": "g",
+    "price": 1.19,
+    "pricePerWeight": 0.01859375,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/noodles-vermicelli/chicken-flavoured-instant-noodle-soup/p/059491002505",
+    "createdAt": "2025-02-02T19:22:44.304Z"
+},
+{
+    "name": "Beef Instant Rice Noodles",
+    "quantity": 70.0,
+    "unitOfMeasure": "g",
+    "price": 1.29,
+    "pricePerWeight": 0.01842857142857143,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/noodles-vermicelli/beef-instant-rice-noodles/p/8934563210144",
+    "createdAt": "2025-02-02T19:22:44.336Z"
+},
+{
+    "name": "Chicken Instant Rice Noodles",
+    "quantity": 70.0,
+    "unitOfMeasure": "g",
+    "price": 1.29,
+    "pricePerWeight": 0.01842857142857143,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/noodles-vermicelli/chicken-instant-rice-noodles/p/8934563211141",
+    "createdAt": "2025-02-02T19:22:44.366Z"
+},
+{
+    "name": "Spicy Chicken Flavoured Instant Noodle Soup, Bowl",
+    "quantity": 110.0,
+    "unitOfMeasure": "g",
+    "price": 1.49,
+    "pricePerWeight": 0.013545454545454545,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/noodles-vermicelli/spicy-chicken-flavoured-instant-noodle-soup/p/059491009078",
+    "createdAt": "2025-02-02T19:22:44.406Z"
+},
+{
+    "name": "Original Flavoured Japanese Style Instant Noodle Soup",
+    "quantity": 100.0,
+    "unitOfMeasure": "g",
+    "price": 1.49,
+    "pricePerWeight": 0.0149,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/noodles-vermicelli/original-flavoured-japanese-style-instant-noodle-soup/p/076186010003",
+    "createdAt": "2025-02-02T19:22:44.436Z"
+},
+{
+    "name": "Beef Flavoured Japanese-Style Instant Noodle Soup",
+    "quantity": 100.0,
+    "unitOfMeasure": "g",
+    "price": 1.49,
+    "pricePerWeight": 0.0149,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/noodles-vermicelli/beef-flavoured-japanese-style-instant-noodle-soup/p/076186030001",
+    "createdAt": "2025-02-02T19:22:44.466Z"
+},
+{
+    "name": "Chicken Flavoured Instant Noodle Soup, Bowl",
+    "quantity": 110.0,
+    "unitOfMeasure": "g",
+    "price": 1.49,
+    "pricePerWeight": 0.013545454545454545,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/noodles-vermicelli/chicken-flavoured-instant-noodle-soup/p/059491009030",
+    "createdAt": "2025-02-02T19:22:44.496Z"
+},
+{
+    "name": "Chow Mein Instant Noodles",
+    "quantity": 454.0,
+    "unitOfMeasure": "g",
+    "price": 1.79,
+    "pricePerWeight": 0.00394273127753304,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/noodles-vermicelli/chow-mein-instant-noodles/p/059749997942",
+    "createdAt": "2025-02-02T19:22:44.526Z"
+},
+{
+    "name": "Chow Mein Instant Egg Noodles",
+    "quantity": 454.0,
+    "unitOfMeasure": "g",
+    "price": 1.79,
+    "pricePerWeight": 0.00394273127753304,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/noodles-vermicelli/chow-mein-instant-egg-noodles/p/059749997959",
+    "createdAt": "2025-02-02T19:22:44.557Z"
+},
+{
+    "name": "Chicken Flavoured Instant Noodles",
+    "quantity": 70.0,
+    "unitOfMeasure": "g",
+    "price": 1.99,
+    "pricePerWeight": 0.028428571428571428,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/noodles-vermicelli/chicken-flavoured-instant-noodles/p/8934563219147",
+    "createdAt": "2025-02-02T19:22:44.587Z"
+},
+{
+    "name": "Instant 'Longlife' Egg Noodles",
+    "quantity": 454.0,
+    "unitOfMeasure": "g",
+    "price": 1.99,
+    "pricePerWeight": 0.004383259911894273,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/noodles-vermicelli/instant-longlife-egg-noodles/p/069112008052",
+    "createdAt": "2025-02-02T19:22:44.618Z"
+},
+{
+    "name": "Beef Flavoured Instant Ramyun Noodle Soup",
+    "quantity": 75.0,
+    "unitOfMeasure": "g",
+    "price": 1.99,
+    "pricePerWeight": 0.026533333333333332,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/soups/beef-flavoured-instant-ramyun-noodle-soup/p/031146271245",
+    "createdAt": "2025-02-02T19:22:44.648Z"
+},
+{
+    "name": "Seafood Flavoured Instant Noodles",
+    "quantity": 75.0,
+    "unitOfMeasure": "g",
+    "price": 1.99,
+    "pricePerWeight": 0.026533333333333332,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/noodles-vermicelli/seafood-flavoured-instant-noodles/p/031146271214",
+    "createdAt": "2025-02-02T19:22:44.678Z"
+},
+{
+    "name": "Vegetable Flavoured Instant Noodle Cup",
+    "quantity": 75.0,
+    "unitOfMeasure": "g",
+    "price": 1.99,
+    "pricePerWeight": 0.026533333333333332,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/noodles-vermicelli/vegetable-flavoured-instant-noodle-cup/p/031146029792",
+    "createdAt": "2025-02-02T19:22:44.708Z"
+},
+{
+    "name": "Crunchy Oat Cereal, Squares",
+    "quantity": 500.0,
+    "unitOfMeasure": "g",
+    "price": 2.99,
+    "pricePerWeight": 0.00598,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/cereals-spreads-syrups/family-cereals/crunchy-oat-cereal/p/055577105665",
+    "createdAt": "2025-02-02T19:23:09.843Z"
+},
+{
+    "name": "Whole Grain Oats Cereal, Life",
+    "quantity": 450.0,
+    "unitOfMeasure": "g",
+    "price": 2.99,
+    "pricePerWeight": 0.006644444444444445,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/cereals-spreads-syrups/granola-healthier-cereals/whole-grain-oats-cereal/p/055577105221",
+    "createdAt": "2025-02-02T19:23:09.874Z"
+},
+{
+    "name": "Sweetened Corn And Oat Cereal, Cap'N Crunch",
+    "quantity": 350.0,
+    "unitOfMeasure": "g",
+    "price": 2.99,
+    "pricePerWeight": 0.008542857142857144,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/cereals-spreads-syrups/family-cereals/sweetened-corn-and-oat-cereal/p/055577106662",
+    "createdAt": "2025-02-02T19:23:09.905Z"
+},
+{
+    "name": "Regular Instant Oatmeal",
+    "quantity": 280.0,
+    "unitOfMeasure": "g",
+    "price": 3.99,
+    "pricePerWeight": 0.01425,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/cereals-spreads-syrups/oatmeal-hot-cereals/regular-instant-oatmeal/p/055577113011",
+    "createdAt": "2025-02-02T19:23:09.935Z"
+},
+{
+    "name": "Instant Oatmeal Variety Pack",
+    "quantity": 314.0,
+    "unitOfMeasure": "g",
+    "price": 3.99,
+    "pricePerWeight": 0.012707006369426753,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/cereals-spreads-syrups/oatmeal-hot-cereals/instant-oatmeal-variety-pack/p/055577113004",
+    "createdAt": "2025-02-02T19:23:09.966Z"
+},
+{
+    "name": "Maple And Brown Sugar Flavoured Lightly Sweetened In...",
+    "quantity": 344.0,
+    "unitOfMeasure": "g",
+    "price": 3.99,
+    "pricePerWeight": 0.011598837209302326,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/cereals-spreads-syrups/oatmeal-hot-cereals/maple-and-brown-sugar-flavoured-lightly-sweetened-instant-oatmeal/p/055577113196",
+    "createdAt": "2025-02-02T19:23:09.996Z"
+},
+{
+    "name": "Apples And Cinnamon Flavoured Instant Oatmeal",
+    "quantity": 264.0,
+    "unitOfMeasure": "g",
+    "price": 3.99,
+    "pricePerWeight": 0.015113636363636364,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/cereals-spreads-syrups/oatmeal-hot-cereals/apples-and-cinnamon-flavoured-instant-oatmeal/p/055577113035",
+    "createdAt": "2025-02-02T19:23:10.026Z"
+},
+{
+    "name": "Large Oats",
+    "quantity": 1.0,
+    "unitOfMeasure": "kg",
+    "price": 3.99,
+    "pricePerWeight": 3.99,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/cereals-spreads-syrups/oatmeal-hot-cereals/large-oats/p/055577101018",
+    "createdAt": "2025-02-02T19:23:10.057Z"
+},
+{
+    "name": "Brown Sugar Instant Oatmeal, Dino Eggs",
+    "quantity": 304.0,
+    "unitOfMeasure": "g",
+    "price": 3.99,
+    "pricePerWeight": 0.013125000000000001,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/cereals-spreads-syrups/oatmeal-hot-cereals/brown-sugar-instant-oatmeal/p/055577103661",
+    "createdAt": "2025-02-02T19:23:10.087Z"
+},
+{
+    "name": "Maple And Brown Sugar Instant Oatmeal",
+    "quantity": 344.0,
+    "unitOfMeasure": "g",
+    "price": 3.99,
+    "pricePerWeight": 0.011598837209302326,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/cereals-spreads-syrups/oatmeal-hot-cereals/maple-and-brown-sugar-instant-oatmeal/p/055577113028",
+    "createdAt": "2025-02-02T19:23:10.117Z"
+},
+{
+    "name": "Oats",
+    "quantity": 1.0,
+    "unitOfMeasure": "kg",
+    "price": 3.99,
+    "pricePerWeight": 3.99,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/cereals-spreads-syrups/oatmeal-hot-cereals/oats/p/055577101100",
+    "createdAt": "2025-02-02T19:23:10.148Z"
+},
+{
+    "name": "One Minute Oatmeal",
+    "quantity": 900.0,
+    "unitOfMeasure": "g",
+    "price": 3.99,
+    "pricePerWeight": 0.004433333333333333,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/cereals-spreads-syrups/oatmeal-hot-cereals/one-minute-oatmeal/p/055577102053",
+    "createdAt": "2025-02-02T19:23:10.178Z"
+},
+{
+    "name": "Instant Oatmeal, Quick Oats",
+    "quantity": 300.0,
+    "unitOfMeasure": "g",
+    "price": 3.99,
+    "pricePerWeight": 0.013300000000000001,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/cereals-spreads-syrups/oatmeal-hot-cereals/instant-oatmeal/p/055577113066",
+    "createdAt": "2025-02-02T19:23:10.215Z"
+},
+{
+    "name": "Steel Cut Oats",
+    "quantity": 709.0,
+    "unitOfMeasure": "g",
+    "price": 3.99,
+    "pricePerWeight": 0.005627644569816644,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/cereals-spreads-syrups/oatmeal-hot-cereals/steel-cut-oats/p/055577102114",
+    "createdAt": "2025-02-02T19:23:10.246Z"
+},
+{
+    "name": "Lightly Sweetened Apple And Cinnamon Instant Oatmeal",
+    "quantity": 232.0,
+    "unitOfMeasure": "g",
+    "price": 3.99,
+    "pricePerWeight": 0.017198275862068967,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/cereals-spreads-syrups/oatmeal-hot-cereals/lightly-sweetened-apple-and-cinnamon-instant-oatmeal/p/055577113080",
+    "createdAt": "2025-02-02T19:23:10.277Z"
+},
+{
+    "name": "Peaches And Cream Flavoured Instant Oatmeal",
+    "quantity": 240.0,
+    "unitOfMeasure": "g",
+    "price": 3.99,
+    "pricePerWeight": 0.016625,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/cereals-spreads-syrups/oatmeal-hot-cereals/peaches-and-cream-flavoured-instant-oatmeal/p/055577113042",
+    "createdAt": "2025-02-02T19:23:10.306Z"
+},
+{
+    "name": "Gluten-Free Oats",
+    "quantity": 511.0,
+    "unitOfMeasure": "g",
+    "price": 4.99,
+    "pricePerWeight": 0.009765166340508807,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/cereals-spreads-syrups/oatmeal-hot-cereals/gluten-free-oats/p/055577101155",
+    "createdAt": "2025-02-02T19:23:10.335Z"
+},
+{
+    "name": "Maple And Brown Sugar Instant Oatmeal, High Protein",
+    "quantity": 228.0,
+    "unitOfMeasure": "g",
+    "price": 4.99,
+    "pricePerWeight": 0.021885964912280703,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/cereals-spreads-syrups/oatmeal-hot-cereals/maple-and-brown-sugar-instant-oatmeal/p/055577113226",
+    "createdAt": "2025-02-02T19:23:10.365Z"
+},
+{
+    "name": "High Protein Regular Instant Oatmeal",
+    "quantity": 168.0,
+    "unitOfMeasure": "g",
+    "price": 4.99,
+    "pricePerWeight": 0.029702380952380952,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/cereals-spreads-syrups/oatmeal-hot-cereals/high-protein-regular-instant-oatmeal/p/055577113288",
+    "createdAt": "2025-02-02T19:23:10.397Z"
+},
+{
+    "name": "Triple Berry Instant Oatmeal, High Protein",
+    "quantity": 228.0,
+    "unitOfMeasure": "g",
+    "price": 4.99,
+    "pricePerWeight": 0.021885964912280703,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/cereals-spreads-syrups/oatmeal-hot-cereals/triple-berry-instant-oatmeal/p/055577113219",
+    "createdAt": "2025-02-02T19:23:10.427Z"
+},
+{
+    "name": "Wild Berry Medley High Fibre Instant Oatmeal",
+    "quantity": 300.0,
+    "unitOfMeasure": "g",
+    "price": 4.99,
+    "pricePerWeight": 0.016633333333333333,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/cereals-spreads-syrups/oatmeal-hot-cereals/wild-berry-medley-high-fibre-instant-oatmeal/p/055577102367",
+    "createdAt": "2025-02-02T19:23:10.457Z"
+},
+{
+    "name": "Apple And Cinnamon Instant Oatmeal, High Protein",
+    "quantity": 228.0,
+    "unitOfMeasure": "g",
+    "price": 4.99,
+    "pricePerWeight": 0.021885964912280703,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/cereals-spreads-syrups/oatmeal-hot-cereals/apple-and-cinnamon-instant-oatmeal/p/055577113172",
+    "createdAt": "2025-02-02T19:23:10.487Z"
+},
+{
+    "name": "Regular Instant Oatmeal Family Size",
+    "quantity": 504.0,
+    "unitOfMeasure": "g",
+    "price": 6.49,
+    "pricePerWeight": 0.012876984126984127,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/cereals-spreads-syrups/oatmeal-hot-cereals/regular-instant-oatmeal-family-size/p/055577113189",
+    "createdAt": "2025-02-02T19:23:10.517Z"
+},
+{
+    "name": "Apples And Cinnamon Flavoured Instant Oatmeal",
+    "quantity": 594.0,
+    "unitOfMeasure": "g",
+    "price": 6.49,
+    "pricePerWeight": 0.010925925925925926,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/cereals-spreads-syrups/oatmeal-hot-cereals/apples-and-cinnamon-flavoured-instant-oatmeal/p/055577102398",
+    "createdAt": "2025-02-02T19:23:10.547Z"
+},
+{
+    "name": "Maple And Brown Sugar Instant Oatmeal",
+    "quantity": 774.0,
+    "unitOfMeasure": "g",
+    "price": 6.49,
+    "pricePerWeight": 0.00838501291989664,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/cereals-spreads-syrups/oatmeal-hot-cereals/maple-and-brown-sugar-instant-oatmeal/p/055577103630",
+    "createdAt": "2025-02-02T19:23:10.578Z"
+},
+{
+    "name": "Oatmeal Chocolate Chip Muffin Mix",
+    "quantity": 900.0,
+    "unitOfMeasure": "g",
+    "price": 6.49,
+    "pricePerWeight": 0.007211111111111112,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/baking-ingredients/kits-mixes-fillings/oatmeal-chocolate-chip-muffin-mix/p/055577104866",
+    "createdAt": "2025-02-02T19:23:10.608Z"
+},
+{
+    "name": "Oatmeal Muffin Mix",
+    "quantity": 900.0,
+    "unitOfMeasure": "g",
+    "price": 6.49,
+    "pricePerWeight": 0.007211111111111112,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/baking-ingredients/kits-mixes-fillings/oatmeal-muffin-mix/p/055577114896",
+    "createdAt": "2025-02-02T19:23:10.637Z"
+},
+{
+    "name": "Assorted Flavours Instant Oatmeal",
+    "quantity": 674.0,
+    "unitOfMeasure": "g",
+    "price": 6.49,
+    "pricePerWeight": 0.009629080118694362,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/cereals-spreads-syrups/oatmeal-hot-cereals/assorted-flavours-instant-oatmeal/p/055577113271",
+    "createdAt": "2025-02-02T19:23:10.667Z"
+},
+{
+    "name": "Oats, Quick Oats",
+    "quantity": 2.25,
+    "unitOfMeasure": "kg",
+    "price": 6.99,
+    "pricePerWeight": 3.106666666666667,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/cereals-spreads-syrups/oatmeal-hot-cereals/oats/p/055577101681",
+    "createdAt": "2025-02-02T19:23:10.697Z"
+},
+{
+    "name": "Cornstarch Baby Powder",
+    "quantity": 624.0,
+    "unitOfMeasure": "g",
+    "price": 3.99,
+    "pricePerWeight": 0.006394230769230769,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/baby/needs/health-bathing/cornstarch-baby-powder/p/055989070308",
+    "createdAt": "2025-02-02T19:30:30.756Z"
+},
+{
+    "name": "Corn Starch",
+    "quantity": 454.0,
+    "unitOfMeasure": "g",
+    "price": 3.99,
+    "pricePerWeight": 0.008788546255506608,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/baking-ingredients/flour-baking-essentials/corn-starch/p/059749887199",
+    "createdAt": "2025-02-02T19:30:30.791Z"
+},
+{
+    "name": "Corn Starch",
+    "quantity": 454.0,
+    "unitOfMeasure": "g",
+    "price": 4.79,
+    "pricePerWeight": 0.010550660792951541,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/baking-ingredients/flour-baking-essentials/corn-starch/p/761720989951",
+    "createdAt": "2025-02-02T19:30:30.826Z"
+},
+{
+    "name": "Farfalle Pasta, Smart",
+    "quantity": 340.0,
+    "unitOfMeasure": "g",
+    "price": 2.49,
+    "pricePerWeight": 0.007323529411764706,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/pasta/farfalle-pasta/p/064200150286",
+    "createdAt": "2025-02-02T19:30:53.358Z"
+},
+{
+    "name": "Spaghettini Pasta, Smart",
+    "quantity": 375.0,
+    "unitOfMeasure": "g",
+    "price": 2.49,
+    "pricePerWeight": 0.006640000000000001,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/pasta/spaghettini-pasta/p/064200150200",
+    "createdAt": "2025-02-02T19:30:53.393Z"
+},
+{
+    "name": "Whole Wheat Spaghetti Pasta",
+    "quantity": 375.0,
+    "unitOfMeasure": "g",
+    "price": 2.49,
+    "pricePerWeight": 0.006640000000000001,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/pasta/whole-wheat-spaghetti-pasta/p/064200115926",
+    "createdAt": "2025-02-02T19:30:53.429Z"
+},
+{
+    "name": "Macaroni Pasta, Smart",
+    "quantity": 375.0,
+    "unitOfMeasure": "g",
+    "price": 2.49,
+    "pricePerWeight": 0.006640000000000001,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/pasta/macaroni-pasta/p/064200150170",
+    "createdAt": "2025-02-02T19:30:53.464Z"
+},
+{
+    "name": "Spaghettini Pasta, Smart",
+    "quantity": 375.0,
+    "unitOfMeasure": "g",
+    "price": 2.49,
+    "pricePerWeight": 0.006640000000000001,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/pasta/spaghettini-pasta/p/064200150194",
+    "createdAt": "2025-02-02T19:30:53.499Z"
+},
+{
+    "name": "Whole Wheat Spaghettini Pasta",
+    "quantity": 375.0,
+    "unitOfMeasure": "g",
+    "price": 2.49,
+    "pricePerWeight": 0.006640000000000001,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/pasta/whole-wheat-spaghettini-pasta/p/064200116978",
+    "createdAt": "2025-02-02T19:30:53.534Z"
+},
+{
+    "name": "Penne Rigate Pasta, Smart",
+    "quantity": 375.0,
+    "unitOfMeasure": "g",
+    "price": 2.49,
+    "pricePerWeight": 0.006640000000000001,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/pasta/penne-rigate-pasta/p/064200150156",
+    "createdAt": "2025-02-02T19:30:53.569Z"
+},
+{
+    "name": "Rotini, Smart",
+    "quantity": 375.0,
+    "unitOfMeasure": "g",
+    "price": 2.49,
+    "pricePerWeight": 0.006640000000000001,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/pasta/rotini/p/064200150163",
+    "createdAt": "2025-02-02T19:30:53.603Z"
+},
+{
+    "name": "Whole Wheat Penne Rigate Pasta",
+    "quantity": 375.0,
+    "unitOfMeasure": "g",
+    "price": 2.49,
+    "pricePerWeight": 0.006640000000000001,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/pasta/whole-wheat-penne-rigate-pasta/p/064200115414",
+    "createdAt": "2025-02-02T19:30:53.637Z"
+},
+{
+    "name": "Whole Grain Wheat Rotini Pasta, Healthy Harvest",
+    "quantity": 375.0,
+    "unitOfMeasure": "g",
+    "price": 2.49,
+    "pricePerWeight": 0.006640000000000001,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/pasta/whole-grain-wheat-rotini-pasta/p/064200115407",
+    "createdAt": "2025-02-02T19:30:53.672Z"
+},
+{
+    "name": "Tricolour Rotini Pasta",
+    "quantity": 375.0,
+    "unitOfMeasure": "g",
+    "price": 2.49,
+    "pricePerWeight": 0.006640000000000001,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/pasta/tricolour-rotini-pasta/p/064200115353",
+    "createdAt": "2025-02-02T19:30:53.707Z"
+},
+{
+    "name": "Whole Wheat Macaroni Pasta",
+    "quantity": 375.0,
+    "unitOfMeasure": "g",
+    "price": 2.49,
+    "pricePerWeight": 0.006640000000000001,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/pasta/whole-wheat-macaroni-pasta/p/064200115933",
+    "createdAt": "2025-02-02T19:30:53.741Z"
+},
+{
+    "name": "Garlic And Onion Pasta Sauce, Garden Select",
+    "quantity": 600.0,
+    "unitOfMeasure": "mL",
+    "price": 2.49,
+    "pricePerWeight": 0.00415,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/pasta-pasta-sauces/garlic-and-onion-pasta-sauce/p/064200010146",
+    "createdAt": "2025-02-02T19:30:53.784Z"
+},
+{
+    "name": "Linguine Pasta, Smart",
+    "quantity": 375.0,
+    "unitOfMeasure": "g",
+    "price": 2.49,
+    "pricePerWeight": 0.006640000000000001,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/pasta/linguine-pasta/p/064200150187",
+    "createdAt": "2025-02-02T19:30:53.821Z"
+},
+{
+    "name": "Tricolour Fusilli Pasta",
+    "quantity": 375.0,
+    "unitOfMeasure": "g",
+    "price": 2.49,
+    "pricePerWeight": 0.006640000000000001,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/pasta/tricolour-fusilli-pasta/p/064200115384",
+    "createdAt": "2025-02-02T19:30:53.859Z"
+},
+{
+    "name": "Fettuccine Pasta, Smart",
+    "quantity": 375.0,
+    "unitOfMeasure": "g",
+    "price": 2.49,
+    "pricePerWeight": 0.006640000000000001,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/pasta/fettuccine-pasta/p/064200150224",
+    "createdAt": "2025-02-02T19:30:53.896Z"
+},
+{
+    "name": "Multigrain Spaghetti Pasta",
+    "quantity": 375.0,
+    "unitOfMeasure": "g",
+    "price": 2.49,
+    "pricePerWeight": 0.006640000000000001,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/pasta/multigrain-spaghetti-pasta/p/064200115575",
+    "createdAt": "2025-02-02T19:30:53.932Z"
+},
+{
+    "name": "Parmesan & Romano Pasta Sauce, Garden Select",
+    "quantity": 600.0,
+    "unitOfMeasure": "mL",
+    "price": 2.49,
+    "pricePerWeight": 0.00415,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/pasta-pasta-sauces/parmesan-romano-pasta-sauce/p/064200010108",
+    "createdAt": "2025-02-02T19:30:53.967Z"
+},
+{
+    "name": "Tomato Basil Pasta Sauce, Garden Select",
+    "quantity": 600.0,
+    "unitOfMeasure": "mL",
+    "price": 2.49,
+    "pricePerWeight": 0.00415,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/pasta-pasta-sauces/tomato-basil-pasta-sauce/p/064200010122",
+    "createdAt": "2025-02-02T19:30:54.001Z"
+},
+{
+    "name": "Macaroni Pasta, Gluten-Free",
+    "quantity": 340.0,
+    "unitOfMeasure": "g",
+    "price": 3.29,
+    "pricePerWeight": 0.009676470588235295,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/pasta/macaroni-pasta/p/064200160056",
+    "createdAt": "2025-02-02T19:30:54.037Z"
+},
+{
+    "name": "Linguine Pasta, Gluten-Free",
+    "quantity": 340.0,
+    "unitOfMeasure": "g",
+    "price": 3.29,
+    "pricePerWeight": 0.009676470588235295,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/pasta/linguine-pasta/p/064200160087",
+    "createdAt": "2025-02-02T19:30:54.071Z"
+},
+{
+    "name": "Fusilli Pasta, Gluten-Free",
+    "quantity": 340.0,
+    "unitOfMeasure": "g",
+    "price": 3.29,
+    "pricePerWeight": 0.009676470588235295,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/pasta/fusilli-pasta/p/064200160025",
+    "createdAt": "2025-02-02T19:30:54.105Z"
+},
+{
+    "name": "Spaghetti Pasta, Gluten-Free",
+    "quantity": 340.0,
+    "unitOfMeasure": "g",
+    "price": 3.29,
+    "pricePerWeight": 0.009676470588235295,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/pasta/spaghetti-pasta/p/064200160001",
+    "createdAt": "2025-02-02T19:30:54.141Z"
+},
+{
+    "name": "Penne Pasta, Gluten-Free",
+    "quantity": 340.0,
+    "unitOfMeasure": "g",
+    "price": 3.29,
+    "pricePerWeight": 0.009676470588235295,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/pasta/penne-pasta/p/064200160018",
+    "createdAt": "2025-02-02T19:30:54.176Z"
+},
+{
+    "name": "Lasagne Pasta, Gluten-Free",
+    "quantity": 250.0,
+    "unitOfMeasure": "g",
+    "price": 3.99,
+    "pricePerWeight": 0.015960000000000002,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/pasta/lasagne-pasta/p/064200160100",
+    "createdAt": "2025-02-02T19:30:54.210Z"
+},
+{
+    "name": "Chickpea Spaghetti",
+    "quantity": 250.0,
+    "unitOfMeasure": "g",
+    "price": 3.99,
+    "pricePerWeight": 0.015960000000000002,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/pasta/chickpea-spaghetti/p/064200130493",
+    "createdAt": "2025-02-02T19:30:54.245Z"
+},
+{
+    "name": "Tomato And Basil Pasta Sauce",
+    "quantity": 600.0,
+    "unitOfMeasure": "mL",
+    "price": 2.99,
+    "pricePerWeight": 0.0049833333333333335,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/pasta-pasta-sauces/tomato-and-basil-pasta-sauce/p/057000012441",
+    "createdAt": "2025-02-02T19:31:18.736Z"
+},
+{
+    "name": "Tomato And Basil Pasta Sauce, Di Napoli",
+    "quantity": 650.0,
+    "unitOfMeasure": "mL",
+    "price": 2.99,
+    "pricePerWeight": 0.0046,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/pasta-pasta-sauces/tomato-and-basil-pasta-sauce/p/057000330040",
+    "createdAt": "2025-02-02T19:31:18.774Z"
+},
+{
+    "name": "Crunchy Peanut Butter",
+    "quantity": 1.0,
+    "unitOfMeasure": "kg",
+    "price": 6.99,
+    "pricePerWeight": 6.99,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/cereals-spreads-syrups/nut-seed-butters/crunchy-peanut-butter/p/068100084238",
+    "createdAt": "2025-02-02T19:31:42.760Z"
+},
+{
+    "name": "Extra Creamy Peanut Butter",
+    "quantity": 1.0,
+    "unitOfMeasure": "kg",
+    "price": 6.99,
+    "pricePerWeight": 6.99,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/cereals-spreads-syrups/nut-seed-butters/extra-creamy-peanut-butter/p/068100083095",
+    "createdAt": "2025-02-02T19:31:42.793Z"
+},
+{
+    "name": "Light Smooth Peanut Butter",
+    "quantity": 1.0,
+    "unitOfMeasure": "kg",
+    "price": 6.99,
+    "pricePerWeight": 6.99,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/cereals-spreads-syrups/nut-seed-butters/light-smooth-peanut-butter/p/068100083293",
+    "createdAt": "2025-02-02T19:31:42.826Z"
+},
+{
+    "name": "Natural Smooth Peanut Butter, Only Peanuts",
+    "quantity": 750.0,
+    "unitOfMeasure": "g",
+    "price": 6.99,
+    "pricePerWeight": 0.00932,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/cereals-spreads-syrups/nut-seed-butters/natural-smooth-peanut-butter/p/068100084665",
+    "createdAt": "2025-02-02T19:31:42.857Z"
+},
+{
+    "name": "Smooth Peanut Butter",
+    "quantity": 1.0,
+    "unitOfMeasure": "kg",
+    "price": 6.99,
+    "pricePerWeight": 6.99,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/cereals-spreads-syrups/nut-seed-butters/smooth-peanut-butter/p/068100084245",
+    "createdAt": "2025-02-02T19:31:42.890Z"
+},
+{
+    "name": "Natural Crunchy Peanut Butter, Only Peanuts",
+    "quantity": 750.0,
+    "unitOfMeasure": "g",
+    "price": 6.99,
+    "pricePerWeight": 0.00932,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/cereals-spreads-syrups/nut-seed-butters/natural-crunchy-peanut-butter/p/068100890556",
+    "createdAt": "2025-02-02T19:31:42.921Z"
+},
+{
+    "name": "Smooth Peanut Butter",
+    "quantity": 2.0,
+    "unitOfMeasure": "kg",
+    "price": 11.49,
+    "pricePerWeight": 5.745,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/cereals-spreads-syrups/nut-seed-butters/smooth-peanut-butter/p/068100084276",
+    "createdAt": "2025-02-02T19:31:42.953Z"
+},
+{
+    "name": "Long Grain Rice, Converted",
+    "quantity": 907.0,
+    "unitOfMeasure": "g",
+    "price": 5.49,
+    "pricePerWeight": 0.006052921719955899,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/sides/potato-rice-sides/long-grain-rice/p/058496459901",
+    "createdAt": "2025-02-02T19:32:05.557Z"
+},
+{
+    "name": "Long Grain Rice, Converted",
+    "quantity": 2.2,
+    "unitOfMeasure": "kg",
+    "price": 7.99,
+    "pricePerWeight": 3.631818181818182,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/rice/long-grain-rice/p/058496464691",
+    "createdAt": "2025-02-02T19:32:05.593Z"
+},
+{
+    "name": "Taco Seasoning Mix",
+    "quantity": 24.0,
+    "unitOfMeasure": "g",
+    "price": 1.25,
+    "pricePerWeight": 0.052083333333333336,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/condiments-toppings/international-condiments/taco-seasoning-mix/p/058300461953",
+    "createdAt": "2025-02-02T19:32:29.538Z"
+},
+{
+    "name": "Taco Seasoning Mix, Hot & Spicy",
+    "quantity": 24.0,
+    "unitOfMeasure": "g",
+    "price": 1.25,
+    "pricePerWeight": 0.052083333333333336,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/condiments-toppings/international-condiments/taco-seasoning-mix/p/058300461939",
+    "createdAt": "2025-02-02T19:32:29.572Z"
+},
+{
+    "name": "Chili Seasoning Mix",
+    "quantity": 24.0,
+    "unitOfMeasure": "g",
+    "price": 1.25,
+    "pricePerWeight": 0.052083333333333336,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/condiments-toppings/international-condiments/chili-seasoning-mix/p/058300461915",
+    "createdAt": "2025-02-02T19:32:29.606Z"
+},
+{
+    "name": "Fajita Seasoning Mix",
+    "quantity": 24.0,
+    "unitOfMeasure": "g",
+    "price": 1.25,
+    "pricePerWeight": 0.052083333333333336,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/condiments-toppings/international-condiments/fajita-seasoning-mix/p/058300461922",
+    "createdAt": "2025-02-02T19:32:29.640Z"
+},
+{
+    "name": "Fajita Seasoning Mix, Smart Fiesta",
+    "quantity": 24.0,
+    "unitOfMeasure": "g",
+    "price": 1.25,
+    "pricePerWeight": 0.052083333333333336,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/condiments-toppings/international-condiments/fajita-seasoning-mix/p/058300462165",
+    "createdAt": "2025-02-02T19:32:29.674Z"
+},
+{
+    "name": "Taco Seasoning Mix",
+    "quantity": 24.0,
+    "unitOfMeasure": "g",
+    "price": 1.25,
+    "pricePerWeight": 0.052083333333333336,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/condiments-toppings/international-condiments/taco-seasoning-mix/p/058300462127",
+    "createdAt": "2025-02-02T19:32:29.709Z"
+},
+{
+    "name": "Taco Seasoning Mix, Smart Fiesta",
+    "quantity": 24.0,
+    "unitOfMeasure": "g",
+    "price": 1.25,
+    "pricePerWeight": 0.052083333333333336,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/herbs-spices-sauces/package-sauces-seasonings/taco-seasoning-mix/p/058300461946",
+    "createdAt": "2025-02-02T19:32:29.745Z"
+},
+{
+    "name": "Quesadilla Seasoning Mix",
+    "quantity": 24.0,
+    "unitOfMeasure": "g",
+    "price": 1.25,
+    "pricePerWeight": 0.052083333333333336,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/herbs-spices-sauces/package-sauces-seasonings/quesadilla-seasoning-mix/p/058300118079",
+    "createdAt": "2025-02-02T19:32:29.779Z"
+},
+{
+    "name": "Chopped Green Chilies",
+    "quantity": 113.0,
+    "unitOfMeasure": "mL",
+    "price": 2.79,
+    "pricePerWeight": 0.024690265486725663,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/world-cuisine/latin/chopped-green-chilies/p/058300135991",
+    "createdAt": "2025-02-02T19:32:29.815Z"
+},
+{
+    "name": "Large Flour Tortillas",
+    "quantity": 8.0,
+    "unitOfMeasure": "un",
+    "price": 2.99,
+    "pricePerWeight": 0.37375,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/bread-bakery-products/tortillas-flat-breads/tortillas/large-flour-tortillas/p/058300004983",
+    "createdAt": "2025-02-02T19:32:29.850Z"
+},
+{
+    "name": "Flat-Bottomed Taco Shells, Stand 'N Stuff",
+    "quantity": 10.0,
+    "unitOfMeasure": "un",
+    "price": 2.99,
+    "pricePerWeight": 0.29900000000000004,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/world-cuisine/latin/flat-bottomed-taco-shells/p/058300196848",
+    "createdAt": "2025-02-02T19:32:29.885Z"
+},
+{
+    "name": "Medium Size Flour Tortillas",
+    "quantity": 12.0,
+    "unitOfMeasure": "un",
+    "price": 2.99,
+    "pricePerWeight": 0.24916666666666668,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/bread-bakery-products/tortillas-flat-breads/tortillas/medium-size-flour-tortillas/p/058300006994",
+    "createdAt": "2025-02-02T19:32:29.920Z"
+},
+{
+    "name": "Cheese Flavoured Taco Shells",
+    "quantity": 10.0,
+    "unitOfMeasure": "un",
+    "price": 2.99,
+    "pricePerWeight": 0.29900000000000004,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/world-cuisine/latin/cheese-flavoured-taco-shells/p/058300459790",
+    "createdAt": "2025-02-02T19:32:29.953Z"
+},
+{
+    "name": "Refried Beans",
+    "quantity": 398.0,
+    "unitOfMeasure": "mL",
+    "price": 2.99,
+    "pricePerWeight": 0.007512562814070352,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/pasta-rice-beans/canned-beans/refried-beans/p/058300060019",
+    "createdAt": "2025-02-02T19:32:29.988Z"
+},
+{
+    "name": "Large Whole Grain Tortillas, Smart Fiesta",
+    "quantity": 8.0,
+    "unitOfMeasure": "un",
+    "price": 2.99,
+    "pricePerWeight": 0.37375,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/bread-bakery-products/tortillas-flat-breads/tortillas/large-whole-grain-tortillas/p/058300415383",
+    "createdAt": "2025-02-02T19:32:30.022Z"
+},
+{
+    "name": "Mexican Rice",
+    "quantity": 215.0,
+    "unitOfMeasure": "g",
+    "price": 2.99,
+    "pricePerWeight": 0.013906976744186048,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/sides/potato-rice-sides/mexican-rice/p/058300263557",
+    "createdAt": "2025-02-02T19:32:30.056Z"
+},
+{
+    "name": "Medium Taco Sauce",
+    "quantity": 243.0,
+    "unitOfMeasure": "mL",
+    "price": 2.99,
+    "pricePerWeight": 0.012304526748971194,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/condiments-toppings/salsa-guacamole/medium-taco-sauce/p/058300128832",
+    "createdAt": "2025-02-02T19:32:30.091Z"
+},
+{
+    "name": "Crunchy Taco Shells",
+    "quantity": 12.0,
+    "unitOfMeasure": "un",
+    "price": 2.99,
+    "pricePerWeight": 0.24916666666666668,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/world-cuisine/latin/crunchy-taco-shells/p/058300060170",
+    "createdAt": "2025-02-02T19:32:30.125Z"
+},
+{
+    "name": "Soft Tortilla Bowls",
+    "quantity": 8.0,
+    "unitOfMeasure": "un",
+    "price": 2.99,
+    "pricePerWeight": 0.37375,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/world-cuisine/latin/soft-tortilla-bowls/p/058300427232",
+    "createdAt": "2025-02-02T19:32:30.159Z"
+},
+{
+    "name": "Mild Taco Sauce",
+    "quantity": 243.0,
+    "unitOfMeasure": "mL",
+    "price": 2.99,
+    "pricePerWeight": 0.012304526748971194,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/condiments-toppings/salsa-guacamole/mild-taco-sauce/p/058300128856",
+    "createdAt": "2025-02-02T19:32:30.200Z"
+},
+{
+    "name": "Medium Salsa, Thick N' Chunky",
+    "quantity": 650.0,
+    "unitOfMeasure": "mL",
+    "price": 3.99,
+    "pricePerWeight": 0.006138461538461539,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/condiments-toppings/salsa-guacamole/medium-salsa/p/058300854526",
+    "createdAt": "2025-02-02T19:32:30.235Z"
+},
+{
+    "name": "Frozen Beef And Cheese Taco Flavoured Pizza Pops, Ol...",
+    "quantity": 380.0,
+    "unitOfMeasure": "g",
+    "price": 3.99,
+    "pricePerWeight": 0.0105,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/frozen/pizza-pasta/pizza-bites-snacks/frozen-beef-and-cheese-taco-flavoured-pizza-pops/p/069052129473",
+    "createdAt": "2025-02-02T19:32:30.269Z"
+},
+{
+    "name": "Hard Taco Dinner Kit",
+    "quantity": 250.0,
+    "unitOfMeasure": "g",
+    "price": 3.99,
+    "pricePerWeight": 0.015960000000000002,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/world-cuisine/latin/hard-taco-dinner-kit/p/058300461991",
+    "createdAt": "2025-02-02T19:32:30.304Z"
+},
+{
+    "name": "Hard & Soft Taco Dinner Kit",
+    "quantity": 340.0,
+    "unitOfMeasure": "g",
+    "price": 3.99,
+    "pricePerWeight": 0.011735294117647059,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/world-cuisine/latin/hard-soft-taco-dinner-kit/p/058300462189",
+    "createdAt": "2025-02-02T19:32:30.338Z"
+},
+{
+    "name": "Burrito Dinner Kit",
+    "quantity": 510.0,
+    "unitOfMeasure": "g",
+    "price": 3.99,
+    "pricePerWeight": 0.007823529411764707,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/world-cuisine/latin/burrito-dinner-kit/p/058300066325",
+    "createdAt": "2025-02-02T19:32:30.371Z"
+},
+{
+    "name": "Hot Salsa, Thick N' Chunky",
+    "quantity": 650.0,
+    "unitOfMeasure": "mL",
+    "price": 3.99,
+    "pricePerWeight": 0.006138461538461539,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/world-cuisine/mexican/hot-salsa/p/058300854533",
+    "createdAt": "2025-02-02T19:32:30.406Z"
+},
+{
+    "name": "Soft Taco Dinner Kit",
+    "quantity": 400.0,
+    "unitOfMeasure": "g",
+    "price": 3.99,
+    "pricePerWeight": 0.009975000000000001,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/world-cuisine/latin/soft-taco-dinner-kit/p/058300461960",
+    "createdAt": "2025-02-02T19:32:30.442Z"
+},
+{
+    "name": "Hard Taco Dinner Kit, Stand 'N Stuff",
+    "quantity": 250.0,
+    "unitOfMeasure": "g",
+    "price": 3.99,
+    "pricePerWeight": 0.015960000000000002,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/world-cuisine/latin/hard-taco-dinner-kit/p/058300131856",
+    "createdAt": "2025-02-02T19:32:30.476Z"
+},
+{
+    "name": "Mild Salsa, Thick N' Chunky",
+    "quantity": 650.0,
+    "unitOfMeasure": "mL",
+    "price": 3.99,
+    "pricePerWeight": 0.006138461538461539,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/condiments-toppings/salsa-guacamole/mild-salsa/p/058300854519",
+    "createdAt": "2025-02-02T19:32:30.510Z"
+},
+{
+    "name": "Fajita Dinner Kit",
+    "quantity": 400.0,
+    "unitOfMeasure": "g",
+    "price": 3.99,
+    "pricePerWeight": 0.009975000000000001,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/condiments-toppings/international-condiments/fajita-dinner-kit/p/058300461977",
+    "createdAt": "2025-02-02T19:32:30.545Z"
+},
+{
+    "name": "Reduced Salt Shepherd'S Pie Seasoning Mix",
+    "quantity": 47.0,
+    "unitOfMeasure": "g",
+    "price": 0.99,
+    "pricePerWeight": 0.02106382978723404,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/herbs-spices-sauces/package-sauces-seasonings/reduced-salt-shepherd-s-pie-seasoning-mix/p/066200017415",
+    "createdAt": "2025-02-02T19:32:55.974Z"
+},
+{
+    "name": "Gravy Mix For Chicken",
+    "quantity": 25.0,
+    "unitOfMeasure": "g",
+    "price": 0.99,
+    "pricePerWeight": 0.039599999999999996,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/herbs-spices-sauces/package-sauces-seasonings/gravy-mix-for-chicken/p/066200015909",
+    "createdAt": "2025-02-02T19:32:56.008Z"
+},
+{
+    "name": "Reduced Salt Taco Seasoning Mix",
+    "quantity": 35.0,
+    "unitOfMeasure": "g",
+    "price": 0.99,
+    "pricePerWeight": 0.028285714285714286,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/herbs-spices-sauces/package-sauces-seasonings/reduced-salt-taco-seasoning-mix/p/066200016104",
+    "createdAt": "2025-02-02T19:32:56.043Z"
+},
+{
+    "name": "Beef Stew Seasoning Mix",
+    "quantity": 1.0,
+    "unitOfMeasure": "un",
+    "price": 0.99,
+    "pricePerWeight": 0.99,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/herbs-spices-sauces/package-sauces-seasonings/beef-stew-seasoning-mix/p/066200004910",
+    "createdAt": "2025-02-02T19:32:56.077Z"
+},
+{
+    "name": "Shepherd'S Pie Seasoning Mix",
+    "quantity": 47.0,
+    "unitOfMeasure": "g",
+    "price": 0.99,
+    "pricePerWeight": 0.02106382978723404,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/herbs-spices-sauces/package-sauces-seasonings/shepherd-s-pie-seasoning-mix/p/066200005382",
+    "createdAt": "2025-02-02T19:32:56.112Z"
+},
+{
+    "name": "Cheese Sauce Mix",
+    "quantity": 35.0,
+    "unitOfMeasure": "g",
+    "price": 0.99,
+    "pricePerWeight": 0.028285714285714286,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/herbs-spices-sauces/package-sauces-seasonings/cheese-sauce-mix/p/066200004941",
+    "createdAt": "2025-02-02T19:32:56.148Z"
+},
+{
+    "name": "Brown Gravy Mix",
+    "quantity": 25.0,
+    "unitOfMeasure": "g",
+    "price": 0.99,
+    "pricePerWeight": 0.039599999999999996,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/herbs-spices-sauces/package-sauces-seasonings/brown-gravy-mix/p/066200015275",
+    "createdAt": "2025-02-02T19:32:56.182Z"
+},
+{
+    "name": "Brown Gravy Mix",
+    "quantity": 1.0,
+    "unitOfMeasure": "un",
+    "price": 0.99,
+    "pricePerWeight": 0.99,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/herbs-spices-sauces/package-sauces-seasonings/brown-gravy-mix/p/066200004934",
+    "createdAt": "2025-02-02T19:32:56.217Z"
+},
+{
+    "name": "Au Jus Dipping Sauce Mix",
+    "quantity": 21.0,
+    "unitOfMeasure": "g",
+    "price": 0.99,
+    "pricePerWeight": 0.04714285714285714,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/herbs-spices-sauces/package-sauces-seasonings/au-jus-dipping-sauce-mix/p/066200005412",
+    "createdAt": "2025-02-02T19:32:56.250Z"
+},
+{
+    "name": "Gravy Mix For Pork",
+    "quantity": 24.0,
+    "unitOfMeasure": "g",
+    "price": 0.99,
+    "pricePerWeight": 0.04125,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/herbs-spices-sauces/stock-gravy/gravy-mix-for-pork/p/066200015916",
+    "createdAt": "2025-02-02T19:32:56.286Z"
+},
+{
+    "name": "Chili Seasoning Mix",
+    "quantity": 35.0,
+    "unitOfMeasure": "g",
+    "price": 0.99,
+    "pricePerWeight": 0.028285714285714286,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/herbs-spices-sauces/package-sauces-seasonings/chili-seasoning-mix/p/066200004965",
+    "createdAt": "2025-02-02T19:32:56.320Z"
+},
+{
+    "name": "Gravy Mix For Chicken",
+    "quantity": 1.0,
+    "unitOfMeasure": "un",
+    "price": 0.99,
+    "pricePerWeight": 0.99,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/herbs-spices-sauces/package-sauces-seasonings/gravy-mix-for-chicken/p/066200004958",
+    "createdAt": "2025-02-02T19:32:56.353Z"
+},
+{
+    "name": "Taco Seasoning Mix",
+    "quantity": 35.0,
+    "unitOfMeasure": "g",
+    "price": 0.99,
+    "pricePerWeight": 0.028285714285714286,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/herbs-spices-sauces/package-sauces-seasonings/taco-seasoning-mix/p/066200005191",
+    "createdAt": "2025-02-02T19:32:56.395Z"
+},
+{
+    "name": "Spicy Chili Seasoning Mix",
+    "quantity": 36.0,
+    "unitOfMeasure": "g",
+    "price": 0.99,
+    "pricePerWeight": 0.0275,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/herbs-spices-sauces/package-sauces-seasonings/spicy-chili-seasoning-mix/p/066200005320",
+    "createdAt": "2025-02-02T19:32:56.429Z"
+},
+{
+    "name": "Reduced Salt Gravy Mix For Turkey",
+    "quantity": 1.0,
+    "unitOfMeasure": "un",
+    "price": 0.99,
+    "pricePerWeight": 0.99,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/herbs-spices-sauces/package-sauces-seasonings/reduced-salt-gravy-mix-for-turkey/p/066200904012",
+    "createdAt": "2025-02-02T19:32:56.464Z"
+},
+{
+    "name": "Reduced Salt Brown Gravy Sauce Mix",
+    "quantity": 1.0,
+    "unitOfMeasure": "un",
+    "price": 0.99,
+    "pricePerWeight": 0.99,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/herbs-spices-sauces/package-sauces-seasonings/reduced-salt-brown-gravy-sauce-mix/p/066200903992",
+    "createdAt": "2025-02-02T19:32:56.498Z"
+},
+{
+    "name": "Guacamole Mix Seasoning",
+    "quantity": 20.0,
+    "unitOfMeasure": "g",
+    "price": 0.99,
+    "pricePerWeight": 0.0495,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/herbs-spices-sauces/package-sauces-seasonings/guacamole-mix-seasoning/p/066200023751",
+    "createdAt": "2025-02-02T19:32:56.531Z"
+},
+{
+    "name": "Beef And Broccoli Stir-Fry Mix",
+    "quantity": 1.0,
+    "unitOfMeasure": "un",
+    "price": 0.99,
+    "pricePerWeight": 0.99,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/herbs-spices-sauces/package-sauces-seasonings/beef-and-broccoli-stir-fry-mix/p/066200005344",
+    "createdAt": "2025-02-02T19:32:56.565Z"
+},
+{
+    "name": "Oriental-Style Stir-Fry Seasoning",
+    "quantity": 42.0,
+    "unitOfMeasure": "g",
+    "price": 0.99,
+    "pricePerWeight": 0.02357142857142857,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/herbs-spices-sauces/package-sauces-seasonings/oriental-style-stir-fry-seasoning/p/066200004927",
+    "createdAt": "2025-02-02T19:32:56.600Z"
+},
+{
+    "name": "Poutine Gravy Mix",
+    "quantity": 1.0,
+    "unitOfMeasure": "un",
+    "price": 0.99,
+    "pricePerWeight": 0.99,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/herbs-spices-sauces/package-sauces-seasonings/poutine-gravy-mix/p/066200005450",
+    "createdAt": "2025-02-02T19:32:56.635Z"
+},
+{
+    "name": "Gravy Mix For Pork",
+    "quantity": 1.0,
+    "unitOfMeasure": "un",
+    "price": 0.99,
+    "pricePerWeight": 0.99,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/herbs-spices-sauces/package-sauces-seasonings/gravy-mix-for-pork/p/066200005023",
+    "createdAt": "2025-02-02T19:32:56.669Z"
+},
+{
+    "name": "Sloppy Joe Seasoning Mix",
+    "quantity": 1.0,
+    "unitOfMeasure": "un",
+    "price": 0.99,
+    "pricePerWeight": 0.99,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/herbs-spices-sauces/package-sauces-seasonings/sloppy-joe-seasoning-mix/p/066200005078",
+    "createdAt": "2025-02-02T19:32:56.703Z"
+},
+{
+    "name": "Gluten Free Gravy Mix For Turkey",
+    "quantity": 25.0,
+    "unitOfMeasure": "g",
+    "price": 0.99,
+    "pricePerWeight": 0.039599999999999996,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/herbs-spices-sauces/package-sauces-seasonings/gluten-free-gravy-mix-for-turkey/p/066200015268",
+    "createdAt": "2025-02-02T19:32:56.737Z"
+},
+{
+    "name": "Meat Marinade Seasoning Mix",
+    "quantity": 1.0,
+    "unitOfMeasure": "un",
+    "price": 0.99,
+    "pricePerWeight": 0.99,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/herbs-spices-sauces/marinades-cooking-pastes/meat-marinade-seasoning-mix/p/066200005009",
+    "createdAt": "2025-02-02T19:32:56.771Z"
+},
+{
+    "name": "Meat Loaf Seasoning Mix",
+    "quantity": 1.0,
+    "unitOfMeasure": "un",
+    "price": 0.99,
+    "pricePerWeight": 0.99,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/herbs-spices-sauces/package-sauces-seasonings/meat-loaf-seasoning-mix/p/066200004989",
+    "createdAt": "2025-02-02T19:32:56.807Z"
+},
+{
+    "name": "Homestyle Gravy Mix",
+    "quantity": 38.0,
+    "unitOfMeasure": "g",
+    "price": 0.99,
+    "pricePerWeight": 0.02605263157894737,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/herbs-spices-sauces/package-sauces-seasonings/homestyle-gravy-mix/p/066200020309",
+    "createdAt": "2025-02-02T19:32:56.840Z"
+},
+{
+    "name": "Reduced Salt Chili Seasoning Mix",
+    "quantity": 35.0,
+    "unitOfMeasure": "g",
+    "price": 0.99,
+    "pricePerWeight": 0.028285714285714286,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/herbs-spices-sauces/package-sauces-seasonings/reduced-salt-chili-seasoning-mix/p/066200016081",
+    "createdAt": "2025-02-02T19:32:56.874Z"
+},
+{
+    "name": "Parmesan And Garlic Seasoning",
+    "quantity": 27.0,
+    "unitOfMeasure": "g",
+    "price": 0.99,
+    "pricePerWeight": 0.03666666666666667,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/herbs-spices-sauces/package-sauces-seasonings/parmesan-and-garlic-seasoning/p/066200023423",
+    "createdAt": "2025-02-02T19:32:56.908Z"
+},
+{
+    "name": "Gravy Mix For Turkey",
+    "quantity": 1.0,
+    "unitOfMeasure": "un",
+    "price": 0.99,
+    "pricePerWeight": 0.99,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/herbs-spices-sauces/package-sauces-seasonings/gravy-mix-for-turkey/p/066200005184",
+    "createdAt": "2025-02-02T19:32:56.941Z"
+},
+{
+    "name": "Mushroom Gravy Mix",
+    "quantity": 1.0,
+    "unitOfMeasure": "un",
+    "price": 0.99,
+    "pricePerWeight": 0.99,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/herbs-spices-sauces/package-sauces-seasonings/mushroom-gravy-mix/p/066200005016",
+    "createdAt": "2025-02-02T19:32:56.976Z"
+},
+{
+    "name": "Breadsticks With Hazelnut And Chocolate Spread, Nute...",
+    "quantity": 52.0,
+    "unitOfMeasure": "g",
+    "price": 1.5,
+    "pricePerWeight": 0.028846153846153848,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/cereals-spreads-syrups/chocolate-sweet-spreads/breadsticks-with-hazelnut-and-chocolate-spread/p/062020050526",
+    "createdAt": "2025-02-02T19:33:19.656Z"
+},
+{
+    "name": "Hazelnut Spread With Cocoa",
+    "quantity": 725.0,
+    "unitOfMeasure": "g",
+    "price": 8.49,
+    "pricePerWeight": 0.011710344827586207,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/cereals-spreads-syrups/chocolate-sweet-spreads/hazelnut-spread-with-cocoa/p/062020000842",
+    "createdAt": "2025-02-02T19:33:19.695Z"
+},
+{
+    "name": "Hazelnut Spread With Cocoa, Value Pack",
+    "quantity": 1.0,
+    "unitOfMeasure": "kg",
+    "price": 9.99,
+    "pricePerWeight": 9.99,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/cereals-spreads-syrups/chocolate-sweet-spreads/hazelnut-spread-with-cocoa/p/062020003843",
+    "createdAt": "2025-02-02T19:33:19.734Z"
+},
+{
+    "name": "Morello Cherry Flavoured Vitamins C And D",
+    "quantity": 75.0,
+    "unitOfMeasure": "un",
+    "price": 8.49,
+    "pricePerWeight": 0.11320000000000001,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pharmacy/vitamins-supplements-dietary-products/adult-multivitamins/morello-cherry-flavoured-vitamins-c-and-d/p/064642051967",
+    "createdAt": "2025-02-02T19:33:43.817Z"
+},
+{
+    "name": "Vitamins K2 And D3",
+    "quantity": 30.0,
+    "unitOfMeasure": "un",
+    "price": 14.49,
+    "pricePerWeight": 0.483,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pharmacy/vitamins-supplements-dietary-products/adult-multivitamins/vitamins-k2-and-d3/p/064642090430",
+    "createdAt": "2025-02-02T19:33:43.853Z"
+},
+{
+    "name": "Mixed Berry Flavoured Women Multivitamins",
+    "quantity": 130.0,
+    "unitOfMeasure": "un",
+    "price": 18.49,
+    "pricePerWeight": 0.14223076923076922,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pharmacy/vitamins-supplements-dietary-products/adult-multivitamins/mixed-berry-flavoured-women-multivitamins/p/064642091628",
+    "createdAt": "2025-02-02T19:33:43.889Z"
+},
+{
+    "name": "Juicy Orange Flavoured Multivitamins",
+    "quantity": 150.0,
+    "unitOfMeasure": "un",
+    "price": 18.49,
+    "pricePerWeight": 0.12326666666666665,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pharmacy/vitamins-supplements-dietary-products/adult-multivitamins/juicy-orange-flavoured-multivitamins/p/064642091635",
+    "createdAt": "2025-02-02T19:33:43.925Z"
+},
+{
+    "name": "Complete Multivitamins For Adults 50+",
+    "quantity": 115.0,
+    "unitOfMeasure": "un",
+    "price": 19.99,
+    "pricePerWeight": 0.1738260869565217,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pharmacy/vitamins-supplements-dietary-products/adult-multivitamins/complete-multivitamins-for-adults-50/p/064642098955",
+    "createdAt": "2025-02-02T19:33:43.961Z"
+},
+{
+    "name": "Complete Multivitamins For Women 50+",
+    "quantity": 115.0,
+    "unitOfMeasure": "un",
+    "price": 19.99,
+    "pricePerWeight": 0.1738260869565217,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pharmacy/vitamins-supplements-dietary-products/adult-multivitamins/complete-multivitamins-for-women-50/p/064642098948",
+    "createdAt": "2025-02-02T19:33:43.995Z"
+},
+{
+    "name": "Complete Multivitamins, Max Strength",
+    "quantity": 115.0,
+    "unitOfMeasure": "un",
+    "price": 19.99,
+    "pricePerWeight": 0.1738260869565217,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pharmacy/vitamins-supplements-dietary-products/adult-multivitamins/complete-multivitamins/p/064642098931",
+    "createdAt": "2025-02-02T19:33:44.031Z"
+},
+{
+    "name": "Complete Multivitamins For Men",
+    "quantity": 115.0,
+    "unitOfMeasure": "un",
+    "price": 19.99,
+    "pricePerWeight": 0.1738260869565217,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pharmacy/vitamins-supplements-dietary-products/adult-multivitamins/complete-multivitamins-for-men/p/064642098900",
+    "createdAt": "2025-02-02T19:33:44.067Z"
+},
+{
+    "name": "Complete Multivitamins For Men 50+",
+    "quantity": 115.0,
+    "unitOfMeasure": "un",
+    "price": 19.99,
+    "pricePerWeight": 0.1738260869565217,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pharmacy/vitamins-supplements-dietary-products/adult-multivitamins/complete-multivitamins-for-men-50/p/064642098962",
+    "createdAt": "2025-02-02T19:33:44.102Z"
+},
+{
+    "name": "Multivitamin For Women",
+    "quantity": 115.0,
+    "unitOfMeasure": "un",
+    "price": 19.99,
+    "pricePerWeight": 0.1738260869565217,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pharmacy/vitamins-supplements-dietary-products/adult-multivitamins/multivitamin-for-women/p/064642098887",
+    "createdAt": "2025-02-02T19:33:44.136Z"
+},
+{
+    "name": "Complete Multivitamins For Adults, Essentials",
+    "quantity": 115.0,
+    "unitOfMeasure": "un",
+    "price": 19.99,
+    "pricePerWeight": 0.1738260869565217,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pharmacy/vitamins-supplements-dietary-products/adult-multivitamins/complete-multivitamins-for-adults/p/064642098924",
+    "createdAt": "2025-02-02T19:33:44.171Z"
+},
+{
+    "name": "Chewable Complete Multivitamins For Adults",
+    "quantity": 80.0,
+    "unitOfMeasure": "un",
+    "price": 19.99,
+    "pricePerWeight": 0.24987499999999999,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pharmacy/vitamins-supplements-dietary-products/adult-multivitamins/chewable-complete-multivitamins-for-adults/p/064642099006",
+    "createdAt": "2025-02-02T19:33:44.205Z"
+},
+{
+    "name": "Cranberry And Apple Flavoured Multivitamins",
+    "quantity": 60.0,
+    "unitOfMeasure": "un",
+    "price": 23.99,
+    "pricePerWeight": 0.3998333333333333,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pharmacy/vitamins-supplements-dietary-products/adult-multivitamins/cranberry-and-apple-flavoured-multivitamins/p/064642079879",
+    "createdAt": "2025-02-02T19:33:44.239Z"
+},
+{
+    "name": "Multivitamins, Prenatal",
+    "quantity": 100.0,
+    "unitOfMeasure": "un",
+    "price": 23.99,
+    "pricePerWeight": 0.23989999999999997,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pharmacy/vitamins-supplements-dietary-products/adult-multivitamins/multivitamins/p/064642026668",
+    "createdAt": "2025-02-02T19:33:44.275Z"
+},
+{
+    "name": "Pre And Postnatal Multivitamins With DHA, Prenatal",
+    "quantity": 60.0,
+    "unitOfMeasure": "un",
+    "price": 23.99,
+    "pricePerWeight": 0.3998333333333333,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pharmacy/vitamins-supplements-dietary-products/adult-multivitamins/pre-and-postnatal-multivitamins-with-dha/p/064642076144",
+    "createdAt": "2025-02-02T19:33:44.310Z"
+},
+{
+    "name": "Texas Toast-Style Sliced White Bread",
+    "quantity": 675.0,
+    "unitOfMeasure": "g",
+    "price": 3.0,
+    "pricePerWeight": 0.0044444444444444444,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/bread-bakery-products/packaged-bread/whole-wheat-grain/texas-toast-style-sliced-white-bread/p/068721720881",
+    "createdAt": "2025-02-02T19:34:08.691Z"
+},
+{
+    "name": "White Sliced Bread",
+    "quantity": 675.0,
+    "unitOfMeasure": "g",
+    "price": 3.0,
+    "pricePerWeight": 0.0044444444444444444,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/bread-bakery-products/packaged-bread/white/white-sliced-bread/p/068721002222",
+    "createdAt": "2025-02-02T19:34:08.727Z"
+},
+{
+    "name": "White Thin Sandwich Bread",
+    "quantity": 675.0,
+    "unitOfMeasure": "g",
+    "price": 3.0,
+    "pricePerWeight": 0.0044444444444444444,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/bread-bakery-products/buns-rolls/sandwich-breads/white-thin-sandwich-bread/p/068721720867",
+    "createdAt": "2025-02-02T19:34:08.763Z"
+},
+{
+    "name": "Extra Soft Sausage Buns, Toscana",
+    "quantity": 6.0,
+    "unitOfMeasure": "un",
+    "price": 2.47,
+    "pricePerWeight": 0.4116666666666667,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/bread-bakery-products/buns-rolls/hot-dog-hamburger/extra-soft-sausage-buns/p/068721203537",
+    "createdAt": "2025-02-02T19:44:44.194Z"
+},
+{
+    "name": "Extra Soft Hamburger Buns, Toscana",
+    "quantity": 8.0,
+    "unitOfMeasure": "un",
+    "price": 2.47,
+    "pricePerWeight": 0.30875,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/bread-bakery-products/buns-rolls/hot-dog-hamburger/extra-soft-hamburger-buns/p/068721203520",
+    "createdAt": "2025-02-02T19:44:44.226Z"
+},
+{
+    "name": "Sausage Buns",
+    "quantity": 6.0,
+    "unitOfMeasure": "un",
+    "price": 2.47,
+    "pricePerWeight": 0.4116666666666667,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/bread-bakery-products/buns-rolls/hot-dog-hamburger/sausage-buns/p/068721003533",
+    "createdAt": "2025-02-02T19:44:44.259Z"
+},
+{
+    "name": "Hamburger Buns",
+    "quantity": 8.0,
+    "unitOfMeasure": "un",
+    "price": 2.47,
+    "pricePerWeight": 0.30875,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/bread-bakery-products/buns-rolls/hot-dog-hamburger/hamburger-buns/p/068721003526",
+    "createdAt": "2025-02-02T19:44:44.291Z"
+},
+{
+    "name": "Hamburger Buns",
+    "quantity": 480.0,
+    "unitOfMeasure": "g",
+    "price": 2.49,
+    "pricePerWeight": 0.0051875,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/bread-bakery-products/buns-rolls/hot-dog-hamburger/hamburger-buns/p/622810123405",
+    "createdAt": "2025-02-02T19:44:44.323Z"
+},
+{
+    "name": "Hot Dog Buns",
+    "quantity": 480.0,
+    "unitOfMeasure": "g",
+    "price": 2.49,
+    "pricePerWeight": 0.0051875,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/bread-bakery-products/buns-rolls/hot-dog-hamburger/hot-dog-buns/p/622810121500",
+    "createdAt": "2025-02-02T19:44:44.355Z"
+},
+{
+    "name": "Hamburger Buns",
+    "quantity": 8.0,
+    "unitOfMeasure": "un",
+    "price": 2.79,
+    "pricePerWeight": 0.34875,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/bread-bakery-products/buns-rolls/hot-dog-hamburger/hamburger-buns/p/059749898430",
+    "createdAt": "2025-02-02T19:44:44.388Z"
+},
+{
+    "name": "Hot Dog Buns",
+    "quantity": 8.0,
+    "unitOfMeasure": "un",
+    "price": 2.79,
+    "pricePerWeight": 0.34875,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/bread-bakery-products/buns-rolls/hot-dog-hamburger/hot-dog-buns/p/059749898447",
+    "createdAt": "2025-02-02T19:44:44.420Z"
+},
+{
+    "name": "Mammoth Hamburger Buns With Sesame Seeds",
+    "quantity": 8.0,
+    "unitOfMeasure": "buns",
+    "price": 3.49,
+    "pricePerWeight": 0.43625,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/bread-bakery-products/buns-rolls/hot-dog-hamburger/mammoth-hamburger-buns-with-sesame-seeds/p/059749898539",
+    "createdAt": "2025-02-02T19:44:44.453Z"
+},
+{
+    "name": "Hot Dog Buns",
+    "quantity": 8.0,
+    "unitOfMeasure": "un",
+    "price": 3.0,
+    "pricePerWeight": 0.375,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/bread-bakery-products/buns-rolls/hot-dog-hamburger/hot-dog-buns/p/068721008033",
+    "createdAt": "2025-02-02T19:44:44.486Z"
+},
+{
+    "name": "Hamburger Buns",
+    "quantity": 8.0,
+    "unitOfMeasure": "un",
+    "price": 3.0,
+    "pricePerWeight": 0.375,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/bread-bakery-products/buns-rolls/hot-dog-hamburger/hamburger-buns/p/068721008026",
+    "createdAt": "2025-02-02T19:44:44.518Z"
+},
+{
+    "name": "Brioche Hot Dog Buns",
+    "quantity": 385.0,
+    "unitOfMeasure": "g",
+    "price": 3.99,
+    "pricePerWeight": 0.010363636363636365,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/bread-bakery-products/buns-rolls/hot-dog-hamburger/brioche-hot-dog-buns/p/059749974509",
+    "createdAt": "2025-02-02T19:44:44.550Z"
+},
+{
+    "name": "Flakes Of Chicken",
+    "quantity": 156.0,
+    "unitOfMeasure": "g",
+    "price": 3.49,
+    "pricePerWeight": 0.022371794871794873,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/meats/flakes-of-chicken/p/063100231545",
+    "createdAt": "2025-02-02T23:40:32.659Z"
+},
+{
+    "name": "Wieners, Natural Top Dogs",
+    "quantity": 375.0,
+    "unitOfMeasure": "g",
+    "price": 6.49,
+    "pricePerWeight": 0.017306666666666668,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/meat-poultry/sausages-bacon/sausages-hot-dogs/wieners/p/063100000431",
+    "createdAt": "2025-02-02T23:40:32.691Z"
+},
+{
+    "name": "Oven Roasted Turkey Breast, Natural Selections",
+    "quantity": 175.0,
+    "unitOfMeasure": "g",
+    "price": 7.69,
+    "pricePerWeight": 0.043942857142857145,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/deli-prepared-meals/deli-meats/turkey-chicken/oven-roasted-turkey-breast/p/063100108731",
+    "createdAt": "2025-02-02T23:40:32.724Z"
+},
+{
+    "name": "Shaved Hickory Smoked Turkey Breast, Natural Selections",
+    "quantity": 175.0,
+    "unitOfMeasure": "g",
+    "price": 7.69,
+    "pricePerWeight": 0.043942857142857145,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/deli-prepared-meals/deli-meats/turkey-chicken/shaved-hickory-smoked-turkey-breast/p/063100208707",
+    "createdAt": "2025-02-02T23:40:32.756Z"
+},
+{
+    "name": "Shaved Hickory Smoked Chicken Breast",
+    "quantity": 175.0,
+    "unitOfMeasure": "g",
+    "price": 7.69,
+    "pricePerWeight": 0.043942857142857145,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/deli-prepared-meals/deli-meats/turkey-chicken/shaved-hickory-smoked-chicken-breast/p/063100208752",
+    "createdAt": "2025-02-02T23:40:32.788Z"
+},
+{
+    "name": "Oven Roasted Chicken Breast, Natural Selections",
+    "quantity": 175.0,
+    "unitOfMeasure": "g",
+    "price": 7.69,
+    "pricePerWeight": 0.043942857142857145,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/deli-prepared-meals/deli-meats/turkey-chicken/oven-roasted-chicken-breast/p/063100108748",
+    "createdAt": "2025-02-02T23:40:32.820Z"
+},
+{
+    "name": "Flakes Of Chicken",
+    "quantity": 156.0,
+    "unitOfMeasure": "g",
+    "price": 3.49,
+    "pricePerWeight": 0.022371794871794873,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/meats/flakes-of-chicken/p/063100231545",
+    "createdAt": "2025-02-02T23:40:32.659Z"
+},
+{
+    "name": "Wieners, Natural Top Dogs",
+    "quantity": 375.0,
+    "unitOfMeasure": "g",
+    "price": 6.49,
+    "pricePerWeight": 0.017306666666666668,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/meat-poultry/sausages-bacon/sausages-hot-dogs/wieners/p/063100000431",
+    "createdAt": "2025-02-02T23:40:32.691Z"
+},
+{
+    "name": "Oven Roasted Turkey Breast, Natural Selections",
+    "quantity": 175.0,
+    "unitOfMeasure": "g",
+    "price": 7.69,
+    "pricePerWeight": 0.043942857142857145,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/deli-prepared-meals/deli-meats/turkey-chicken/oven-roasted-turkey-breast/p/063100108731",
+    "createdAt": "2025-02-02T23:40:32.724Z"
+},
+{
+    "name": "Shaved Hickory Smoked Turkey Breast, Natural Selections",
+    "quantity": 175.0,
+    "unitOfMeasure": "g",
+    "price": 7.69,
+    "pricePerWeight": 0.043942857142857145,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/deli-prepared-meals/deli-meats/turkey-chicken/shaved-hickory-smoked-turkey-breast/p/063100208707",
+    "createdAt": "2025-02-02T23:40:32.756Z"
+},
+{
+    "name": "Shaved Hickory Smoked Chicken Breast",
+    "quantity": 175.0,
+    "unitOfMeasure": "g",
+    "price": 7.69,
+    "pricePerWeight": 0.043942857142857145,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/deli-prepared-meals/deli-meats/turkey-chicken/shaved-hickory-smoked-chicken-breast/p/063100208752",
+    "createdAt": "2025-02-02T23:40:32.788Z"
+},
+{
+    "name": "Oven Roasted Chicken Breast, Natural Selections",
+    "quantity": 175.0,
+    "unitOfMeasure": "g",
+    "price": 7.69,
+    "pricePerWeight": 0.043942857142857145,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/deli-prepared-meals/deli-meats/turkey-chicken/oven-roasted-chicken-breast/p/063100108748",
+    "createdAt": "2025-02-02T23:40:32.820Z"
+},
+{
+    "name": "Flakes Of Chicken",
+    "quantity": 156.0,
+    "unitOfMeasure": "g",
+    "price": 3.49,
+    "pricePerWeight": 0.022371794871794873,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/meats/flakes-of-chicken/p/063100231545",
+    "createdAt": "2025-02-02T23:40:32.659Z"
+},
+{
+    "name": "Wieners, Natural Top Dogs",
+    "quantity": 375.0,
+    "unitOfMeasure": "g",
+    "price": 6.49,
+    "pricePerWeight": 0.017306666666666668,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/meat-poultry/sausages-bacon/sausages-hot-dogs/wieners/p/063100000431",
+    "createdAt": "2025-02-02T23:40:32.691Z"
+},
+{
+    "name": "Oven Roasted Turkey Breast, Natural Selections",
+    "quantity": 175.0,
+    "unitOfMeasure": "g",
+    "price": 7.69,
+    "pricePerWeight": 0.043942857142857145,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/deli-prepared-meals/deli-meats/turkey-chicken/oven-roasted-turkey-breast/p/063100108731",
+    "createdAt": "2025-02-02T23:40:32.724Z"
+},
+{
+    "name": "Shaved Hickory Smoked Turkey Breast, Natural Selections",
+    "quantity": 175.0,
+    "unitOfMeasure": "g",
+    "price": 7.69,
+    "pricePerWeight": 0.043942857142857145,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/deli-prepared-meals/deli-meats/turkey-chicken/shaved-hickory-smoked-turkey-breast/p/063100208707",
+    "createdAt": "2025-02-02T23:40:32.756Z"
+},
+{
+    "name": "Shaved Hickory Smoked Chicken Breast",
+    "quantity": 175.0,
+    "unitOfMeasure": "g",
+    "price": 7.69,
+    "pricePerWeight": 0.043942857142857145,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/deli-prepared-meals/deli-meats/turkey-chicken/shaved-hickory-smoked-chicken-breast/p/063100208752",
+    "createdAt": "2025-02-02T23:40:32.788Z"
+},
+{
+    "name": "Oven Roasted Chicken Breast, Natural Selections",
+    "quantity": 175.0,
+    "unitOfMeasure": "g",
+    "price": 7.69,
+    "pricePerWeight": 0.043942857142857145,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/deli-prepared-meals/deli-meats/turkey-chicken/oven-roasted-chicken-breast/p/063100108748",
+    "createdAt": "2025-02-02T23:40:32.820Z"
+},
+{
+    "name": "Shredded Cooked Chicken",
+    "quantity": 250.0,
+    "unitOfMeasure": "g",
+    "price": 8.99,
+    "pricePerWeight": 0.03596,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/deli-prepared-meals/deli-meats/turkey-chicken/shredded-cooked-chicken/p/063100286408",
+    "createdAt": "2025-02-02T23:40:33.244Z"
+},
+{
+    "name": "BBQ Seasoned Shredded Cooked Chicken",
+    "quantity": 250.0,
+    "unitOfMeasure": "g",
+    "price": 8.99,
+    "pricePerWeight": 0.03596,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/deli-prepared-meals/ready-meals-sides/meat-meals/bbq-seasoned-shredded-cooked-chicken/p/063100135454",
+    "createdAt": "2025-02-02T23:40:33.284Z"
+},
+{
+    "name": "Flakes Of Chicken",
+    "quantity": 156.0,
+    "unitOfMeasure": "g",
+    "price": 3.49,
+    "pricePerWeight": 0.022371794871794873,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/meats/flakes-of-chicken/p/063100231545",
+    "createdAt": "2025-02-02T23:40:32.659Z"
+},
+{
+    "name": "Wieners, Natural Top Dogs",
+    "quantity": 375.0,
+    "unitOfMeasure": "g",
+    "price": 6.49,
+    "pricePerWeight": 0.017306666666666668,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/meat-poultry/sausages-bacon/sausages-hot-dogs/wieners/p/063100000431",
+    "createdAt": "2025-02-02T23:40:32.691Z"
+},
+{
+    "name": "Oven Roasted Turkey Breast, Natural Selections",
+    "quantity": 175.0,
+    "unitOfMeasure": "g",
+    "price": 7.69,
+    "pricePerWeight": 0.043942857142857145,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/deli-prepared-meals/deli-meats/turkey-chicken/oven-roasted-turkey-breast/p/063100108731",
+    "createdAt": "2025-02-02T23:40:32.724Z"
+},
+{
+    "name": "Shaved Hickory Smoked Turkey Breast, Natural Selections",
+    "quantity": 175.0,
+    "unitOfMeasure": "g",
+    "price": 7.69,
+    "pricePerWeight": 0.043942857142857145,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/deli-prepared-meals/deli-meats/turkey-chicken/shaved-hickory-smoked-turkey-breast/p/063100208707",
+    "createdAt": "2025-02-02T23:40:32.756Z"
+},
+{
+    "name": "Shaved Hickory Smoked Chicken Breast",
+    "quantity": 175.0,
+    "unitOfMeasure": "g",
+    "price": 7.69,
+    "pricePerWeight": 0.043942857142857145,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/deli-prepared-meals/deli-meats/turkey-chicken/shaved-hickory-smoked-chicken-breast/p/063100208752",
+    "createdAt": "2025-02-02T23:40:32.788Z"
+},
+{
+    "name": "Oven Roasted Chicken Breast, Natural Selections",
+    "quantity": 175.0,
+    "unitOfMeasure": "g",
+    "price": 7.69,
+    "pricePerWeight": 0.043942857142857145,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/deli-prepared-meals/deli-meats/turkey-chicken/oven-roasted-chicken-breast/p/063100108748",
+    "createdAt": "2025-02-02T23:40:32.820Z"
+},
+{
+    "name": "Shredded Cooked Chicken",
+    "quantity": 250.0,
+    "unitOfMeasure": "g",
+    "price": 8.99,
+    "pricePerWeight": 0.03596,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/deli-prepared-meals/deli-meats/turkey-chicken/shredded-cooked-chicken/p/063100286408",
+    "createdAt": "2025-02-02T23:40:33.244Z"
+},
+{
+    "name": "BBQ Seasoned Shredded Cooked Chicken",
+    "quantity": 250.0,
+    "unitOfMeasure": "g",
+    "price": 8.99,
+    "pricePerWeight": 0.03596,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/deli-prepared-meals/ready-meals-sides/meat-meals/bbq-seasoned-shredded-cooked-chicken/p/063100135454",
+    "createdAt": "2025-02-02T23:40:33.284Z"
+},
+{
+    "name": "Flakes Of Chicken",
+    "quantity": 156.0,
+    "unitOfMeasure": "g",
+    "price": 3.49,
+    "pricePerWeight": 0.022371794871794873,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/meats/flakes-of-chicken/p/063100231545",
+    "createdAt": "2025-02-02T23:40:32.659Z"
+},
+{
+    "name": "Wieners, Natural Top Dogs",
+    "quantity": 375.0,
+    "unitOfMeasure": "g",
+    "price": 6.49,
+    "pricePerWeight": 0.017306666666666668,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/meat-poultry/sausages-bacon/sausages-hot-dogs/wieners/p/063100000431",
+    "createdAt": "2025-02-02T23:40:32.691Z"
+},
+{
+    "name": "Oven Roasted Turkey Breast, Natural Selections",
+    "quantity": 175.0,
+    "unitOfMeasure": "g",
+    "price": 7.69,
+    "pricePerWeight": 0.043942857142857145,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/deli-prepared-meals/deli-meats/turkey-chicken/oven-roasted-turkey-breast/p/063100108731",
+    "createdAt": "2025-02-02T23:40:32.724Z"
+},
+{
+    "name": "Shaved Hickory Smoked Turkey Breast, Natural Selections",
+    "quantity": 175.0,
+    "unitOfMeasure": "g",
+    "price": 7.69,
+    "pricePerWeight": 0.043942857142857145,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/deli-prepared-meals/deli-meats/turkey-chicken/shaved-hickory-smoked-turkey-breast/p/063100208707",
+    "createdAt": "2025-02-02T23:40:32.756Z"
+},
+{
+    "name": "Shaved Hickory Smoked Chicken Breast",
+    "quantity": 175.0,
+    "unitOfMeasure": "g",
+    "price": 7.69,
+    "pricePerWeight": 0.043942857142857145,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/deli-prepared-meals/deli-meats/turkey-chicken/shaved-hickory-smoked-chicken-breast/p/063100208752",
+    "createdAt": "2025-02-02T23:40:32.788Z"
+},
+{
+    "name": "Oven Roasted Chicken Breast, Natural Selections",
+    "quantity": 175.0,
+    "unitOfMeasure": "g",
+    "price": 7.69,
+    "pricePerWeight": 0.043942857142857145,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/deli-prepared-meals/deli-meats/turkey-chicken/oven-roasted-chicken-breast/p/063100108748",
+    "createdAt": "2025-02-02T23:40:32.820Z"
+},
+{
+    "name": "Shredded Cooked Chicken",
+    "quantity": 250.0,
+    "unitOfMeasure": "g",
+    "price": 8.99,
+    "pricePerWeight": 0.03596,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/deli-prepared-meals/deli-meats/turkey-chicken/shredded-cooked-chicken/p/063100286408",
+    "createdAt": "2025-02-02T23:40:33.244Z"
+},
+{
+    "name": "BBQ Seasoned Shredded Cooked Chicken",
+    "quantity": 250.0,
+    "unitOfMeasure": "g",
+    "price": 8.99,
+    "pricePerWeight": 0.03596,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/deli-prepared-meals/ready-meals-sides/meat-meals/bbq-seasoned-shredded-cooked-chicken/p/063100135454",
+    "createdAt": "2025-02-02T23:40:33.284Z"
+},
+{
+    "name": "Cooked Rotisserie Chicken Legs",
+    "quantity": 600.0,
+    "unitOfMeasure": "g",
+    "price": 9.99,
+    "pricePerWeight": 0.01665,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/deli-prepared-meals/ready-meals-sides/meat-meals/cooked-rotisserie-chicken-legs/p/063100202033",
+    "createdAt": "2025-02-02T23:40:33.658Z"
+},
+{
+    "name": "Flakes Of Chicken",
+    "quantity": 156.0,
+    "unitOfMeasure": "g",
+    "price": 3.49,
+    "pricePerWeight": 0.022371794871794873,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/pantry/canned-jarred/meats/flakes-of-chicken/p/063100231545",
+    "createdAt": "2025-02-02T23:40:32.659Z"
+},
+{
+    "name": "Wieners, Natural Top Dogs",
+    "quantity": 375.0,
+    "unitOfMeasure": "g",
+    "price": 6.49,
+    "pricePerWeight": 0.017306666666666668,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/meat-poultry/sausages-bacon/sausages-hot-dogs/wieners/p/063100000431",
+    "createdAt": "2025-02-02T23:40:32.691Z"
+},
+{
+    "name": "Oven Roasted Turkey Breast, Natural Selections",
+    "quantity": 175.0,
+    "unitOfMeasure": "g",
+    "price": 7.69,
+    "pricePerWeight": 0.043942857142857145,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/deli-prepared-meals/deli-meats/turkey-chicken/oven-roasted-turkey-breast/p/063100108731",
+    "createdAt": "2025-02-02T23:40:32.724Z"
+},
+{
+    "name": "Shaved Hickory Smoked Turkey Breast, Natural Selections",
+    "quantity": 175.0,
+    "unitOfMeasure": "g",
+    "price": 7.69,
+    "pricePerWeight": 0.043942857142857145,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/deli-prepared-meals/deli-meats/turkey-chicken/shaved-hickory-smoked-turkey-breast/p/063100208707",
+    "createdAt": "2025-02-02T23:40:32.756Z"
+},
+{
+    "name": "Shaved Hickory Smoked Chicken Breast",
+    "quantity": 175.0,
+    "unitOfMeasure": "g",
+    "price": 7.69,
+    "pricePerWeight": 0.043942857142857145,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/deli-prepared-meals/deli-meats/turkey-chicken/shaved-hickory-smoked-chicken-breast/p/063100208752",
+    "createdAt": "2025-02-02T23:40:32.788Z"
+},
+{
+    "name": "Oven Roasted Chicken Breast, Natural Selections",
+    "quantity": 175.0,
+    "unitOfMeasure": "g",
+    "price": 7.69,
+    "pricePerWeight": 0.043942857142857145,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/deli-prepared-meals/deli-meats/turkey-chicken/oven-roasted-chicken-breast/p/063100108748",
+    "createdAt": "2025-02-02T23:40:32.820Z"
+},
+{
+    "name": "Shredded Cooked Chicken",
+    "quantity": 250.0,
+    "unitOfMeasure": "g",
+    "price": 8.99,
+    "pricePerWeight": 0.03596,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/deli-prepared-meals/deli-meats/turkey-chicken/shredded-cooked-chicken/p/063100286408",
+    "createdAt": "2025-02-02T23:40:33.244Z"
+},
+{
+    "name": "BBQ Seasoned Shredded Cooked Chicken",
+    "quantity": 250.0,
+    "unitOfMeasure": "g",
+    "price": 8.99,
+    "pricePerWeight": 0.03596,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/deli-prepared-meals/ready-meals-sides/meat-meals/bbq-seasoned-shredded-cooked-chicken/p/063100135454",
+    "createdAt": "2025-02-02T23:40:33.284Z"
+},
+{
+    "name": "Cooked Rotisserie Chicken Legs",
+    "quantity": 600.0,
+    "unitOfMeasure": "g",
+    "price": 9.99,
+    "pricePerWeight": 0.01665,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/deli-prepared-meals/ready-meals-sides/meat-meals/cooked-rotisserie-chicken-legs/p/063100202033",
+    "createdAt": "2025-02-02T23:40:33.658Z"
+},
+{
+    "name": "Shaved Oven Roasted Chicken Breast Value Pack, Natur...",
+    "quantity": 375.0,
+    "unitOfMeasure": "g",
+    "price": 13.49,
+    "pricePerWeight": 0.035973333333333336,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/deli-prepared-meals/deli-meats/turkey-chicken/shaved-oven-roasted-chicken-breast-value-pack/p/063100107369",
+    "createdAt": "2025-02-02T23:40:33.876Z"
+},
+{
+    "name": "Shaved Oven Roasted Turkey Breast Value Pack, Natura...",
+    "quantity": 375.0,
+    "unitOfMeasure": "g",
+    "price": 13.49,
+    "pricePerWeight": 0.035973333333333336,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/deli-prepared-meals/deli-meats/turkey-chicken/shaved-oven-roasted-turkey-breast-value-pack/p/063100107345",
+    "createdAt": "2025-02-02T23:40:33.956Z"
+},
+{
+    "name": "Shaved Hickory Smoked Turkey Breast Value Pack, Natu...",
+    "quantity": 375.0,
+    "unitOfMeasure": "g",
+    "price": 13.49,
+    "pricePerWeight": 0.035973333333333336,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/deli-prepared-meals/deli-meats/turkey-chicken/shaved-hickory-smoked-turkey-breast-value-pack/p/063100328795",
+    "createdAt": "2025-02-02T23:40:33.990Z"
+},
+{
+    "name": "Whole Chicken Raised Without Antibiotics, Prime",
+    "quantity": 1.0,
+    "unitOfMeasure": "per",
+    "price": 17.6,
+    "pricePerWeight": 17.6,
+    "referenceUrl": "https://www.foodbasics.ca/aisles/meat-poultry/chicken-turkey/whole-roasting/whole-chicken-raised-without-antibiotics/p/236311",
+    "createdAt": "2025-02-02T23:40:34.023Z"
+},
