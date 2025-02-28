@@ -87,7 +87,7 @@ model ProductPriceProof {
   referenceUrl      String?
   screenshot        String?
   createdAt         DateTime? @default(now())
-  validated         Boolean @default(false)
+  validated         Boolean?
   validatedAt       DateTime?
   referenceItemId   Int?
   referenceItem     ReferenceItem? @relation(fields: [referenceItemId], references: [id])

@@ -16,17 +16,20 @@ export default function ReviewPage() {
     try {
       const response = await fetch('/api/price-proofs');
       const data = await response.json();
-      console.log(data);
       setProofs(data);
     } catch (error) {
       console.error('Error fetching proofs:', error);
     }
   };
 
-  const handleValidate = async (proofId: string) => {
+  const handleValidate = async (proofId: string, validated: boolean) => {
     try {
       const response = await fetch(`/api/price-proofs/${proofId}/validate`, {
         method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ validated }),
       });
       if (response.ok) {
         // Refresh the list after validation
@@ -41,8 +44,8 @@ export default function ReviewPage() {
     <div className="container mx-auto p-6">
       <h1 className="text-2xl font-bold mb-6">Review Price Proofs</h1>
       <div className="grid gap-6">
-        {proofs.map((proof) => (
-          <div key={proof.id} className="border rounded-lg p-4 shadow-sm">
+        {proofs.filter(proof => proof.validated === null).map((proof) => (
+          <div key={proof.id} className="border rounded-lg p-4 shadow-sm bg-white">
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
               <div>
                 <h3 className="font-semibold">Product Name</h3>
@@ -67,7 +70,7 @@ export default function ReviewPage() {
                   View Source
                 </a>
                 <h3 className="font-semibold mt-2">Reference Item</h3>
-                <p>{proof.referenceItem?.name}</p>
+                <p>{proof.referenceItem?.name} ({proof.referenceItemId})</p>
               </div>
               <div>
                 <h3 className="font-semibold">Created At</h3>
@@ -91,10 +94,16 @@ export default function ReviewPage() {
             
             <div className="mt-4">
               <Button
-                onClick={() => handleValidate(proof.id)}
+                onClick={() => handleValidate(proof.id, true)}
                 className="bg-green-600 hover:bg-green-700 text-white"
               >
                 Validate
+              </Button>
+              <Button
+                onClick={() => handleValidate(proof.id, false)}
+                className="bg-red-600 hover:bg-red-700 text-white"
+              >
+                Reject
               </Button>
             </div>
           </div>
