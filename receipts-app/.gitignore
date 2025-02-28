@@ -40,3 +40,4 @@ next-env.d.ts
 */venv/*
 public/uploads/*
 prisma/dev.db
+public/screenshots/*
