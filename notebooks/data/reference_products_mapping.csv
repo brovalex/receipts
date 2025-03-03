@@ -1,7 +1,7 @@
 id,name,product_name
 1,BBQ Sauce,Kraft BBQ Sauce
 2,Beans,Canned black beans
-3,Bouillon cubes,Knorr Chicken Bouillon
+3,Bouillon cubes,Bouillon Cubes
 4,Candy,Maynards Swedish Berries
 5,Cereal,Corn flakes cereal
 6,Chia seeds,Bulk Chia Seeds
@@ -20,42 +20,42 @@ id,name,product_name
 19,Mac and cheese,Kraft Dinner
 20,Milk,Milk
 21,Misc,Bread loaf
-22,Noodles,Mr. Noodles Instant Noodles
-23,Oats,Quaker Oats
-24,Pasta,Catelli Pasta
-25,Pasta sauce,Classico Tomato Basil
-26,Peanut butter,Kraft Peanut Butter
-27,Rice,Uncle Ben's Converted Rice
-28,Salsa,Old El Paso Salsa
-29,Spices,Club House Spices
-30,Spread,Nutella Hazelnut Spread
-31,Vitamins,Jamieson Multivitamins
-32,Bread,Dempster's White Bread
-33,Hot dog buns,Wonder Hot Dog Buns
-35,Chicken nuggets,Jane's Chicken Nuggets
-36,English muffins,Dempster's English Muffins
+22,Noodles,Instant Noodles
+23,Oats,Instant Oats
+24,Pasta,Pasta
+25,Pasta sauce,Pasta Sauce
+26,Peanut butter,Peanut Butter
+27,Rice,Rice
+28,Salsa,Salsa
+29,Spices,Spices
+30,Spread,Hazelnut Spread
+31,Vitamins,Multivitamins
+32,Bread,White Bread
+33,Hot dog buns,Hot Dog Buns
+35,Chicken nuggets,Chicken Nuggets
+36,English muffins,English Muffins
 37,Spring Rolls,Frozen Spring Rolls
-38,Waffles,Eggo Waffles
-39,Nuts,Planters Mixed Nuts
-40,Hot dogs saussages,Maple Leaf Hot Dogs
+38,Waffles,Waffles
+39,Nuts,Mixed Nuts
+40,Hot dogs saussages,Hot Dogs
 41,Pizza crust,Pizza Crust
 42,Marshmallows,Marshmallows
 43,Cooking Oil,Vegetable Oil
 44,Sugar,Granulated Sugar
 45,Baked good,Muffins
 47,Salad dressing,Salad Dressing
-48,Dates,Bulk Medjool Dates
-49,Bagels,Dempster's Bagels
-50,Soup,Campbell's Chicken Noodle Soup
-51,Prepared meal (mac and cheese),Kraft Dinner Cups
+48,Dates,Medjool Dates
+49,Bagels,Bagels
+50,Soup,Canned Soup
+51,Prepared meal (mac and cheese),Frozen meal
 52,Cupcake,Cupcakes
-53,Pie,Frozen Apple Pie
-54,Seasoned meat,Maple Leaf Seasoned Chicken
+53,Pie,Frozen Pie
+54,Seasoned meat,Seasoned Chicken
 55,Tortillas wraps,Tortillas
 56,Poutine,Frozen Poutine
-57,Ice cream,Vanilla Ice Cream
-58,Cold cuts deli meats,Maple Leaf Cold Cuts
-59,Cake,Store-Baked Cake
+57,Ice cream,Ice Cream
+58,Cold cuts deli meats,Cold Cuts
+59,Cake,Cake
 60,Frozen Pizza,Frozen Pizza
 61,Tofu tempeh,Tofu
 62,Pogos,Pogos
