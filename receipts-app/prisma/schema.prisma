@@ -74,6 +74,7 @@ model ReferenceItem {
   createdAt      DateTime  @default(now())
   updatedAt      DateTime  @updatedAt
   products       Product[]
+  productPriceProofs ProductPriceProof[]
 }
 
 model ProductPriceProof {
@@ -83,8 +84,11 @@ model ProductPriceProof {
   unitOfMeasure     String?
   price             Float?
   pricePerWeight    Float?
-  referenceURL      String?
+  referenceUrl      String?
   screenshot        String?
-  createdAt         String?
-  reference_item_id Int?
+  createdAt         DateTime? @default(now())
+  validated         Boolean?
+  validatedAt       DateTime?
+  referenceItemId   Int?
+  referenceItem     ReferenceItem? @relation(fields: [referenceItemId], references: [id])
 }
