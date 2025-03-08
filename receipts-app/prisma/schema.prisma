@@ -80,7 +80,7 @@ model ReferenceItem {
 model ProductPriceProof {
   id                Int     @id @default(autoincrement())
   name              String?
-  quantity          String?
+  quantity          Float?
   unitOfMeasure     String?
   price             Float?
   pricePerWeight    Float?
