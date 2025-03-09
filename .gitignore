@@ -1,5 +1,6 @@
 .DS_Store
 ./screenshots/*
-./data/
+/data/
+/data/*
 __pycache__/
 tmp/
