@@ -2,3 +2,4 @@
 ./screenshots/*
 ./data/
 __pycache__/
+tmp/

@@ -1,7 +1,8 @@
+import os
 import pandas as pd
 import time
 import random
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import List, Optional
 
@@ -13,9 +14,9 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
 
-from .models import ScrapedProduct
+from models import ScrapedProduct
 # from .database import get_db
-from .config import SCREENSHOT_DIR, MIN_DELAY, MAX_DELAY
+from config import SCREENSHOT_DIR, MIN_DELAY, MAX_DELAY
 
 class PriceScraper:
     def __init__(self, mapping_file: str):
@@ -23,7 +24,7 @@ class PriceScraper:
         Path(SCREENSHOT_DIR).mkdir(parents=True, exist_ok=True)
     
     # Helper functions
-    def get_url(query, domain="https://www.foodbasics.ca"):
+    def get_url(self, query, domain="https://www.foodbasics.ca"):
         """
         Format the query to be used in the URL
         """
@@ -31,17 +32,17 @@ class PriceScraper:
         website=domain+f"/search?sortOrder=price-asc&filter={query}"
         return website
     
-    def get_cheapest(items):
+    def get_cheapest(self, items):
         """
         Get the cheapest item from a list of items
         """
-        print(f"Getting cheapest of len(items) item(s):")
+        print(f"Getting cheapest of {len(items)} item(s):")
         sorted_items = sorted([item for item in items if item['pricePerWeight'] is not None], key=lambda x: x['pricePerWeight'])
         cheapest = sorted_items[0]
         print(cheapest)
         return cheapest
 
-    def clean_up_item(scraped_item: dict) -> dict:
+    def clean_up_item(self, scraped_item: dict) -> dict:
         """
         Clean up the item response to be used in the database
         """
@@ -83,9 +84,14 @@ class PriceScraper:
         chrome_options = Options()
         chrome_options.add_argument("--headless")
         chrome_options.add_argument("--window-size=1280x900")
+        chrome_options.add_argument("--no-sandbox")  # Added for running in Docker
+        chrome_options.add_argument("--disable-dev-shm-usage")  # Added for running in Docker
+        chrome_options.add_argument(f"--user-data-dir=/tmp/chrome-data-{random.randint(0, 999999)}")  # Use unique temp directory
         chrome_options.add_argument(f"user-agent='Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'")
         # Initialize the Chrome driver
         driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
+        # Set viewport size to match window size
+        driver.execute_cdp_cmd('Emulation.setDeviceMetricsOverride', {'width': 1280, 'height': 900, 'deviceScaleFactor': 1, 'mobile': False})
         return driver
 
     def remove_consent_banner(self, driver):
@@ -105,7 +111,7 @@ class PriceScraper:
         except Exception as e:
             print(f"Could not find or remove the consent div: {e}")
 
-    def save_screencapture(driver, save_path):
+    def save_screencapture(self, driver, save_path):
         # todo move to s3 bucket in the future
         os.makedirs('./screenshots', exist_ok=True)
         driver.save_screenshot(save_path)
@@ -117,7 +123,7 @@ class PriceScraper:
         time.sleep(5)  # Wait for the page to load
         self.remove_consent_banner(driver)
         timestamp = pd.Timestamp.now().strftime('%Y-%m-%d_%H-%M-%S')
-        filename = f'./screenshots/{reference_item_id}_{product_name_query}_{timestamp}.png'
+        filename = f'./tmp/screenshots/{reference_item_id}_{product_name_query}_{timestamp}.png'
         saved_file_name = self.save_screencapture(driver, filename)
         driver.quit()
         return saved_file_name
@@ -172,6 +178,7 @@ class PriceScraper:
                     'price_per_unit': secondary_price,
                     'url': product_url
                 })
+                print(clean_item)
                 items.append(clean_item)
             except Exception as e:
                 print(f"Error processing product: {e}")
@@ -196,3 +203,15 @@ class PriceScraper:
         screenshot_path = self.capture_proof(reference_item_id, product_name, target_product['referenceUrl'])
         target_product['screenshot'] = screenshot_path
         return self.save_product(target_product)
+
+if __name__ == "__main__":
+    test_mapping = pd.read_csv('tmp/test_mapping.csv')
+    # Initialize and test scraper
+    scraper = PriceScraper('tmp/test_mapping.csv')
+    
+    # Test scraping random product
+    random_row = test_mapping.sample(n=1).iloc[0]
+    print(f"\nTesting scrape for {random_row['product_name']}...")
+    success = scraper.scrape_product(random_row['id'])
+    print(f"Scrape {'successful' if success else 'failed'}")
+    # time.sleep(random.uniform(MIN_DELAY, MAX_DELAY))
