@@ -114,7 +114,7 @@ class PriceScraper:
 
     def save_screencapture(self, driver, save_path):
         # todo move to s3 bucket in the future
-        os.makedirs('./screenshots', exist_ok=True)
+        os.makedirs('/app/services/price_scraper/tmp/screenshots', exist_ok=True)
         driver.save_screenshot(save_path)
         return save_path
     
@@ -124,7 +124,7 @@ class PriceScraper:
         time.sleep(5)  # Wait for the page to load
         self.remove_consent_banner(driver)
         timestamp = pd.Timestamp.now().strftime('%Y-%m-%d_%H-%M-%S')
-        filename = f'./tmp/screenshots/{reference_item_id}_{product_name_query}_{timestamp}.png'
+        filename = f'/app/services/price_scraper/tmp/screenshots/{reference_item_id}_{product_name_query}_{timestamp}.png'
         saved_file_name = self.save_screencapture(driver, filename)
         driver.quit()
         return saved_file_name
