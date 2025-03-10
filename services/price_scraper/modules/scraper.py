@@ -14,13 +14,14 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
 
-from models import ScrapedProduct
+from services.shared.models import ScrapedProduct
 # from .database import get_db
-from config import SCREENSHOT_DIR, MIN_DELAY, MAX_DELAY
+from .reference_products_mapping import REFERENCE_PRODUCTS
+from services.shared.config import SCREENSHOT_DIR, MIN_DELAY, MAX_DELAY
 
 class PriceScraper:
-    def __init__(self, mapping_file: str):
-        self.mapping_df = pd.read_csv(mapping_file)
+    def __init__(self):
+        self.mapping_df = REFERENCE_PRODUCTS
         Path(SCREENSHOT_DIR).mkdir(parents=True, exist_ok=True)
     
     # Helper functions
@@ -203,15 +204,3 @@ class PriceScraper:
         screenshot_path = self.capture_proof(reference_item_id, product_name, target_product['referenceUrl'])
         target_product['screenshot'] = screenshot_path
         return self.save_product(target_product)
-
-if __name__ == "__main__":
-    test_mapping = pd.read_csv('tmp/test_mapping.csv')
-    # Initialize and test scraper
-    scraper = PriceScraper('tmp/test_mapping.csv')
-    
-    # Test scraping random product
-    random_row = test_mapping.sample(n=1).iloc[0]
-    print(f"\nTesting scrape for {random_row['product_name']}...")
-    success = scraper.scrape_product(random_row['id'])
-    print(f"Scrape {'successful' if success else 'failed'}")
-    # time.sleep(random.uniform(MIN_DELAY, MAX_DELAY))

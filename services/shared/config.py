@@ -7,4 +7,4 @@ MIN_DELAY = 5
 MAX_DELAY = 10
 
 # File paths
-DEFAULT_MAPPING_FILE = "data/reference_products_mapping.csv" 
+# DEFAULT_MAPPING_FILE = "data/reference_products_mapping.csv" 
