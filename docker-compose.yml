@@ -1,6 +1,8 @@
 services:
   db:
     image: postgres
+    hostname: postgres
+    container_name: postgres
     restart: always
     environment:
       - POSTGRES_USER=postgres
@@ -8,8 +10,15 @@ services:
       - POSTGRES_DB=receipts_app
     ports:
       - '5432:5432'
+    networks:
+      - receipts_app_network
     volumes:
       - ./data/postgres:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d postgres"]
+      interval: 5s
+      timeout: 2s
+      retries: 20
   price_scraper:
     build: 
       context: ./services/price_scraper
@@ -17,7 +26,31 @@ services:
       - ./services:/app/services
     ports:
       - '8000:8000'
+    networks:
+      - receipts_app_network
     command: uvicorn services.price_scraper.local_server:app --host 0.0.0.0 --port 8000 --reload
+  frontend:
+    build:
+      context: ./frontend
+    ports:
+      - '3000:3000'
+    # stdin_open: true
+    # tty: true  # Keeps the container running for debugging
+    depends_on:
+      db:
+        condition: service_healthy
+    networks:
+      - receipts_app_network
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    environment:
+      - NODE_ENV=development
+    command: sh -c "npm run db:deploy && npm run dev"
 
 volumes:
   postgres_data:
+
+networks:
+  receipts_app_network:
+    name: receipts_app_network
