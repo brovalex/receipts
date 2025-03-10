@@ -1,85 +1,116 @@
 -- CreateTable
-CREATE TABLE "Receipt" (
-    "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
-    "createdAt" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    "updatedAt" DATETIME NOT NULL
+CREATE TABLE "expense" (
+    "id" SERIAL NOT NULL,
+    "price_each" DECIMAL NOT NULL,
+    "quantity" DECIMAL NOT NULL,
+    "receipt_id" INTEGER NOT NULL,
+    "receipt_text_id" INTEGER,
+    "product_id" INTEGER,
+    "created_at" TIMESTAMP(6) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "updated_at" TIMESTAMP(6) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+
+    CONSTRAINT "expense_pkey" PRIMARY KEY ("id")
 );
 
 -- CreateTable
-CREATE TABLE "Expense" (
-    "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
-    "priceEach" REAL NOT NULL,
-    "quantity" REAL NOT NULL,
-    "receiptId" INTEGER NOT NULL,
-    "receiptTextId" INTEGER,
-    "productId" INTEGER,
-    "createdAt" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    "updatedAt" DATETIME NOT NULL,
-    CONSTRAINT "Expense_productId_fkey" FOREIGN KEY ("productId") REFERENCES "Product" ("id") ON DELETE SET NULL ON UPDATE CASCADE,
-    CONSTRAINT "Expense_receiptTextId_fkey" FOREIGN KEY ("receiptTextId") REFERENCES "ReceiptText" ("id") ON DELETE SET NULL ON UPDATE CASCADE,
-    CONSTRAINT "Expense_receiptId_fkey" FOREIGN KEY ("receiptId") REFERENCES "Receipt" ("id") ON DELETE RESTRICT ON UPDATE CASCADE
+CREATE TABLE "image_file" (
+    "id" SERIAL NOT NULL,
+    "url" TEXT NOT NULL,
+    "receipt_id" INTEGER,
+    "created_at" TIMESTAMP(6) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "updated_at" TIMESTAMP(6) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+
+    CONSTRAINT "image_file_pkey" PRIMARY KEY ("id")
 );
 
 -- CreateTable
-CREATE TABLE "Product" (
-    "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+CREATE TABLE "product" (
+    "id" SERIAL NOT NULL,
     "name" TEXT NOT NULL,
-    "weight" REAL NOT NULL,
-    "unitOfMeasure" TEXT NOT NULL,
-    "referenceItemId" INTEGER NOT NULL,
-    "createdAt" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    "updatedAt" DATETIME NOT NULL,
-    CONSTRAINT "Product_referenceItemId_fkey" FOREIGN KEY ("referenceItemId") REFERENCES "ReferenceItem" ("id") ON DELETE RESTRICT ON UPDATE CASCADE
+    "weight" DECIMAL NOT NULL,
+    "unit_of_measure" TEXT NOT NULL,
+    "reference_item_id" INTEGER NOT NULL,
+    "created_at" TIMESTAMP(6) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "updated_at" TIMESTAMP(6) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+
+    CONSTRAINT "product_pkey" PRIMARY KEY ("id")
 );
 
 -- CreateTable
-CREATE TABLE "ReceiptText" (
-    "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+CREATE TABLE "product_price_proof" (
+    "id" SERIAL NOT NULL,
+    "name" TEXT,
+    "quantity" DECIMAL,
+    "unit_of_measure" TEXT,
+    "price" DECIMAL,
+    "price_per_weight" DECIMAL,
+    "reference_url" TEXT,
+    "screenshot" TEXT,
+    "created_at" TIMESTAMP(6) DEFAULT CURRENT_TIMESTAMP,
+    "validated" BOOLEAN,
+    "validated_at" TIMESTAMP(6) DEFAULT CURRENT_TIMESTAMP,
+    "reference_item_id" INTEGER,
+
+    CONSTRAINT "product_price_proof_pkey" PRIMARY KEY ("id")
+);
+
+-- CreateTable
+CREATE TABLE "receipt" (
+    "id" SERIAL NOT NULL,
+    "created_at" TIMESTAMP(6) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "updated_at" TIMESTAMP(6) NOT NULL,
+
+    CONSTRAINT "receipt_pkey" PRIMARY KEY ("id")
+);
+
+-- CreateTable
+CREATE TABLE "receipt_text" (
+    "id" SERIAL NOT NULL,
     "text" TEXT NOT NULL,
     "boundingBox" TEXT,
-    "imageFileId" INTEGER NOT NULL,
-    "createdAt" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    "updatedAt" DATETIME NOT NULL,
-    CONSTRAINT "ReceiptText_imageFileId_fkey" FOREIGN KEY ("imageFileId") REFERENCES "ImageFile" ("id") ON DELETE RESTRICT ON UPDATE CASCADE
+    "image_file_id" INTEGER NOT NULL,
+    "created_at" TIMESTAMP(6) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "updated_at" TIMESTAMP(6) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+
+    CONSTRAINT "receipt_text_pkey" PRIMARY KEY ("id")
 );
 
 -- CreateTable
-CREATE TABLE "ImageFile" (
-    "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
-    "url" TEXT NOT NULL,
-    "receiptId" INTEGER,
-    "createdAt" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    "updatedAt" DATETIME NOT NULL,
-    CONSTRAINT "ImageFile_receiptId_fkey" FOREIGN KEY ("receiptId") REFERENCES "Receipt" ("id") ON DELETE SET NULL ON UPDATE CASCADE
-);
-
--- CreateTable
-CREATE TABLE "ReferenceItem" (
-    "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+CREATE TABLE "reference_item" (
+    "id" SERIAL NOT NULL,
     "name" TEXT NOT NULL,
-    "quantity" REAL NOT NULL,
-    "unitOfMeasure" TEXT NOT NULL,
-    "price" REAL NOT NULL,
-    "pricePerWeight" REAL NOT NULL,
-    "referenceUrl" TEXT,
-    "createdAt" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    "updatedAt" DATETIME NOT NULL
-);
+    "quantity" DECIMAL NOT NULL,
+    "unit_of_measure" TEXT NOT NULL,
+    "price" DECIMAL NOT NULL,
+    "price_per_weight" DECIMAL NOT NULL,
+    "reference_url" TEXT,
+    "created_at" TIMESTAMP(6) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "updated_at" TIMESTAMP(6) NOT NULL DEFAULT CURRENT_TIMESTAMP,
 
--- CreateTable
-CREATE TABLE "ProductPriceProof" (
-    "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
-    "name" TEXT,
-    "quantity" TEXT,
-    "unitOfMeasure" TEXT,
-    "price" REAL,
-    "pricePerWeight" REAL,
-    "referenceURL" TEXT,
-    "screenshot" TEXT,
-    "createdAt" TEXT,
-    "reference_item_id" INTEGER
+    CONSTRAINT "reference_item_pkey" PRIMARY KEY ("id")
 );
 
 -- CreateIndex
-CREATE UNIQUE INDEX "Expense_receiptTextId_key" ON "Expense"("receiptTextId");
+CREATE UNIQUE INDEX "expense_receipt_text_id_key" ON "expense"("receipt_text_id");
+
+-- AddForeignKey
+ALTER TABLE "expense" ADD CONSTRAINT "Expense_product_id_fkey" FOREIGN KEY ("product_id") REFERENCES "product"("id") ON DELETE SET NULL ON UPDATE CASCADE;
+
+-- AddForeignKey
+ALTER TABLE "expense" ADD CONSTRAINT "Expense_receipt_id_fkey" FOREIGN KEY ("receipt_id") REFERENCES "receipt"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
+
+-- AddForeignKey
+ALTER TABLE "expense" ADD CONSTRAINT "Expense_receipt_text_id_fkey" FOREIGN KEY ("receipt_text_id") REFERENCES "receipt_text"("id") ON DELETE SET NULL ON UPDATE CASCADE;
+
+-- AddForeignKey
+ALTER TABLE "image_file" ADD CONSTRAINT "Image_file_receipt_id_fkey" FOREIGN KEY ("receipt_id") REFERENCES "receipt"("id") ON DELETE SET NULL ON UPDATE CASCADE;
+
+-- AddForeignKey
+ALTER TABLE "product" ADD CONSTRAINT "Product_referenceItemId_fkey" FOREIGN KEY ("reference_item_id") REFERENCES "reference_item"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
+
+-- AddForeignKey
+ALTER TABLE "product_price_proof" ADD CONSTRAINT "product_price_proof_reference_item_id_fkey" FOREIGN KEY ("reference_item_id") REFERENCES "reference_item"("id") ON DELETE SET NULL ON UPDATE CASCADE;
+
+-- AddForeignKey
+ALTER TABLE "receipt_text" ADD CONSTRAINT "ReceiptText_image_file_id_fkey" FOREIGN KEY ("image_file_id") REFERENCES "image_file"("id") ON DELETE RESTRICT ON UPDATE CASCADE;
 

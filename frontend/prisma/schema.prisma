@@ -4,91 +4,91 @@ generator client {
 }
 
 datasource db {
-  provider = "sqlite"
+  provider = "postgresql"
   url      = env("DATABASE_URL")
 }
 
-model Receipt {
-  id         Int         @id @default(autoincrement())
-  createdAt  DateTime    @default(now())
-  updatedAt  DateTime    @updatedAt
-  expenses   Expense[]
-  imageFiles ImageFile[]
-}
-
-model Expense {
-  id            Int          @id @default(autoincrement())
-  priceEach     Float
-  quantity      Float
-  receiptId     Int
-  receiptTextId Int?         @unique
-  productId     Int?
-  createdAt     DateTime     @default(now())
-  updatedAt     DateTime     @updatedAt
-  product       Product?     @relation(fields: [productId], references: [id])
-  receiptText   ReceiptText? @relation(fields: [receiptTextId], references: [id])
-  receipt       Receipt      @relation(fields: [receiptId], references: [id])
-}
-
-model Product {
+model expense {
   id              Int           @id @default(autoincrement())
-  name            String
-  weight          Float
-  unitOfMeasure   String
-  referenceItemId Int
-  createdAt       DateTime      @default(now())
-  updatedAt       DateTime      @updatedAt
-  expenses        Expense[]
-  referenceItem   ReferenceItem @relation(fields: [referenceItemId], references: [id])
+  price_each      Decimal       @db.Decimal
+  quantity        Decimal       @db.Decimal
+  receipt_id      Int
+  receipt_text_id Int?          @unique
+  product_id      Int?
+  created_at      DateTime      @default(now()) @db.Timestamp(6)
+  updated_at      DateTime      @default(now()) @db.Timestamp(6)
+  product         product?      @relation(fields: [product_id], references: [id], map: "Expense_product_id_fkey")
+  receipt         receipt       @relation(fields: [receipt_id], references: [id], map: "Expense_receipt_id_fkey")
+  receipt_text    receipt_text? @relation(fields: [receipt_text_id], references: [id], map: "Expense_receipt_text_id_fkey")
 }
 
-model ReceiptText {
-  id          Int       @id @default(autoincrement())
-  text        String
-  boundingBox String?
-  imageFileId Int
-  createdAt   DateTime  @default(now())
-  updatedAt   DateTime  @updatedAt
-  expense     Expense?
-  imageFile   ImageFile @relation(fields: [imageFileId], references: [id])
-}
-
-model ImageFile {
-  id           Int           @id @default(autoincrement())
+model image_file {
+  id           Int            @id @default(autoincrement())
   url          String
-  receiptId    Int?
-  createdAt    DateTime      @default(now())
-  updatedAt    DateTime      @updatedAt
-  receipt      Receipt?      @relation(fields: [receiptId], references: [id])
-  receiptTexts ReceiptText[]
+  receipt_id   Int?
+  created_at   DateTime       @default(now()) @db.Timestamp(6)
+  updated_at   DateTime       @default(now()) @db.Timestamp(6)
+  receipt      receipt?       @relation(fields: [receipt_id], references: [id], map: "Image_file_receipt_id_fkey")
+  receipt_text receipt_text[]
 }
 
-model ReferenceItem {
-  id             Int       @id @default(autoincrement())
-  name           String
-  quantity       Float
-  unitOfMeasure  String
-  price          Float
-  pricePerWeight Float
-  referenceUrl   String?
-  createdAt      DateTime  @default(now())
-  updatedAt      DateTime  @updatedAt
-  products       Product[]
-  productPriceProofs ProductPriceProof[]
+model product {
+  id                Int            @id @default(autoincrement())
+  name              String
+  weight            Decimal        @db.Decimal
+  unit_of_measure   String
+  reference_item_id Int
+  created_at        DateTime       @default(now()) @db.Timestamp(6)
+  updated_at        DateTime       @default(now()) @db.Timestamp(6)
+  expense           expense[]
+  reference_item    reference_item @relation(fields: [reference_item_id], references: [id], map: "Product_referenceItemId_fkey")
 }
 
-model ProductPriceProof {
-  id                Int     @id @default(autoincrement())
+model product_price_proof {
+  id                Int             @id @default(autoincrement())
   name              String?
-  quantity          Float?
-  unitOfMeasure     String?
-  price             Float?
-  pricePerWeight    Float?
-  referenceUrl      String?
+  quantity          Decimal?        @db.Decimal
+  unit_of_measure   String?
+  price             Decimal?        @db.Decimal
+  price_per_weight  Decimal?        @db.Decimal
+  reference_url     String?
   screenshot        String?
-  createdAt         DateTime? @default(now())
+  created_at        DateTime?       @default(now()) @db.Timestamp(6)
   validated         Boolean?
-  validatedAt       DateTime?
-  referenceItemId   Int?
-  referenceItem     ReferenceItem? @relation(fields: [referenceItemId], references: [id])
+  validated_at      DateTime?       @default(now()) @db.Timestamp(6)
+  reference_item_id Int?
+  reference_item    reference_item? @relation(fields: [reference_item_id], references: [id])
+}
+
+model receipt {
+  id         Int          @id @default(autoincrement())
+  created_at DateTime     @default(now()) @db.Timestamp(6)
+  updated_at DateTime     @db.Timestamp(6)
+  expense    expense[]
+  image_file image_file[]
+}
+
+model receipt_text {
+  id            Int        @id @default(autoincrement())
+  text          String
+  boundingBox   String?
+  image_file_id Int
+  created_at    DateTime   @default(now()) @db.Timestamp(6)
+  updated_at    DateTime   @default(now()) @db.Timestamp(6)
+  expense       expense?
+  image_file    image_file @relation(fields: [image_file_id], references: [id], map: "ReceiptText_image_file_id_fkey")
+}
+
+model reference_item {
+  id                  Int                   @id @default(autoincrement())
+  name                String
+  quantity            Decimal               @db.Decimal
+  unit_of_measure     String
+  price               Decimal               @db.Decimal
+  price_per_weight    Decimal               @db.Decimal
+  reference_url       String?
+  created_at          DateTime              @default(now()) @db.Timestamp(6)
+  updated_at          DateTime              @default(now()) @db.Timestamp(6)
+  product             product[]
+  product_price_proof product_price_proof[]
 }
