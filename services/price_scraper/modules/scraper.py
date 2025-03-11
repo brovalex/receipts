@@ -18,6 +18,8 @@ from services.shared.models import ScrapedProduct
 # from .database import get_db
 from .reference_products_mapping import REFERENCE_PRODUCTS
 from services.shared.config import SCREENSHOT_DIR, MIN_DELAY, MAX_DELAY
+import requests
+import json
 
 class PriceScraper:
     def __init__(self):
@@ -129,26 +131,59 @@ class PriceScraper:
         driver.quit()
         return saved_file_name
     
-    def save_product(self, product: ScrapedProduct):
-        # """
-        # Save product to database using SQLAlchemy
-        # """
-        # try:
-        #     with next(get_db()) as db:
-        #         db.add(product)
-        #         db.commit()
-        #         print(f"Saved product: {product.name}")
-        #         return True                
-        # except Exception as e:
-        #     print(f"Error saving product: {e}")
-        #     return False
+    def save_product(self, product):
         """
-        for now just append to the csv file
+        Send the scraped product data to the price-proof API endpoint
         """
-        self.scraped_df = pd.DataFrame()
-        self.scraped_df = pd.concat([self.scraped_df, pd.DataFrame([product])], ignore_index=True)
-        self.scraped_df.to_csv('./temp_scraped_products.csv', index=False)
-        return True
+        try:
+            # Convert the product data to the format expected by the API
+            api_payload = {
+                "name": product.get("name", ""),
+                "quantity": float(product.get("quantity", 0)),
+                "unitOfMeasure": product.get("unitOfMeasure", ""),
+                "price": float(product.get("price", 0)), 
+                "pricePerWeight": float(product.get("pricePerWeight", 0)),
+                "referenceUrl": product.get("referenceUrl", ""),
+                "screenshot": product.get("screenshot", ""),
+                "referenceItemId": product.get("referenceItemId")
+            }
+            
+            # Remove None values
+            api_payload = {k: v for k, v in api_payload.items() if v is not None}
+            
+            # Send POST request to the API
+            response = requests.post(
+                "http://frontend:3000/api/price-proofs",  # Update with your actual API URL
+                headers={"Content-Type": "application/json"},
+                data=json.dumps(api_payload)
+            )
+            
+            # Check if the request was successful
+            if response.status_code == 201:
+                print(f"Successfully saved product: {product.get('name')}")
+                return True
+            else:
+                print(f"Failed to save product. Status code: {response.status_code}")
+                print(f"Response: {response.text}")
+                
+                # Fallback to CSV if API fails
+                self.scraped_df = pd.DataFrame()
+                self.scraped_df = pd.concat([self.scraped_df, pd.DataFrame([product])], ignore_index=True)
+                self.scraped_df.to_csv('/app/services/price_scraper/tmp/temp_scraped_products.csv', index=False)
+                print(f"Saved to CSV as fallback")
+                
+                return False
+                
+        except Exception as e:
+            print(f"Error saving product to API: {str(e)}")
+            
+            # Fallback to CSV if exception occurs
+            self.scraped_df = pd.DataFrame()
+            self.scraped_df = pd.concat([self.scraped_df, pd.DataFrame([product])], ignore_index=True)
+            self.scraped_df.to_csv('/app/services/price_scraper/tmp/temp_scraped_products.csv', index=False)
+            print(f"Saved to CSV as fallback")
+            
+            return False
 
     # Main stuff
     def search_for_products(self, product_name: str) -> List[ScrapedProduct]:
@@ -197,6 +232,9 @@ class PriceScraper:
         product_name = reference_item['product_name']
         print(f"Scraping product: {product_name}")
         products = self.search_for_products(product_name)
+        # Add reference_item_id to all products
+        for product in products:
+            product['referenceItemId'] = reference_item_id
         if len(products) == 0:
             print(f"No products found for {product_name}")
             return False

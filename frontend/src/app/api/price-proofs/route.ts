@@ -42,10 +42,12 @@ export async function POST(request: NextRequest) {
         pricePerWeight: body.pricePerWeight ? body.pricePerWeight.toString() : null,
         referenceUrl: body.referenceUrl || null,
         screenshot: body.screenshot || null,
-        validated: body.validated || false,
+        validated: body.validated || null,
         referenceItemId: body.referenceItemId || null
       }
     });
+
+    console.log('Price proof that will be sent to the API:', priceProof);
     
     return NextResponse.json({ 
       success: true, 

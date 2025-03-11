@@ -57,7 +57,7 @@ export default function ReviewPage() {
               </div>
               <div>
                 <h3 className="font-semibold">Price</h3>
-                <p>${proof.price.toFixed(2)}</p>
+                <p>${Number(proof.price).toFixed(2)}</p>
               </div>
               <div>
                 <h3 className="font-semibold">Reference URL</h3>
