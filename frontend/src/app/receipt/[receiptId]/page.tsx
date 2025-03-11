@@ -117,7 +117,7 @@ const ReceiptPage = () => {
     };
     
     interface CurrencyDisplayProps {
-        amount: number;
+        amount: string;
     }
     
     const CurrencyDisplay: React.FC<CurrencyDisplayProps> = ({ amount }) => {
@@ -233,7 +233,7 @@ const ReceiptPage = () => {
                                     </Table.Cell>
                                     <Table.Cell className="text-right">{expense.quantity} ×</Table.Cell>
                                     <Table.Cell className="text-right">
-                                        <CurrencyDisplay amount={expense.priceEach.toFixed(2)} />
+                                        <CurrencyDisplay amount={Number(expense.priceEach).toFixed(2)} />
                                     </Table.Cell>
                                     <Table.Cell>
                                         <div className="flex gap-1">

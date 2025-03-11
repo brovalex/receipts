@@ -1,8 +1,9 @@
 # Use the official Node.js image as a base
 FROM node:slim
 
-# RUN apt-get update -y \
-# && apt-get install -y openssl
+# Prisma requirement
+RUN apt-get update -y \
+&& apt-get install -y openssl
 
 # Set the working directory
 WORKDIR /app

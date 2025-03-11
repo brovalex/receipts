@@ -8,87 +8,101 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model expense {
-  id              Int           @id @default(autoincrement())
-  price_each      Decimal       @db.Decimal
-  quantity        Decimal       @db.Decimal
-  receipt_id      Int
-  receipt_text_id Int?          @unique
-  product_id      Int?
-  created_at      DateTime      @default(now()) @db.Timestamp(6)
-  updated_at      DateTime      @default(now()) @db.Timestamp(6)
-  product         product?      @relation(fields: [product_id], references: [id], map: "Expense_product_id_fkey")
-  receipt         receipt       @relation(fields: [receipt_id], references: [id], map: "Expense_receipt_id_fkey")
-  receipt_text    receipt_text? @relation(fields: [receipt_text_id], references: [id], map: "Expense_receipt_text_id_fkey")
+model Expense {
+  id            Int          @id @default(autoincrement())
+  priceEach     Decimal      @map("price_each") @db.Decimal
+  quantity      Decimal      @db.Decimal
+  receiptId     Int          @map("receipt_id")
+  receiptTextId Int?         @unique @map("receipt_text_id")
+  productId     Int?         @map("product_id")
+  createdAt     DateTime     @default(now()) @map("created_at") @db.Timestamp(6)
+  updatedAt     DateTime     @default(now()) @map("updated_at") @db.Timestamp(6)
+  product       Product?     @relation(fields: [productId], references: [id], map: "Expense_product_id_fkey")
+  receipt       Receipt      @relation(fields: [receiptId], references: [id], map: "Expense_receipt_id_fkey")
+  receiptText   ReceiptText? @relation(fields: [receiptTextId], references: [id], map: "Expense_receipt_text_id_fkey")
+
+  @@map("expense")
 }
 
-model image_file {
-  id           Int            @id @default(autoincrement())
+model ImageFile {
+  id           Int           @id @default(autoincrement())
   url          String
-  receipt_id   Int?
-  created_at   DateTime       @default(now()) @db.Timestamp(6)
-  updated_at   DateTime       @default(now()) @db.Timestamp(6)
-  receipt      receipt?       @relation(fields: [receipt_id], references: [id], map: "Image_file_receipt_id_fkey")
-  receipt_text receipt_text[]
+  receiptId    Int?          @map("receipt_id")
+  createdAt    DateTime      @default(now()) @map("created_at") @db.Timestamp(6)
+  updatedAt    DateTime      @default(now()) @map("updated_at") @db.Timestamp(6)
+  receipt      Receipt?      @relation(fields: [receiptId], references: [id], map: "Image_file_receipt_id_fkey")
+  receiptTexts ReceiptText[]
+
+  @@map("image_file")
 }
 
-model product {
-  id                Int            @id @default(autoincrement())
-  name              String
-  weight            Decimal        @db.Decimal
-  unit_of_measure   String
-  reference_item_id Int
-  created_at        DateTime       @default(now()) @db.Timestamp(6)
-  updated_at        DateTime       @default(now()) @db.Timestamp(6)
-  expense           expense[]
-  reference_item    reference_item @relation(fields: [reference_item_id], references: [id], map: "Product_referenceItemId_fkey")
+model Product {
+  id              Int           @id @default(autoincrement())
+  name            String
+  weight          Decimal       @db.Decimal
+  unitOfMeasure   String        @map("unit_of_measure")
+  referenceItemId Int           @map("reference_item_id")
+  createdAt       DateTime      @default(now()) @map("created_at") @db.Timestamp(6)
+  updatedAt       DateTime      @default(now()) @map("updated_at") @db.Timestamp(6)
+  expenses        Expense[]
+  referenceItem   ReferenceItem @relation(fields: [referenceItemId], references: [id], map: "Product_referenceItemId_fkey")
+
+  @@map("product")
 }
 
-model product_price_proof {
-  id                Int             @id @default(autoincrement())
-  name              String?
-  quantity          Decimal?        @db.Decimal
-  unit_of_measure   String?
-  price             Decimal?        @db.Decimal
-  price_per_weight  Decimal?        @db.Decimal
-  reference_url     String?
-  screenshot        String?
-  created_at        DateTime?       @default(now()) @db.Timestamp(6)
-  validated         Boolean?
-  validated_at      DateTime?       @default(now()) @db.Timestamp(6)
-  reference_item_id Int?
-  reference_item    reference_item? @relation(fields: [reference_item_id], references: [id])
+model ProductPriceProof {
+  id              Int            @id @default(autoincrement())
+  name            String?
+  quantity        Decimal?       @db.Decimal
+  unitOfMeasure   String?        @map("unit_of_measure")
+  price           Decimal?       @db.Decimal
+  pricePerWeight  Decimal?       @map("price_per_weight") @db.Decimal
+  referenceUrl    String?        @map("reference_url")
+  screenshot      String?
+  createdAt       DateTime?      @default(now()) @map("created_at") @db.Timestamp(6)
+  validated       Boolean?
+  validatedAt     DateTime?      @default(now()) @map("validated_at") @db.Timestamp(6)
+  referenceItemId Int?           @map("reference_item_id")
+  referenceItem   ReferenceItem? @relation(fields: [referenceItemId], references: [id])
+
+  @@map("product_price_proof")
 }
 
-model receipt {
-  id         Int          @id @default(autoincrement())
-  created_at DateTime     @default(now()) @db.Timestamp(6)
-  updated_at DateTime     @db.Timestamp(6)
-  expense    expense[]
-  image_file image_file[]
+model Receipt {
+  id         Int         @id @default(autoincrement())
+  createdAt  DateTime    @default(now()) @map("created_at") @db.Timestamp(6)
+  updatedAt  DateTime    @default(now()) @map("updated_at") @db.Timestamp(6)
+  expenses   Expense[]
+  imageFiles ImageFile[]
+
+  @@map("receipt")
 }
 
-model receipt_text {
-  id            Int        @id @default(autoincrement())
-  text          String
-  boundingBox   String?
-  image_file_id Int
-  created_at    DateTime   @default(now()) @db.Timestamp(6)
-  updated_at    DateTime   @default(now()) @db.Timestamp(6)
-  expense       expense?
-  image_file    image_file @relation(fields: [image_file_id], references: [id], map: "ReceiptText_image_file_id_fkey")
+model ReceiptText {
+  id          Int       @id @default(autoincrement())
+  text        String
+  boundingBox String?
+  imageFileId Int       @map("image_file_id")
+  createdAt   DateTime  @default(now()) @map("created_at") @db.Timestamp(6)
+  updatedAt   DateTime  @default(now()) @map("updated_at") @db.Timestamp(6)
+  expense     Expense?
+  imageFile   ImageFile @relation(fields: [imageFileId], references: [id], map: "ReceiptText_image_file_id_fkey")
+
+  @@map("receipt_text")
 }
 
-model reference_item {
-  id                  Int                   @id @default(autoincrement())
-  name                String
-  quantity            Decimal               @db.Decimal
-  unit_of_measure     String
-  price               Decimal               @db.Decimal
-  price_per_weight    Decimal               @db.Decimal
-  reference_url       String?
-  created_at          DateTime              @default(now()) @db.Timestamp(6)
-  updated_at          DateTime              @default(now()) @db.Timestamp(6)
-  product             product[]
-  product_price_proof product_price_proof[]
+model ReferenceItem {
+  id                 Int                 @id @default(autoincrement())
+  name               String
+  quantity           Decimal             @db.Decimal
+  unitOfMeasure      String              @map("unit_of_measure")
+  price              Decimal             @db.Decimal
+  pricePerWeight     Decimal             @map("price_per_weight") @db.Decimal
+  referenceUrl       String?             @map("reference_url")
+  createdAt          DateTime            @default(now()) @map("created_at") @db.Timestamp(6)
+  updatedAt          DateTime            @default(now()) @map("updated_at") @db.Timestamp(6)
+  products           Product[]
+  productPriceProofs ProductPriceProof[]
+
+  @@map("reference_item")
 }
