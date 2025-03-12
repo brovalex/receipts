@@ -2,7 +2,6 @@ services:
   db:
     image: postgres
     hostname: postgres
-    container_name: postgres
     restart: always
     environment:
       - POSTGRES_USER=postgres
@@ -22,8 +21,7 @@ services:
   price_scraper:
     build: 
       context: ./services/price_scraper
-    hostname: price_scraper_service
-    container_name: price_scraper_service
+    hostname: price-scraper-service
     volumes:
       - ./services:/app/services
     ports:
@@ -35,7 +33,6 @@ services:
     build:
       context: ./frontend
     hostname: frontend
-    container_name: frontend
     ports:
       - '3000:3000'
     # stdin_open: true
@@ -51,9 +48,36 @@ services:
     environment:
       - NODE_ENV=development
     command: sh -c "npm run db:deploy && npm run dev"
-
-volumes:
-  postgres_data:
+  nifi:
+    image: apache/nifi:latest
+    hostname: nifi1
+    ports:
+      - '8443:8443'
+    environment:
+      - NIFI_WEB_HTTP_PORT=8080
+      - NIFI_CLUSTER_IS_NODE=false
+      - NIFI_UI_COUNTRY=us
+    networks:
+      - receipts_app_network
+    volumes:
+      # - ./services/nifi/shared-directory:/opt/nifi/nifi-current/ls-target
+      - ./services/nifi/data:/opt/nifi/nifi-current/data
+      - ./services/nifi/conf:/opt/nifi/nifi-current/conf
+      - ./services/nifi/logs:/opt/nifi/nifi-current/logs
+      - ./services/nifi/drivers:/opt/nifi/nifi-current/drivers
+    restart: always
+    stdin_open: true
+  nifi-registry:
+    image: apache/nifi-registry:latest
+    hostname: nifi-registry
+    ports:
+      - '18080:18080'
+    networks:
+      - receipts_app_network
+    volumes:
+      - ./services/nifi/registry/flow-storage:/opt/nifi-registry/nifi-registry-current/flow-storage
+      - ./services/nifi/registry/database:/opt/nifi-registry/nifi-registry-current/database
+    # stdin_open: true
 
 networks:
   receipts_app_network:
