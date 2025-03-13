@@ -19,7 +19,7 @@ REFERENCE_PRODUCTS = pd.DataFrame([
     {"id": 16, "name": "Gum", "product_name": "Chewing Gum"},
     {"id": 17, "name": "Hot chocolate", "product_name": "Hot Chocolate"},
     {"id": 18, "name": "Jam", "product_name": "selection strawberry jam"},
-    {"id": 19, "name": "Mac and cheese", "product_name": "selection mac and cheese"},
+    {"id": 19, "name": "Mac and cheese", "product_name": "cheddar mac and cheese"},
     {"id": 20, "name": "Milk", "product_name": "Milk"},
     {"id": 21, "name": "Misc", "product_name": "Bread loaf"},
     {"id": 22, "name": "Noodles", "product_name": "Instant Noodles"},
