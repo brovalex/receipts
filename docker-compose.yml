@@ -7,6 +7,7 @@ services:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres
       - POSTGRES_DB=receipts_app
+      - POSTGRES_MAX_CONNECTIONS=20
     ports:
       - '5432:5432'
     networks:
@@ -44,6 +45,7 @@ services:
       - receipts_app_network
     volumes:
       - ./frontend:/app
+      - ./services/price_scraper/tmp/screenshots:/app/public/screenshots
       - /app/node_modules
     environment:
       - NODE_ENV=development

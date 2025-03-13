@@ -74,7 +74,7 @@ export default function ReviewPage() {
               </div>
               <div>
                 <h3 className="font-semibold">Created At</h3>
-                <p>{proof.createdAt}</p>
+                <p>{new Date(proof.createdAt).toLocaleString('en-US', { timeZone: 'America/New_York' })} (local)</p>
               </div>
             </div>
             

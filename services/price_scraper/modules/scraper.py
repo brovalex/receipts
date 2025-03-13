@@ -22,9 +22,11 @@ import requests
 import json
 
 class PriceScraper:
-    def __init__(self):
+    def __init__(self, proxy=None):
         self.mapping_df = REFERENCE_PRODUCTS
-        Path(SCREENSHOT_DIR).mkdir(parents=True, exist_ok=True)
+        self.proxy = proxy
+        self.screenshot_dir = '/app/services/price_scraper/tmp/screenshots/'
+        os.makedirs(self.screenshot_dir, exist_ok=True)  # Create the directory if it doesn't exist
     
     # Helper functions
     def get_url(self, query, domain="https://www.foodbasics.ca"):
@@ -91,6 +93,12 @@ class PriceScraper:
         chrome_options.add_argument("--disable-dev-shm-usage")  # Added for running in Docker
         chrome_options.add_argument(f"--user-data-dir=/tmp/chrome-data-{random.randint(0, 999999)}")  # Use unique temp directory
         chrome_options.add_argument(f"user-agent='Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'")
+        
+        # Add proxy if provided
+        if self.proxy:
+            chrome_options.add_argument(f'--proxy-server={self.proxy}')
+            # print(f"Using proxy: {self.proxy}")
+        
         # Initialize the Chrome driver
         driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
         # Set viewport size to match window size
@@ -116,7 +124,6 @@ class PriceScraper:
 
     def save_screencapture(self, driver, save_path):
         # todo move to s3 bucket in the future
-        os.makedirs('/app/services/price_scraper/tmp/screenshots', exist_ok=True)
         driver.save_screenshot(save_path)
         return save_path
     
@@ -126,7 +133,7 @@ class PriceScraper:
         time.sleep(5)  # Wait for the page to load
         self.remove_consent_banner(driver)
         timestamp = pd.Timestamp.now().strftime('%Y-%m-%d_%H-%M-%S')
-        filename = f'/app/services/price_scraper/tmp/screenshots/{reference_item_id}_{product_name_query}_{timestamp}.png'
+        filename = f'{self.screenshot_dir}{reference_item_id}_{product_name_query}_{timestamp}.png'  # Use self.screenshot_dir
         saved_file_name = self.save_screencapture(driver, filename)
         driver.quit()
         return saved_file_name
@@ -135,6 +142,8 @@ class PriceScraper:
         """
         Send the scraped product data to the price-proof API endpoint
         """
+
+        # todo: add a check to see if the product already exists in the database
         try:
             # Convert the product data to the format expected by the API
             api_payload = {
@@ -150,7 +159,7 @@ class PriceScraper:
             
             # Remove None values
             api_payload = {k: v for k, v in api_payload.items() if v is not None}
-            
+  
             # Send POST request to the API
             response = requests.post(
                 "http://frontend:3000/api/price-proofs",  # Update with your actual API URL
@@ -240,5 +249,5 @@ class PriceScraper:
             return False
         target_product = self.get_cheapest(products)
         screenshot_path = self.capture_proof(reference_item_id, product_name, target_product['referenceUrl'])
-        target_product['screenshot'] = screenshot_path
+        target_product['screenshot'] = screenshot_path.split('/')[-1]
         return self.save_product(target_product)
