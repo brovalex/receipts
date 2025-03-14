@@ -13,6 +13,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
+from fake_useragent import UserAgent
 
 from services.shared.models import ScrapedProduct
 # from .database import get_db
@@ -34,7 +35,7 @@ class PriceScraper:
         Format the query to be used in the URL
         """
         query = query.replace(" ","+")
-        website=domain+f"/search?sortOrder=price-asc&filter={query}"
+        website=domain+f"/search?filter={query}&sortOrder=price-asc"
         return website
     
     def get_cheapest(self, items):
@@ -92,7 +93,7 @@ class PriceScraper:
         chrome_options.add_argument("--no-sandbox")  # Added for running in Docker
         chrome_options.add_argument("--disable-dev-shm-usage")  # Added for running in Docker
         chrome_options.add_argument(f"--user-data-dir=/tmp/chrome-data-{random.randint(0, 999999)}")  # Use unique temp directory
-        chrome_options.add_argument(f"user-agent='Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'")
+        chrome_options.add_argument(f"user-agent={UserAgent().random}")
 
         # Add proxy if provided
         if self.proxy:
@@ -105,6 +106,22 @@ class PriceScraper:
         driver.execute_cdp_cmd('Emulation.setDeviceMetricsOverride', {'width': 1280, 'height': 900, 'deviceScaleFactor': 1, 'mobile': False})
         return driver
 
+    def visit_home_page(self, driver, domain="https://www.foodbasics.ca"):
+        """
+        Visit the home page first to mimic normal user behavior
+        """
+        try:
+            print(f"Visiting home page: {domain}")
+            driver.get(domain)
+            # Add a random delay to simulate human behavior
+            delay = random.uniform(MIN_DELAY, MAX_DELAY)
+            time.sleep(delay)
+            self.remove_consent_banner(driver)
+            return True
+        except Exception as e:
+            print(f"Error visiting home page: {e}")
+            return False
+
     def remove_consent_banner(self, driver):
         """
         Remove the consent banner
@@ -113,6 +130,10 @@ class PriceScraper:
             consent_div = WebDriverWait(driver, 10).until(
                 EC.presence_of_element_located((By.ID, "onetrust-consent-sdk"))
             )
+            # Find and click the accept button within the consent banner
+            accept_button = consent_div.find_element(By.CSS_SELECTOR, "button[contains(text(), 'Accept')]")
+            accept_button.click()
+            time.sleep(1)  # Brief pause to let the banner disappear
             driver.execute_script("""
                 var element = arguments[0];
                 if (element) {
@@ -202,12 +223,17 @@ class PriceScraper:
         """
         print(f"Searching for: {product_name}")
         driver = self.create_driver()
-
+        
+        # Visit home page first to mimic normal user behavior
+        self.visit_home_page(driver)
+        
+        # Add a small random delay before searching
+        time.sleep(random.uniform(1, 3))
+        
         print(self.get_url(product_name))
-        driver.get( self.get_url(product_name) )
-
-        # time.sleep(5)  # Wait for the page to load
-        # self.remove_consent_banner(driver) # consent banner doesn't matter here
+        driver.get(self.get_url(product_name))
+        time.sleep(random.uniform(1, 3))
+        self.remove_consent_banner(driver) # consent banner doesn't matter here
 
         items = []
         products = driver.find_elements(By.CLASS_NAME, 'default-product-tile')
