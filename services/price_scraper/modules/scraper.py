@@ -227,9 +227,15 @@ class PriceScraper:
                 items.append(clean_item)
             except Exception as e:
                 print(f"Error processing product: {e}")
-                # debug
-                # peak(driver)
-                # dump_scrape(items)
+
+        if not items:
+            # Take screenshot if no products found
+            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+            screenshot_name = f"no_results_{timestamp}.png"
+            screenshot_path = os.path.join(f'{self.screenshot_dir}errors/', screenshot_name)
+            driver.save_screenshot(screenshot_path)
+            print(f"No products found. Screenshot saved to {screenshot_path}")
+
         driver.quit()
         return items
     
