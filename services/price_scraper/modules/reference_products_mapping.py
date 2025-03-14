@@ -9,7 +9,7 @@ REFERENCE_PRODUCTS = pd.DataFrame([
     {"id": 6, "name": "Chia seeds", "product_name": "whole chia Seeds"},
     {"id": 7, "name": "Chips", "product_name": "Potato Chips"},
     {"id": 8, "name": "Chocolate", "product_name": "irresistible chocolate bar"},
-    {"id": 9, "name": "Chocolate chips", "product_name": "baking chocolate chips"},
+    {"id": 9, "name": "Chocolate chips", "product_name": "selection baking semi-sweet chocolate chips"},
     {"id": 10, "name": "Cookies", "product_name": "Cookies"},
     {"id": 11, "name": "Cornstarch", "product_name": "cornstarch baking"},
     {"id": 12, "name": "Crackers", "product_name": "Crackers"},
