@@ -13,11 +13,13 @@ load_dotenv()
 app = FastAPI(title="Price Scraper Service")
 
 # Get proxy list from environment variable
-PROXY_LIST: List[str] = os.getenv("PROXY_LIST", "").split(",") if os.getenv("PROXY_LIST") else []
+# PROXY_LIST: List[str] = os.getenv("PROXY_LIST", "").split(",") if os.getenv("PROXY_LIST") else []
 
 def get_random_proxy() -> Optional[str]:
     """Return a random proxy from the proxy list or None if list is empty."""
-    return random.choice(PROXY_LIST) if PROXY_LIST else None
+    # return random.choice(PROXY_LIST) if PROXY_LIST else None
+    PROXY_BASE: str = os.getenv("PROXY_BASE", "")
+    return f'{PROXY_BASE}:{20000+random.randint(10, 500)}'
 
 @app.post("/scrape")
 async def scrape_products(request: ScrapeRequest):

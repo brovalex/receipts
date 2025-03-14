@@ -93,11 +93,11 @@ class PriceScraper:
         chrome_options.add_argument("--disable-dev-shm-usage")  # Added for running in Docker
         chrome_options.add_argument(f"--user-data-dir=/tmp/chrome-data-{random.randint(0, 999999)}")  # Use unique temp directory
         chrome_options.add_argument(f"user-agent='Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'")
-        
+
         # Add proxy if provided
         if self.proxy:
             chrome_options.add_argument(f'--proxy-server={self.proxy}')
-            # print(f"Using proxy: {self.proxy}")
+            print(f"Using proxy: {self.proxy}")
         
         # Initialize the Chrome driver
         driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
@@ -202,6 +202,8 @@ class PriceScraper:
         """
         print(f"Searching for: {product_name}")
         driver = self.create_driver()
+
+        print(self.get_url(product_name))
         driver.get( self.get_url(product_name) )
 
         # time.sleep(5)  # Wait for the page to load
