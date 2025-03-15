@@ -57,16 +57,31 @@ class PriceScraper:
             return price
         price = get_clean_price(scraped_item['price'])
 
-        def get_clean_quantity(weight: str) -> float:
+        def standardize_unit_of_measure(quantity: float, unit_of_measure: str) -> str:
+            # Convert quantity and standardize unit of measure
+            if unit_of_measure == 'mg':
+                return quantity / 1000, 'g'
+            elif unit_of_measure == 'kg':
+                return quantity * 1000, 'g'
+            elif unit_of_measure in ['un', 'ca']:
+                return quantity, 'count'
+            else:
+                return quantity, unit_of_measure
+
+        def get_clean_quantity(weight: str) -> tuple[float, str]:
             if 'x' in weight:
                 parts = weight.split('x')
                 multiplier = float(parts[0].strip())
                 unit = float(parts[1].split()[0])
                 quantity = multiplier * unit
-                return quantity
+                unit_of_measure = parts[1].split()[1]
             else:
-                return float(scraped_item['weight'].split()[0])
-        quantity = get_clean_quantity(scraped_item['weight'])
+                parts = weight.split()
+                quantity = float(parts[0])
+                unit_of_measure = parts[1]
+            return standardize_unit_of_measure(quantity, unit_of_measure)
+
+        quantity, unitOfMeasure = get_clean_quantity(scraped_item['weight'])
 
         def calculate_price_per_weight(quantity: float, price: float) -> float:
             return price / quantity
@@ -74,7 +89,7 @@ class PriceScraper:
         return {
             'name': scraped_item['title'],
             'quantity': quantity,
-            'unitOfMeasure': scraped_item['weight'].split()[1],
+            'unitOfMeasure': unitOfMeasure,
             'price': price,
             'pricePerWeight': calculate_price_per_weight(quantity, price),
             'referenceUrl': scraped_item['url'],
@@ -127,19 +142,9 @@ class PriceScraper:
         Remove the consent banner
         """
         try:
-            consent_div = WebDriverWait(driver, 10).until(
-                EC.presence_of_element_located((By.ID, "onetrust-consent-sdk"))
-            )
-            # Find and click the accept button within the consent banner
-            accept_button = consent_div.find_element(By.CSS_SELECTOR, "button[contains(text(), 'Accept')]")
+            WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.ID, "onetrust-banner-sdk")))
+            accept_button = driver.find_element(By.CSS_SELECTOR,"button#onetrust-accept-btn-handler")
             accept_button.click()
-            time.sleep(1)  # Brief pause to let the banner disappear
-            driver.execute_script("""
-                var element = arguments[0];
-                if (element) {
-                element.parentNode.removeChild(element);
-                }
-            """, consent_div)
         except Exception as e:
             print(f"Could not find or remove the consent div: {e}")
 
