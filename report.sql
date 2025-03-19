@@ -19,6 +19,17 @@ WITH ClosestPriceProof AS (
     JOIN expense e ON e.product_id = p.id
     WHERE ppp.reference_item_id IS NOT NULL AND ppp.validated IS TRUE
 ),
+UnitConversions AS (
+    SELECT
+        pc.reference_item_id,
+        pc.from_unit,
+        pc.to_unit,
+        CASE
+            WHEN pc.from_unit = 'mL' AND pc.to_unit = 'g' THEN 1 / pc.factor
+            ELSE pc.factor
+        END AS conversion_factor
+    FROM product_conversion pc
+),
 report AS (
     SELECT 
         e.id AS expense_id,
@@ -38,15 +49,31 @@ report AS (
         cpp.price AS proof_price,
         cpp.quantity AS proof_quantity,
         cpp.unit_of_measure AS proof_unit_of_measure,
-        cpp.price_proof_date
-        , p.weight * cpp.price / cpp.quantity AS equivalent_base_price -- assuming UoM are the same (TODO)
-        , GREATEST(0, e.price_each - p.weight * cpp.price / cpp.quantity) AS product_cost_difference
-        , e.quantity * GREATEST(0, e.price_each - p.weight * cpp.price / cpp.quantity) AS gf_total
+        cpp.price_proof_date,
+        -- COALESCE(uc.conversion_factor, 1) AS unit_conversion_factor,
+        CASE
+            WHEN p.unit_of_measure = cpp.unit_of_measure THEN p.weight * cpp.price / cpp.quantity
+            WHEN uc.conversion_factor IS NULL THEN cpp.price
+            ELSE p.weight * cpp.price / cpp.quantity * uc.conversion_factor
+        END AS equivalent_base_price,
+        CASE
+            WHEN p.unit_of_measure = cpp.unit_of_measure THEN GREATEST(0, e.price_each - p.weight * cpp.price / cpp.quantity)
+            WHEN uc.conversion_factor IS NULL THEN GREATEST(0, e.price_each - cpp.price)
+            ELSE GREATEST(0, e.price_each - p.weight * cpp.price / cpp.quantity * uc.conversion_factor)
+        END AS product_cost_difference,
+        e.quantity * CASE
+            WHEN p.unit_of_measure = cpp.unit_of_measure THEN GREATEST(0, e.price_each - p.weight * cpp.price / cpp.quantity)
+            WHEN uc.conversion_factor IS NULL THEN GREATEST(0, e.price_each - cpp.price)
+            ELSE GREATEST(0, e.price_each - p.weight * cpp.price / cpp.quantity * uc.conversion_factor)
+        END AS gf_total
     FROM expense e
     JOIN product p ON e.product_id = p.id
     JOIN reference_item ri ON p.reference_item_id = ri.id
     LEFT JOIN (SELECT * FROM ClosestPriceProof WHERE rn = 1) cpp 
         ON ri.id = cpp.reference_item_id AND e.id = cpp.expense_id
+    LEFT JOIN UnitConversions uc ON p.reference_item_id = uc.reference_item_id 
+        AND ((uc.from_unit = p.unit_of_measure AND uc.to_unit = cpp.unit_of_measure)
+             OR (uc.from_unit = cpp.unit_of_measure AND uc.to_unit = p.unit_of_measure))
     WHERE cpp.price_proof_id IS NOT NULL -- temp for now to remove mistakes
     ORDER BY e.created_at DESC
 )
