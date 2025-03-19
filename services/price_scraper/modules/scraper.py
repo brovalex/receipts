@@ -5,6 +5,7 @@ import random
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import List, Optional
+from dotenv import load_dotenv
 
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
@@ -22,13 +23,24 @@ from services.shared.config import SCREENSHOT_DIR, MIN_DELAY, MAX_DELAY
 import requests
 import json
 
+# Load environment variables from .env file
+load_dotenv()
+# Get proxy list from environment variable
+# PROXY_LIST: List[str] = os.getenv("PROXY_LIST", "").split(",") if os.getenv("PROXY_LIST") else []
+
+@staticmethod
+def get_random_proxy() -> str:
+    """Return a random proxy from the proxy list or None if list is empty."""
+    # return random.choice(PROXY_LIST) if PROXY_LIST else None
+    PROXY_BASE: str = os.getenv("PROXY_BASE", "")
+    return f'{PROXY_BASE}:{20000+random.randint(10, 500)}'
+
 class PriceScraper:
     def __init__(self, proxy=None):
         self.mapping_df = REFERENCE_PRODUCTS
-        self.proxy = proxy
         self.screenshot_dir = '/app/services/price_scraper/tmp/screenshots/'
         os.makedirs(self.screenshot_dir, exist_ok=True)  # Create the directory if it doesn't exist
-    
+
     # Helper functions
     def get_url(self, query, domain="https://www.foodbasics.ca"):
         """
@@ -109,12 +121,9 @@ class PriceScraper:
         chrome_options.add_argument("--disable-dev-shm-usage")  # Added for running in Docker
         chrome_options.add_argument(f"--user-data-dir=/tmp/chrome-data-{random.randint(0, 999999)}")  # Use unique temp directory
         chrome_options.add_argument(f"user-agent={UserAgent().random}")
-
-        # Add proxy if provided
-        if self.proxy:
-            chrome_options.add_argument(f'--proxy-server={self.proxy}')
-            print(f"Using proxy: {self.proxy}")
-        
+        random_proxy = get_random_proxy()
+        chrome_options.add_argument(f'--proxy-server={random_proxy}')
+        print(f"Using proxy: {random_proxy}")
         # Initialize the Chrome driver
         driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
         # Set viewport size to match window size
@@ -153,13 +162,18 @@ class PriceScraper:
         driver.save_screenshot(save_path)
         return save_path
     
-    def capture_proof(self, reference_item_id, product_name_query, url):
+    def capture_proof(self, reference_item_id, url):
         driver = self.create_driver()
+        self.visit_home_page(driver)
+        time.sleep(random.uniform(1, 3))
+        search_input = driver.find_element(By.ID, "header--search--input")
+        search_input.send_keys("english muffins")
+        time.sleep(random.uniform(1, 3))
         driver.get(url)
-        time.sleep(5)  # Wait for the page to load
-        self.remove_consent_banner(driver)
+        time.sleep(random.uniform(1, 3))
+        self.remove_consent_banner(driver) # consent banner doesn't matter here
         timestamp = pd.Timestamp.now().strftime('%Y-%m-%d_%H-%M-%S')
-        filename = f'{self.screenshot_dir}{reference_item_id}_{product_name_query}_{timestamp}.png'  # Use self.screenshot_dir
+        filename = f'{self.screenshot_dir}{reference_item_id}_{timestamp}.png'  # Use self.screenshot_dir
         saved_file_name = self.save_screencapture(driver, filename)
         driver.quit()
         return saved_file_name
@@ -272,21 +286,41 @@ class PriceScraper:
         driver.quit()
         return items
     
-    def scrape_product(self, reference_item_id: int) -> bool:
+    def scrape_search(self, reference_item_id: int) -> dict:
         """
-        Get the product proof for a given reference item ID
+        Search products for a given reference item ID
         """
         reference_item = self.mapping_df[self.mapping_df['id'] == reference_item_id].iloc[0]
         product_name = reference_item['product_name']
         print(f"Scraping product: {product_name}")
         products = self.search_for_products(product_name)
-        # Add reference_item_id to all products
-        for product in products:
-            product['referenceItemId'] = reference_item_id
         if len(products) == 0:
             print(f"No products found for {product_name}")
             return False
-        target_product = self.get_cheapest(products)
-        screenshot_path = self.capture_proof(reference_item_id, product_name, target_product['referenceUrl'])
+        # Add reference_item_id to all products
+        for product in products:
+            product['referenceItemId'] = reference_item_id
+        return products
+
+    def scrape_product(self, reference_item_id: int, target_product: dict) -> dict:
+        """
+        Get the product proof for a given reference item ID
+        """
+        screenshot_path = self.capture_proof(reference_item_id, target_product['referenceUrl'])
         target_product['screenshot'] = screenshot_path.split('/')[-1]
+        return target_product
+    
+    def auto_scrape(self, reference_item_id: int) -> bool:
+        """
+        Auto scrape a given reference item ID
+        """
+        products = self.scrape_search(reference_item_id)
+        target_product = self.get_cheapest(products)
+        target_product = self.scrape_product(reference_item_id, target_product)
         return self.save_product(target_product)
+
+    def retry_proof_capture(self, test_url: str) -> str:
+        """
+        Retry proof capture for a given proof ID
+        """
+        return self.capture_proof(0, test_url)

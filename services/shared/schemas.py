@@ -18,4 +18,7 @@ class ScrapedProductResponse(BaseModel):
 
 class ErrorResponse(BaseModel):
     error: str
-    detail: Optional[str] = None 
+    detail: Optional[str] = None
+
+class RetryProofCaptureRequest(BaseModel):
+    test_url: str 
