@@ -39,18 +39,22 @@ report AS (
         cpp.quantity AS proof_quantity,
         cpp.unit_of_measure AS proof_unit_of_measure,
         cpp.price_proof_date
+        , p.weight * cpp.price / cpp.quantity AS equivalent_base_price -- assuming UoM are the same (TODO)
+        , GREATEST(0, e.price_each - p.weight * cpp.price / cpp.quantity) AS product_cost_difference
+        , e.quantity * GREATEST(0, e.price_each - p.weight * cpp.price / cpp.quantity) AS gf_total
     FROM expense e
     JOIN product p ON e.product_id = p.id
     JOIN reference_item ri ON p.reference_item_id = ri.id
     LEFT JOIN (SELECT * FROM ClosestPriceProof WHERE rn = 1) cpp 
         ON ri.id = cpp.reference_item_id AND e.id = cpp.expense_id
-    WHERE cpp.price_proof_id IS NULL
+    WHERE cpp.price_proof_id IS NOT NULL -- temp for now to remove mistakes
     ORDER BY e.created_at DESC
 )
 SELECT
 * 
 FROM report
--- WHERE price_proof_id IS NULL
+--FROM ClosestPriceProof
+-- WHERE price_proof_id IS NOT NULL
 -- GROUP BY reference_item_id
 ;
 
