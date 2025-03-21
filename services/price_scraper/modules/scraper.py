@@ -36,9 +36,10 @@ def get_random_proxy() -> str:
     return f'{PROXY_BASE}:{20000+random.randint(10, 500)}'
 
 class PriceScraper:
-    def __init__(self, proxy=None):
+    def __init__(self, root_folder='/app/', proxy=None):
+        self.root_folder = root_folder
         self.mapping_df = REFERENCE_PRODUCTS
-        self.screenshot_dir = '/app/services/price_scraper/tmp/screenshots/'
+        self.screenshot_dir = f'{self.root_folder}services/price_scraper/tmp/screenshots/'
         os.makedirs(self.screenshot_dir, exist_ok=True)  # Create the directory if it doesn't exist
 
     # Helper functions
@@ -113,21 +114,26 @@ class PriceScraper:
         """
         Create a driver for the Chrome browser
         """
-        # Set up Chrome options
-        chrome_options = Options()
-        chrome_options.add_argument("--headless")
-        chrome_options.add_argument("--window-size=1280x900")
-        chrome_options.add_argument("--no-sandbox")  # Added for running in Docker
-        chrome_options.add_argument("--disable-dev-shm-usage")  # Added for running in Docker
-        chrome_options.add_argument(f"--user-data-dir=/tmp/chrome-data-{random.randint(0, 999999)}")  # Use unique temp directory
-        chrome_options.add_argument(f"user-agent={UserAgent().random}")
-        random_proxy = get_random_proxy()
-        chrome_options.add_argument(f'--proxy-server={random_proxy}')
-        print(f"Using proxy: {random_proxy}")
-        # Initialize the Chrome driver
-        driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
-        # Set viewport size to match window size
-        driver.execute_cdp_cmd('Emulation.setDeviceMetricsOverride', {'width': 1280, 'height': 900, 'deviceScaleFactor': 1, 'mobile': False})
+        # half-automated
+        # Start a real browser session
+        options = webdriver.ChromeOptions()
+        driver = webdriver.Chrome(options=options)
+
+        # # Set up Chrome options
+        # chrome_options = Options()
+        # chrome_options.add_argument("--headless")
+        # chrome_options.add_argument("--window-size=1280x900")
+        # chrome_options.add_argument("--no-sandbox")  # Added for running in Docker
+        # chrome_options.add_argument("--disable-dev-shm-usage")  # Added for running in Docker
+        # chrome_options.add_argument(f"--user-data-dir=/tmp/chrome-data-{random.randint(0, 999999)}")  # Use unique temp directory
+        # chrome_options.add_argument(f"user-agent={UserAgent().random}")
+        # random_proxy = get_random_proxy()
+        # chrome_options.add_argument(f'--proxy-server={random_proxy}')
+        # print(f"Using proxy: {random_proxy}")
+        # # Initialize the Chrome driver
+        # driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
+        # # Set viewport size to match window size
+        # driver.execute_cdp_cmd('Emulation.setDeviceMetricsOverride', {'width': 1280, 'height': 900, 'deviceScaleFactor': 1, 'mobile': False})
         return driver
 
     def visit_home_page(self, driver, domain="https://www.foodbasics.ca"):
@@ -164,14 +170,18 @@ class PriceScraper:
     
     def capture_proof(self, reference_item_id, url):
         driver = self.create_driver()
-        self.visit_home_page(driver)
-        time.sleep(random.uniform(1, 3))
-        search_input = driver.find_element(By.ID, "header--search--input")
-        search_input.send_keys("english muffins")
-        time.sleep(random.uniform(1, 3))
+        # self.visit_home_page(driver)
+        # time.sleep(random.uniform(1, 3))
+        # search_input = driver.find_element(By.ID, "header--search--input")
+        # search_input.send_keys("english muffins")
+        # time.sleep(random.uniform(1, 3))
         driver.get(url)
-        time.sleep(random.uniform(1, 3))
-        self.remove_consent_banner(driver) # consent banner doesn't matter here
+        input("Press Enter after manually passing the challenge...")
+        # time.sleep(random.uniform(1, 3))
+        # self.remove_consent_banner(driver) # consent banner doesn't matter here
+
+        # Now continue automation
+        driver.save_screenshot("screenshot.png")
         timestamp = pd.Timestamp.now().strftime('%Y-%m-%d_%H-%M-%S')
         filename = f'{self.screenshot_dir}{reference_item_id}_{timestamp}.png'  # Use self.screenshot_dir
         saved_file_name = self.save_screencapture(driver, filename)
@@ -218,7 +228,7 @@ class PriceScraper:
                 # Fallback to CSV if API fails
                 self.scraped_df = pd.DataFrame()
                 self.scraped_df = pd.concat([self.scraped_df, pd.DataFrame([product])], ignore_index=True)
-                self.scraped_df.to_csv('/app/services/price_scraper/tmp/temp_scraped_products.csv', index=False)
+                self.scraped_df.to_csv(f'{self.root_folder}/services/price_scraper/tmp/temp_scraped_products.csv', index=False)
                 print(f"Saved to CSV as fallback")
                 
                 return False
@@ -229,7 +239,7 @@ class PriceScraper:
             # Fallback to CSV if exception occurs
             self.scraped_df = pd.DataFrame()
             self.scraped_df = pd.concat([self.scraped_df, pd.DataFrame([product])], ignore_index=True)
-            self.scraped_df.to_csv('/app/services/price_scraper/tmp/temp_scraped_products.csv', index=False)
+            self.scraped_df.to_csv(f'{self.root_folder}/services/price_scraper/tmp/temp_scraped_products.csv', index=False)
             print(f"Saved to CSV as fallback")
             
             return False
