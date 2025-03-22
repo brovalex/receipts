@@ -212,7 +212,7 @@ class PriceScraper:
   
             # Send POST request to the API
             response = requests.post(
-                "http://frontend:3000/api/price-proofs",  # Update with your actual API URL
+                "http://localhost:3000/api/price-proofs",  # Update with your actual API URL
                 headers={"Content-Type": "application/json"},
                 data=json.dumps(api_payload)
             )
