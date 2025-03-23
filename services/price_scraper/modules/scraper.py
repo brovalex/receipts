@@ -110,7 +110,8 @@ class PriceScraper:
             'price': price,
             'pricePerWeight': calculate_price_per_weight(quantity, price),
             'referenceUrl': scraped_item['url'],
-            'createdAt': datetime.now(timezone.utc).isoformat(timespec='milliseconds').replace('+00:00', 'Z')
+            'createdAt': datetime.now(timezone.utc).isoformat(timespec='milliseconds').replace('+00:00', 'Z'),
+            'index': scraped_item['index']
         }
     
     # Driver functions
@@ -177,7 +178,7 @@ class PriceScraper:
         # self.remove_consent_banner(driver) # consent banner doesn't matter here
 
         # Now continue automation
-        driver.save_screenshot("screenshot.png")
+        # driver.save_screenshot("screenshot.png")
         timestamp = pd.Timestamp.now().strftime('%Y-%m-%d_%H-%M-%S')
         filename = f'{self.screenshot_dir}{reference_item_id}_{timestamp}.png'  # Use self.screenshot_dir
         saved_file_name = self.save_screencapture(driver, filename)
@@ -250,15 +251,16 @@ class PriceScraper:
         driver = self.create_driver()
         
         # Visit home page first to mimic normal user behavior
-        self.visit_home_page(driver)
+        # self.visit_home_page(driver)
         
         # Add a small random delay before searching
-        time.sleep(random.uniform(1, 3))
+        # time.sleep(random.uniform(1, 3))
         
         print(self.get_url(product_name))
         driver.get(self.get_url(product_name))
+
         time.sleep(random.uniform(1, 3))
-        self.remove_consent_banner(driver) # consent banner doesn't matter here
+        self.remove_consent_banner(driver)
 
         items = []
         products = driver.find_elements(By.CLASS_NAME, 'default-product-tile')
@@ -274,7 +276,8 @@ class PriceScraper:
                     'weight': unit_details,
                     'price': sale_price,
                     'price_per_unit': secondary_price,
-                    'url': product_url
+                    'url': product_url,
+                    'index': products.index(product)
                 })
                 print(clean_item)
                 items.append(clean_item)
@@ -288,6 +291,17 @@ class PriceScraper:
             screenshot_path = os.path.join(f'{self.screenshot_dir}errors/', screenshot_name)
             driver.save_screenshot(screenshot_path)
             print(f"No products found. Screenshot saved to {screenshot_path}")
+
+        target_product = self.get_cheapest(items)
+        
+        # Highlight the target product tile and scroll it into view
+        target_tile = driver.find_elements(By.CLASS_NAME, 'default-product-tile')[target_product['index']]
+        driver.execute_script("arguments[0].style.border = '10px solid yellow';", target_tile)
+        driver.execute_script("arguments[0].scrollIntoView({behavior: 'smooth', block: 'center'});", target_tile)
+        time.sleep(1) # Brief pause to let scroll complete
+
+        # pause
+        input("Press Enter to continue script...")
 
         driver.quit()
         return items
