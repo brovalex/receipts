@@ -23,8 +23,12 @@ from services.shared.config import SCREENSHOT_DIR, MIN_DELAY, MAX_DELAY
 import requests
 import json
 
-# Load environment variables from .env file
-load_dotenv()
+# Get the absolute path to the .env file relative to this script
+# This ensures it works regardless of where the module is imported from
+current_dir = Path(os.path.dirname(os.path.abspath(__file__)))
+env_path = current_dir.parent.parent / '.env'  # Go up two levels to /services/.env
+load_dotenv(env_path)
+
 # Get proxy list from environment variable
 # PROXY_LIST: List[str] = os.getenv("PROXY_LIST", "").split(",") if os.getenv("PROXY_LIST") else []
 
@@ -117,21 +121,13 @@ class PriceScraper:
         # half-automated
         # Start a real browser session
         options = webdriver.ChromeOptions()
-        driver = webdriver.Chrome(options=options)
-
-        # # Set up Chrome options
-        # chrome_options = Options()
-        # chrome_options.add_argument("--headless")
-        # chrome_options.add_argument("--window-size=1280x900")
-        # chrome_options.add_argument("--no-sandbox")  # Added for running in Docker
-        # chrome_options.add_argument("--disable-dev-shm-usage")  # Added for running in Docker
-        # chrome_options.add_argument(f"--user-data-dir=/tmp/chrome-data-{random.randint(0, 999999)}")  # Use unique temp directory
+        options.add_argument("--window-size=1280x900")
         # chrome_options.add_argument(f"user-agent={UserAgent().random}")
-        # random_proxy = get_random_proxy()
-        # chrome_options.add_argument(f'--proxy-server={random_proxy}')
-        # print(f"Using proxy: {random_proxy}")
+        random_proxy = get_random_proxy()
+        options.add_argument(f'--proxy-server={random_proxy}')
+        print(f"Using proxy: {random_proxy}")
         # # Initialize the Chrome driver
-        # driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
+        driver = webdriver.Chrome(options=options)
         # # Set viewport size to match window size
         # driver.execute_cdp_cmd('Emulation.setDeviceMetricsOverride', {'width': 1280, 'height': 900, 'deviceScaleFactor': 1, 'mobile': False})
         return driver
