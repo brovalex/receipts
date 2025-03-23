@@ -182,6 +182,7 @@ class PriceScraper:
         timestamp = pd.Timestamp.now().strftime('%Y-%m-%d_%H-%M-%S')
         filename = f'{self.screenshot_dir}{reference_item_id}_{timestamp}.png'  # Use self.screenshot_dir
         saved_file_name = self.save_screencapture(driver, filename)
+        print(f"Saved screenshot to {saved_file_name}")
         driver.quit()
         return saved_file_name
     
@@ -242,11 +243,13 @@ class PriceScraper:
             return False
 
     # Main stuff
-    def search_for_products(self, product_name: str) -> List[ScrapedProduct]:
+    def search_for_products_helper(self, reference_item_id: int) -> List[ScrapedProduct]:
         """
         Scrape product information from the website
         Returns ScrapedProduct if found, None if not found
         """
+        reference_item = self.mapping_df[self.mapping_df['id'] == reference_item_id].iloc[0]
+        product_name = reference_item['product_name']
         print(f"Searching for: {product_name}")
         driver = self.create_driver()
         
@@ -261,9 +264,12 @@ class PriceScraper:
 
         time.sleep(random.uniform(1, 3))
         self.remove_consent_banner(driver)
+        time.sleep(random.uniform(1, 3))
 
-        items = []
         products = driver.find_elements(By.CLASS_NAME, 'default-product-tile')
+        items = []
+        
+        # First collect all product data
         for product in products:
             try:
                 title = product.find_element(By.CLASS_NAME, 'head__title').text.strip()
@@ -283,7 +289,47 @@ class PriceScraper:
                 items.append(clean_item)
             except Exception as e:
                 print(f"Error processing product: {e}")
-
+        
+        # Sort items by price_per_unit
+        sorted_items = sorted(items, key=lambda x: float(x['pricePerWeight']))
+        # Append sorted items to CSV file
+        scraped_items_df = pd.DataFrame(sorted_items)
+        csv_path = f'{self.root_folder}/services/price_scraper/tmp/all-scraped-items.csv'
+        
+        # Create file with headers if it doesn't exist
+        if not os.path.exists(csv_path):
+            scraped_items_df.to_csv(csv_path, index=False)
+        else:
+            # Append without headers if file exists
+            scraped_items_df.to_csv(csv_path, mode='a', header=False, index=False)
+        
+        # Rearrange DOM elements based on sorted order
+        driver.execute_script("""
+            // Get the container that holds all product tiles
+            const container = document.querySelector('.products-search--grid');
+            if (!container) return;
+            
+            // Get all product tiles
+            const productTiles = Array.from(container.querySelectorAll('.default-product-tile'));
+            
+            // Create a new ordered array based on the sorted indices
+            const newOrder = arguments[0].map(item => productTiles[item.index]);
+            
+            // Clear the container
+            while (container.firstChild) {
+                container.removeChild(container.firstChild);
+            }
+            
+            // Add the elements back in the sorted order
+            newOrder.forEach(tile => {
+                container.appendChild(tile);
+            });
+        """, sorted_items)
+        
+        # Update the indices after rearranging
+        for i, item in enumerate(sorted_items):
+            item['index'] = i
+        
         if not items:
             # Take screenshot if no products found
             timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
@@ -293,12 +339,26 @@ class PriceScraper:
             print(f"No products found. Screenshot saved to {screenshot_path}")
 
         target_product = self.get_cheapest(items)
-        
+
+        # pause
+        selected_target = input("Press Enter to continue script...")
+        selected_target = selected_target.replace('https://www.foodbasics.ca', '')
+        print(f"Selected target: {selected_target}")
         # Highlight the target product tile and scroll it into view
-        target_tile = driver.find_elements(By.CLASS_NAME, 'default-product-tile')[target_product['index']]
+        # target_tile = driver.find_elements(By.CLASS_NAME, 'default-product-tile')[target_product['index']]
+        target_tile = driver.find_element(By.CSS_SELECTOR, f'.default-product-tile:has(.product-details-link[href="{selected_target}"])')
+        # Update target_product to match the selected item
+        target_product = next(item for item in items if selected_target in item['referenceUrl'])
         driver.execute_script("arguments[0].style.border = '10px solid yellow';", target_tile)
         driver.execute_script("arguments[0].scrollIntoView({behavior: 'smooth', block: 'center'});", target_tile)
         time.sleep(1) # Brief pause to let scroll complete
+
+        timestamp = pd.Timestamp.now().strftime('%Y-%m-%d_%H-%M-%S')
+        filename = f'{self.screenshot_dir}{reference_item_id}_{timestamp}.png'  # Use self.screenshot_dir
+        saved_file_name = self.save_screencapture(driver, filename)
+        target_product['screenshot'] = saved_file_name.split('/')[-1]
+        target_product['referenceItemId'] = reference_item_id
+        self.save_product(target_product)
 
         # pause
         input("Press Enter to continue script...")
@@ -313,7 +373,7 @@ class PriceScraper:
         reference_item = self.mapping_df[self.mapping_df['id'] == reference_item_id].iloc[0]
         product_name = reference_item['product_name']
         print(f"Scraping product: {product_name}")
-        products = self.search_for_products(product_name)
+        products = self.search_for_products(product_name, reference_item_id)
         if len(products) == 0:
             print(f"No products found for {product_name}")
             return False
