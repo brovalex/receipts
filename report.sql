@@ -77,12 +77,33 @@ report AS (
     WHERE cpp.price_proof_id IS NOT NULL -- temp for now to remove mistakes
     ORDER BY e.created_at DESC
 )
+-- Note: the `report` CTE shows all expenses
+--SELECT
+--* 
+--FROM report;
+-- I can sum the report to double check the full amount
+--SELECT 
+--reference_item_id,
+--MIN(reference_item_name) AS reference_item_name_per_id,
+--SUM(gf_total)
+--FROM report
+--GROUP BY reference_item_id
+--;
+-- and check grand total
+--SELECT
+--	SUM(gf_total)
+--FROM report
+--;
+-- Note: this is a report in the format the CRA wants it
 SELECT
-* 
+	reference_item_id, 
+	MIN(reference_item_name) AS reference_item_per_id,
+	SUM(quantity) AS quantity,
+	AVG(equivalent_base_price) AS non_gf_average_cost,
+	AVG(price_each) AS gf_average_cost,
+	AVG(equivalent_base_price) AS non_gf_average_cost,
+	GREATEST(0, AVG(price_each) - AVG(equivalent_base_price)) AS avg_incr_cost,
+	SUM(quantity) * GREATEST(0, AVG(price_each) - AVG(equivalent_base_price)) AS total
 FROM report
---FROM ClosestPriceProof
--- WHERE price_proof_id IS NOT NULL
--- GROUP BY reference_item_id
+GROUP BY reference_item_id
 ;
-
-
