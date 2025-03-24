@@ -76,10 +76,13 @@ class PriceScraper:
 
         def standardize_unit_of_measure(quantity: float, unit_of_measure: str) -> str:
             # Convert quantity and standardize unit of measure
+            unit_of_measure = unit_of_measure.lower()
             if unit_of_measure == 'mg':
                 return quantity / 1000, 'g'
             elif unit_of_measure == 'kg':
                 return quantity * 1000, 'g'
+            elif unit_of_measure == 'l':
+                return quantity * 1000, 'mL'
             elif unit_of_measure in ['un', 'ca']:
                 return quantity, 'count'
             else:
