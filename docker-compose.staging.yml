@@ -1,0 +1,87 @@
+services:
+  db-staging:
+    image: postgres
+    hostname: postgresstaging
+    restart: always
+    environment:
+      - POSTGRES_USER=postgresstaging
+      - POSTGRES_PASSWORD=postgresstaging
+      - POSTGRES_DB=receipts_app_staging
+      - POSTGRES_MAX_CONNECTIONS=20
+    ports:
+      - '5433:5432'
+    networks:
+      - receipts_app_network_staging
+    volumes:
+      - ./data/postgres-staging:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgresstaging -d receipts_app_staging"]
+      interval: 5s
+      timeout: 2s
+      retries: 20
+  # price_scraper-staging:
+  #   build: 
+  #     context: ./services/price_scraper
+  #   hostname: price-scraper-service-staging
+  #   volumes:
+  #     - ./services:/app/services
+  #   ports:
+  #     - '8001:8000'
+  #   networks:
+  #     - receipts_app_network_staging
+  #   command: uvicorn services.price_scraper.local_server:app --host 0.0.0.0 --port 8001 --reload
+  # frontend-staging:
+  #   build:
+  #     context: ./frontend
+  #   hostname: frontend-staging
+  #   ports:
+  #     - '3001:3000'
+  #   # stdin_open: true
+  #   # tty: true  # Keeps the container running for debugging
+  #   depends_on:
+  #     db:
+  #       condition: service_healthy
+  #   networks:
+  #     - receipts_app_network_staging
+  #   volumes:
+  #     - ./frontend:/app
+  #     - ./services/price_scraper/tmp/screenshots:/app/public/screenshots
+  #     - /app/node_modules
+  #   environment:
+  #     - DATABASE_URL="postgresql://postgresstaging:postgresstaging@postgresstaging:5433/receipts_app_staging?schema=receipts_app"
+  #     - NODE_ENV=development
+  #   command: sh -c "npm run db:deploy && npm run dev"
+  # nifi:
+  #   image: apache/nifi:latest
+  #   hostname: nifi1-staging
+  #   ports:
+  #     - '8444:8443'
+  #   environment:
+  #     - NIFI_WEB_HTTP_PORT=8080
+  #     - NIFI_CLUSTER_IS_NODE=false
+  #     - NIFI_UI_COUNTRY=us
+  #   networks:
+  #     - receipts_app_network_staging
+  #   volumes:
+  #     # - ./services/nifi-staging/shared-directory:/opt/nifi/nifi-current/ls-target
+  #     - ./services/nifi-staging/data:/opt/nifi/nifi-current/data
+  #     - ./services/nifi-staging/conf:/opt/nifi/nifi-current/conf
+  #     - ./services/nifi-staging/logs:/opt/nifi/nifi-current/logs
+  #     - ./services/nifi-staging/drivers:/opt/nifi/nifi-current/drivers
+  #   restart: always
+  #   stdin_open: true
+  # nifi-registry:
+  #   image: apache/nifi-registry:latest
+  #   hostname: nifi-registry
+  #   ports:
+  #     - '18080:18080'
+  #   networks:
+  #     - receipts_app_network_staging
+  #   volumes:
+  #     - ./services/nifi-staging/registry/flow-storage:/opt/nifi-registry/nifi-registry-current/flow-storage
+  #     - ./services/nifi-staging/registry/database:/opt/nifi-registry/nifi-registry-current/database
+  #   # stdin_open: true
+
+networks:
+  receipts_app_network_staging:
+    name: receipts_app_network_staging
