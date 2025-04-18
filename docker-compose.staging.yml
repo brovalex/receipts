@@ -30,27 +30,27 @@ services:
   #   networks:
   #     - receipts_app_network_staging
   #   command: uvicorn services.price_scraper.local_server:app --host 0.0.0.0 --port 8001 --reload
-  # frontend-staging:
-  #   build:
-  #     context: ./frontend
-  #   hostname: frontend-staging
-  #   ports:
-  #     - '3001:3000'
-  #   # stdin_open: true
-  #   # tty: true  # Keeps the container running for debugging
-  #   depends_on:
-  #     db:
-  #       condition: service_healthy
-  #   networks:
-  #     - receipts_app_network_staging
-  #   volumes:
-  #     - ./frontend:/app
-  #     - ./services/price_scraper/tmp/screenshots:/app/public/screenshots
-  #     - /app/node_modules
-  #   environment:
-  #     - DATABASE_URL="postgresql://postgresstaging:postgresstaging@postgresstaging:5433/receipts_app_staging?schema=receipts_app"
-  #     - NODE_ENV=development
-  #   command: sh -c "npm run db:deploy && npm run dev"
+  frontend-staging:
+    build:
+      context: ./frontend
+    hostname: frontend-staging
+    ports:
+      - '3001:3000'
+    # stdin_open: true
+    # tty: true  # Keeps the container running for debugging
+    depends_on:
+      db-staging:
+        condition: service_healthy
+    networks:
+      - receipts_app_network_staging
+    volumes:
+      - ./frontend:/app
+      - ./services/price_scraper/tmp/screenshots:/app/public/screenshots
+      - /app/node_modules
+    environment:
+      - DATABASE_URL=postgresql://postgresstaging:postgresstaging@postgresstaging:5432/receipts_app_staging?schema=receipts_app
+      - NODE_ENV=development
+    command: sh -c "npm run db:deploy && npm run dev"
   # nifi:
   #   image: apache/nifi:latest
   #   hostname: nifi1-staging
