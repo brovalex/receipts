@@ -15,13 +15,12 @@ product_id,receipt_text
 108,Seasonal Soup
 109,Mac & Cheese
 110,Cupcakes
-112,FROZEN GF PIE
 111,GF DES
-79,Gluten Free
 87,RAw CASHEWS
 72,NP CER MESA
 114,QUFA TC SALTED
 72,NP CEREAL MESA
+72,NP MS SNRSE W/RS
 39,GRANOLA CHANVRE MIEL
 39,GRANOLA
 115,TRKY RST
@@ -46,7 +45,6 @@ product_id,receipt_text
 1,GF Pasta
 61,Handcrafted Sourdoug
 118,Yellow Tortillas
-79,Free Bun
 58,Eco Pack Cer
 87,PRANA CASHEVS
 82,NATP WAFFLES GF HOMESTYLE
@@ -95,8 +93,9 @@ product_id,receipt_text
 59,'SCHR HOTDOG ROLL
 124,JOHN SAU MPL BRK
 124,CHED SMK SAUSAGE
+124,ITLN SAUSAGE
 124,BRATWURST SAUSAG
-80,MULTiGRAIn LOAF
+80,MULTIGRAIN LOAF
 129,MASTRO TRIO CKD
 129,CUP CHAR PEPERON
 71,Pad Thai Noodles Kit
@@ -215,7 +214,6 @@ product_id,receipt_text
 17,ENJOY SEMI-SWEET MEGA CHOC CH
 91,SCHAR GF HOT DOG BUNS
 98,Scones
-60,Sandwich Bread
 139,KS DLUX PIZZ
 139,CH PIZZA GF
 140,WELCH'S 60CT
@@ -303,3 +301,5 @@ product_id,receipt_text
 44,Rizopia 100% Brown Rice Pasta Spaghetti
 186,Rizopia 100% Brown Rice Pasta Fettuccine
 186,Rizopia Organic Brown Rice Pasta Fusilli
+79,Gf Charge
+81,GLTFREE HAM BUNS
