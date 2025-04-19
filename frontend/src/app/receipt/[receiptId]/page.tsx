@@ -9,7 +9,7 @@ import { Product, ReceiptText } from '@prisma/client';
 import { ImageFileWithRelationships } from '@/types/imageFile.d';
 import { Table } from "flowbite-react";
 import { Button, Label, TextInput } from "flowbite-react";
-import { DrawSquare, Pen } from "flowbite-react-icons/outline";
+import { DrawSquare, Pen, TrashBin } from "flowbite-react-icons/outline";
 import CreatableSelect from 'react-select/creatable';
 import { StylesConfig } from 'react-select';
 import ImageComponent from '@/components/ImageComponent';
@@ -53,7 +53,7 @@ const ReceiptPage = () => {
 
     const { register, control, setValue, handleSubmit, formState: { errors }, reset } = useForm<ExpenseFormInputs>();
 
-    const [isLoading, setIsLoading] = useState(false);
+    const [isLoading, setIsLoading] = useState(true);
     const [options, setOptions] = useState<Option[]>([]);
     const [product, setProduct] = useState<Option | null>(null);
     
@@ -329,28 +329,32 @@ const ReceiptPage = () => {
                 <div className="flex items-center justify-between mb-4">
                     <h1 className="text-lg font-medium">Receipt #{receiptId}</h1>
                     <div className="flex justify-end">
-                        <select 
-                            className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2.5"
-                            value={receipt?.reviewed === null ? 'no_status' : receipt?.reviewed ? 'reviewed' : 'not_reviewed'}
-                            onChange={(e) => handleReviewedUpdate(e.target.value)}
-                        >
-                            <option value="no_status">No status</option>
-                            <option value="reviewed">Reviewed</option>
-                            <option value="not_reviewed">Rejected</option>
-                        </select>
+                        {isLoading ? (
+                            <p className="py-2 italic text-gray-600">Loading...</p>
+                        ) : (
+                            <select 
+                                className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2.5"
+                                value={receipt?.reviewed === null ? 'no_status' : receipt?.reviewed ? 'reviewed' : 'not_reviewed'}
+                                onChange={(e) => handleReviewedUpdate(e.target.value)}
+                            >
+                                <option value="no_status">No status</option>
+                                <option value="reviewed">Reviewed</option>
+                                <option value="not_reviewed">Rejected</option>
+                            </select>
+                        )}
                     </div>
                 </div>
                 <hr className="my-4" />
                 <Table className="table-auto">
                     <Table.Head>
-                    <Table.HeadCell>Item</Table.HeadCell>
+                    <Table.HeadCell className="w-1/2">Item</Table.HeadCell>
                     <Table.HeadCell className="text-right">Quantity</Table.HeadCell>
                     <Table.HeadCell className="text-right">Price Each</Table.HeadCell>
                     <Table.HeadCell>
                         <span className="sr-only">Edit</span>
                     </Table.HeadCell>
                     </Table.Head>
-                    {expenses.length > 0 ? (
+                    {expenses.length > 0 && !isLoading ? (
                         <Table.Body className="divide-y">
                             {expenses.map((expense) => (
                                 <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800" key={expense.id}>
@@ -386,11 +390,18 @@ const ReceiptPage = () => {
                                                             )}
                                                         />
                                                     </div>
+                                                    <div className="w-1/3 flex items-end">
+                                                        <Button 
+                                                            color="red"
+                                                            onClick={handleDeleteExpense}
+                                                        >
+                                                            <TrashBin className="h-5 w-5" />
+                                                        </Button>
+                                                    </div>
                                                 </div>
                                                 <div className="flex flex-wrap gap-2">
                                                     <Button onClick={handleSaveEdit}>Save</Button>
                                                     <Button color="light" onClick={handleCancelEdit}>Cancel</Button>
-                                                    <Button color="failure" onClick={handleDeleteExpense}>Delete</Button>
                                                 </div>
                                             </form>
                                         </Table.Cell>
@@ -422,13 +433,34 @@ const ReceiptPage = () => {
                             ))}
                         </Table.Body>
                     ) : (
-                        <Table.Body className="divide-y">
-                            <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
+                        isLoading ? (
+                            <Table.Body className="divide-y">
+                                <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
+                                    <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
+                                        <div className="animate-pulse">
+                                                <div className="h-4 bg-gray-200 rounded w-full"></div>
+                                                <div className="h-3 bg-gray-200 rounded w-1/2 mt-2"></div>
+                                        </div>
+                                    </Table.Cell>
+                                </Table.Row>
+                                <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
+                                    <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
+                                        <div className="animate-pulse">
+                                                <div className="h-4 bg-gray-200 rounded w-full"></div>
+                                                <div className="h-3 bg-gray-200 rounded w-1/2 mt-2"></div>
+                                        </div>
+                                    </Table.Cell>
+                                </Table.Row>
+                            </Table.Body>
+                        ) : (
+                            <Table.Body className="divide-y">
+                                <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
                                 <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
-                                    <p>No expenses on this receipt. </p>
+                                <p>No expenses on this receipt. </p>
                                 </Table.Cell>
-                            </Table.Row>
-                        </Table.Body>
+                                </Table.Row>
+                            </Table.Body>
+                        )
                     )}
                     {!editingExpenseId && (
                         <Table.Body className="divide-y border-t">
