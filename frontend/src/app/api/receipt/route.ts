@@ -44,7 +44,7 @@ export async function POST(req: NextRequest) {
     return NextResponse.json(newReceipt, { status: 201 });
   } catch (error) {
     console.error('Error creating receipt:', error);
-    return NextResponse.json({ error: 'Failed to create receipt: ' + error.message }, { status: 500 });
+    return NextResponse.json({ error: 'Failed to create receipt: ' + error }, { status: 500 });
   }
 }
 
@@ -83,6 +83,6 @@ export async function PUT(req: NextRequest) {
     return NextResponse.json(updatedReceipt, { status: 200 });
   } catch (error) {
     console.error('Error updating receipt:', error);  
-    return NextResponse.json({ error: 'Failed to update receipt: ' + error.message }, { status: 500 });
+    return NextResponse.json({ error: 'Failed to update receipt: ' + error }, { status: 500 });
   }
 }
