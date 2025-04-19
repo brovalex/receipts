@@ -52,12 +52,13 @@ export default function Home() {
     : 'all';
   
   // Filter receipts based on selected year
-  const filteredReceipts = selectedYear === 'all' 
+  const filteredReceipts = (selectedYear === 'all' 
     ? receipts 
     : receipts.filter(receipt => 
         receipt.receiptDate && 
         new Date(receipt.receiptDate).getFullYear() === parseInt(selectedYear)
-      );
+      )
+  ).sort((a, b) => a.id - b.id);
   
   if (loading) return <div className="p-4">Loading receipts...</div>;
   
@@ -112,7 +113,9 @@ export default function Home() {
                     : 'N/A'}
                 </td>
                 <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">{receipt.expenses.length}</td>
-                <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">{receipt.reviewed ? 'Reviewed' : 'Not Reviewed'}</td>
+                <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
+                  {receipt.reviewed === null ? 'Not reviewed' : receipt.reviewed ? 'Reviewed' : 'Rejected'}
+                </td>
                 <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
                   <a href={`/receipt/${receipt.id}`} className="text-blue-600 hover:text-blue-900">View</a>
                 </td>

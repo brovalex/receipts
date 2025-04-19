@@ -251,7 +251,7 @@ const ReceiptPage = () => {
                         >
                             <option value="no_status">No status</option>
                             <option value="reviewed">Reviewed</option>
-                            <option value="not_reviewed">Not reviewed</option>
+                            <option value="not_reviewed">Rejected</option>
                         </select>
                     </div>
                 </div>
