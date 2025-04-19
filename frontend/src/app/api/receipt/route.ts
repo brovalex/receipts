@@ -52,7 +52,7 @@ export async function POST(req: NextRequest) {
 export async function PUT(req: NextRequest) {
   try {
     const body = await req.json();
-    const { receiptId, receiptDate } = body;
+    const { receiptId, receiptDate, reviewed } = body;
     
     // Validate input
     if (!receiptId) {
@@ -76,7 +76,8 @@ export async function PUT(req: NextRequest) {
         id: typeof receiptId === 'string' ? parseInt(receiptId) : receiptId
       },
       data: {
-        receiptDate: parsedDate
+        receiptDate: parsedDate,
+        reviewed: reviewed
       }
     });
     

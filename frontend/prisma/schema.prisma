@@ -72,6 +72,7 @@ model Receipt {
   id          Int         @id @default(autoincrement())
   createdAt   DateTime    @default(now()) @map("created_at") @db.Timestamp(6)
   updatedAt   DateTime    @default(now()) @map("updated_at") @db.Timestamp(6)
+  reviewed    Boolean?
   receiptDate DateTime?   @map("receipt_date") @db.Timestamp(6)
   expenses    Expense[]
   imageFiles  ImageFile[]

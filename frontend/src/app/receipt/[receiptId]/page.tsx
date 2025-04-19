@@ -37,7 +37,7 @@ const ReceiptPage = () => {
     const [initialNewProductName, setInitialNewProductName] = useState<string | undefined>(undefined);
     
     // TODO: only assuming using a single image for now, add support for multiple images later
-    const imageUrl = receipt?.imageFiles[0]?.url ?? '';
+    const imageUrl = receipt?.imageFiles?.[0]?.url ?? '';
     const [expenses, setExpenses] = useState<ExpenseWithRelationships[]>([]);
     const [receiptTexts, setReceiptTexts] = useState<ReceiptText[]>([]);
 
@@ -87,7 +87,7 @@ const ReceiptPage = () => {
     useEffect(() => {
         if (receipt) {
             const newExpenses = receipt?.expenses;
-            const newReceiptTexts = receipt?.imageFiles[0]?.receiptTexts ?? [];
+            const newReceiptTexts = receipt?.imageFiles?.[0]?.receiptTexts ?? [];
             const sortedExpenses = sortExpenses(newExpenses, newReceiptTexts);
             setExpenses(sortedExpenses);
             setReceiptTexts(newReceiptTexts);
@@ -197,6 +197,35 @@ const ReceiptPage = () => {
         handleSelectProductOption(newOption);
       };
     
+    const handleReviewedUpdate = async (value: string) => {
+        const reviewed = value === 'no_status' ? null : value === 'reviewed';
+        
+        try {
+            const response = await fetch(`/api/receipt`, {
+                method: 'PUT',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    receiptId: receiptId,
+                    reviewed: reviewed
+                }),
+            });
+            
+            if (!response.ok) {
+                throw new Error('Failed to update receipt status');
+            }
+            
+        } catch (error) {
+            console.error('Error updating receipt status:', error);
+        }
+        
+        setReceipt(prevReceipt => ({
+            ...prevReceipt,
+            reviewed: reviewed
+        }));
+    };
+
     return (
         <div className="flex h-screen">
             <div className="w-1/2 h-full bg-gray-900 overflow-y-scroll">
@@ -212,7 +241,20 @@ const ReceiptPage = () => {
             )}
             </div>
             <div className="w-1/2 p-4 h-full overflow-y-scroll">
-                <h1 className="text-lg font-medium">Receipt #{receiptId}</h1>
+                <div className="flex items-center justify-between mb-4">
+                    <h1 className="text-lg font-medium">Receipt #{receiptId}</h1>
+                    <div className="flex justify-end">
+                        <select 
+                            className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2.5"
+                            value={receipt?.reviewed === null ? 'no_status' : receipt?.reviewed ? 'reviewed' : 'not_reviewed'}
+                            onChange={(e) => handleReviewedUpdate(e.target.value)}
+                        >
+                            <option value="no_status">No status</option>
+                            <option value="reviewed">Reviewed</option>
+                            <option value="not_reviewed">Not reviewed</option>
+                        </select>
+                    </div>
+                </div>
                 <hr className="my-4" />
                 <Table className="table-auto">
                     <Table.Head>

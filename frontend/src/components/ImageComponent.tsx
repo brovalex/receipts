@@ -56,7 +56,13 @@ const ImageComponent: React.FC<ImageComponentProps> = forwardRef(({ imageUrl, re
     const handleResize = () => {
         drawBoxes();
     };
-    window.addEventListener('resize', handleResize);
+
+    useEffect(() => {
+        window.addEventListener('resize', handleResize);
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
 
     useEffect(() => {
         const newRectangles = calculateRectangles(receiptTexts, canvas, image);

@@ -7,6 +7,10 @@ export const sortExpenses = (
     expenses: ExpenseWithRelationships[], 
     receiptTexts: ReceiptText[]
 ): ExpenseWithRelationships[] => {
+    if (!expenses) {
+        return [];
+    }
+    
     return expenses.sort((a, b) => {
         // Find corresponding receipt text for each expense
         const receiptTextA = receiptTexts.find(rt => rt.id === a.receiptTextId);
