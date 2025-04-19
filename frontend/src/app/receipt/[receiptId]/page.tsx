@@ -370,6 +370,73 @@ const ReceiptPage = () => {
                         </Table.Row>
                     </Table.Body>
                 </Table>
+                <div className="flex justify-end mt-4">
+                    <Button 
+                        color="light" 
+                        onClick={async () => {
+                            try {
+                                const response = await fetch('/api/receipts');
+                                const receipts = await response.json();
+                                const currentIndex = receipts.findIndex((r: any) => r.id === receipt.id);
+                                const prevReceipt = receipts[currentIndex - 1];
+                                
+                                if (prevReceipt) {
+                                    window.location.href = `/receipt/${prevReceipt.id}`;
+                                }
+                            } catch (error) {
+                                console.error('Error fetching previous receipt:', error);
+                            }
+                        }}
+                        className="mr-2"
+                    >
+                        Previous
+                    </Button>
+                    <Button 
+                        color="light" 
+                        onClick={async () => {
+                            try {
+                                const response = await fetch('/api/receipts');
+                                const receipts = await response.json();
+                                const currentIndex = receipts.findIndex((r: any) => r.id === receipt.id);
+                                const nextReceipt = receipts[currentIndex + 1];
+                                
+                                if (nextReceipt) {
+                                    window.location.href = `/receipt/${nextReceipt.id}`;
+                                }
+                            } catch (error) {
+                                console.error('Error fetching next receipt:', error);
+                            }
+                        }}
+                        className="mr-2"
+                    >
+                        Next
+                    </Button>
+                    <Button 
+                        color="dark" 
+                        onClick={async () => {
+                            try {
+                                const response = await fetch('/api/receipts');
+                                const receipts = await response.json();
+                                const currentIndex = receipts.findIndex((r: any) => r.id === receipt.id);
+                                const nextUnreviewedReceipt = receipts.slice(currentIndex + 1).find((r: any) => r.reviewed === null);
+                                
+                                if (nextUnreviewedReceipt) {
+                                    window.location.href = `/receipt/${nextUnreviewedReceipt.id}`;
+                                } else {
+                                    // If no unreviewed receipts found after current one, look from the beginning
+                                    const firstUnreviewedReceipt = receipts.find((r: any) => r.reviewed === null);
+                                    if (firstUnreviewedReceipt) {
+                                        window.location.href = `/receipt/${firstUnreviewedReceipt.id}`;
+                                    }
+                                }
+                            } catch (error) {
+                                console.error('Error fetching next receipt:', error);
+                            }
+                        }}
+                    >
+                        Next to review
+                    </Button>
+                </div>
                 {/* <pre>{JSON.stringify(receipt, null, 2)}</pre> */}
                 <NewProductModal 
                     isOpen={openNewProductModal} 
