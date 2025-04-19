@@ -70,6 +70,91 @@ const ReceiptPage = () => {
         }),
       };
 
+    const [editingExpenseId, setEditingExpenseId] = useState<number | null>(null);
+    const [editingExpense, setEditingExpense] = useState<ExpenseWithRelationships | null>(null);
+
+    const handleEditClick = (expense: ExpenseWithRelationships) => {
+        setEditingExpenseId(expense.id);
+        setEditingExpense(expense);
+    };
+
+    const handleCancelEdit = () => {
+        setEditingExpenseId(null);
+        setEditingExpense(null);
+    };
+
+    const handleSaveEdit = async () => {
+        if (!editingExpense) return;
+
+        try {
+            const response = await fetch('/api/expense', {
+                method: 'PUT',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    id: editingExpense.id,
+                    priceEach: editingExpense.priceEach,
+                    quantity: editingExpense.quantity,
+                    receiptId: editingExpense.receiptId,
+                    receiptTextId: editingExpense.receiptTextId,
+                    productId: editingExpense.productId,
+                }),
+            });
+
+            if (!response.ok) {
+                throw new Error('Failed to update expense');
+            }
+
+            const updatedExpense = await response.json();
+            setExpenses(prevExpenses => 
+                prevExpenses.map(exp => 
+                    exp.id === updatedExpense.id ? updatedExpense : exp
+                )
+            );
+            handleCancelEdit();
+        } catch (error) {
+            console.error('Error updating expense:', error);
+        }
+    };
+
+    const handleDeleteExpense = async () => {
+        if (!editingExpense) return;
+
+        try {
+            const response = await fetch('/api/expense', {
+                method: 'DELETE',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    id: editingExpense.id
+                }),
+            });
+
+            if (!response.ok) {
+                throw new Error('Failed to delete expense');
+            }
+
+            setExpenses(prevExpenses => 
+                prevExpenses.filter(exp => exp.id !== editingExpense.id)
+            );
+
+            setReceiptTexts(prevReceiptTexts => 
+                prevReceiptTexts.map(receiptText => {
+                    if (receiptText.id === editingExpense.receiptTextId) {
+                        return { ...receiptText, expense: null };
+                    }
+                    return receiptText;
+                })
+            );
+
+            handleCancelEdit();
+        } catch (error) {
+            console.error('Error deleting expense:', error);
+        }
+    };
+
     useEffect(() => {
         if (receiptId) {
             fetch(`/api/receipt/${receiptId}`)
@@ -269,22 +354,70 @@ const ReceiptPage = () => {
                         <Table.Body className="divide-y">
                             {expenses.map((expense) => (
                                 <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800" key={expense.id}>
-                                    <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
-                                        <span>{expense.product.name}</span>
-                                        <p className="font-normal text-xs text-slate-400">{expense.product.referenceItem.name}</p>
-                                    </Table.Cell>
-                                    <Table.Cell className="text-right">{expense.quantity} ×</Table.Cell>
-                                    <Table.Cell className="text-right">
-                                        <CurrencyDisplay amount={Number(expense.priceEach).toFixed(2)} />
-                                    </Table.Cell>
-                                    <Table.Cell>
-                                        <div className="flex gap-1">
-                                            <Pen className="w-5 h-5 text-cyan-600" />
-                                            <a href="#" className="font-medium text-cyan-600 hover:underline dark:text-cyan-500">
-                                                Edit
-                                            </a>
-                                        </div>
-                                    </Table.Cell>
+                                    {editingExpenseId === expense.id ? (
+                                        // Edit form
+                                        <Table.Cell colSpan={4}>
+                                            <form className="flex w-full flex-col gap-4">
+                                                <div className="flex space-x-4">
+                                                    <div className="w-1/3">
+                                                        <div className="mb-2 block">
+                                                            <Label htmlFor={`priceEach-${expense.id}`} value="Price" />
+                                                        </div>
+                                                        <TextInput 
+                                                            id={`priceEach-${expense.id}`}
+                                                            type="number"
+                                                            step={0.01}
+                                                            value={editingExpense?.priceEach}
+                                                            onChange={(e) => setEditingExpense(prev => 
+                                                                prev ? {...prev, priceEach: parseFloat(e.target.value)} : null
+                                                            )}
+                                                        />
+                                                    </div>
+                                                    <div className="w-1/3">
+                                                        <div className="mb-2 block">
+                                                            <Label htmlFor={`quantity-${expense.id}`} value="Quantity" />
+                                                        </div>
+                                                        <TextInput 
+                                                            id={`quantity-${expense.id}`}
+                                                            type="number"
+                                                            value={editingExpense?.quantity}
+                                                            onChange={(e) => setEditingExpense(prev => 
+                                                                prev ? {...prev, quantity: parseFloat(e.target.value)} : null
+                                                            )}
+                                                        />
+                                                    </div>
+                                                </div>
+                                                <div className="flex flex-wrap gap-2">
+                                                    <Button onClick={handleSaveEdit}>Save</Button>
+                                                    <Button color="light" onClick={handleCancelEdit}>Cancel</Button>
+                                                    <Button color="failure" onClick={handleDeleteExpense}>Delete</Button>
+                                                </div>
+                                            </form>
+                                        </Table.Cell>
+                                    ) : (
+                                        // Normal display
+                                        <>
+                                            <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
+                                                <span>{expense.product.name}</span>
+                                                <p className="font-normal text-xs text-slate-400">{expense.product.referenceItem.name}</p>
+                                            </Table.Cell>
+                                            <Table.Cell className="text-right">{expense.quantity} ×</Table.Cell>
+                                            <Table.Cell className="text-right">
+                                                <CurrencyDisplay amount={Number(expense.priceEach).toFixed(2)} />
+                                            </Table.Cell>
+                                            <Table.Cell>
+                                                <div className="flex gap-1">
+                                                    <Pen className="w-5 h-5 text-cyan-600" />
+                                                    <button 
+                                                        onClick={() => handleEditClick(expense)}
+                                                        className="font-medium text-cyan-600 hover:underline dark:text-cyan-500"
+                                                    >
+                                                        Edit
+                                                    </button>
+                                                </div>
+                                            </Table.Cell>
+                                        </>
+                                    )}
                                 </Table.Row>
                             ))}
                         </Table.Body>
@@ -297,78 +430,80 @@ const ReceiptPage = () => {
                             </Table.Row>
                         </Table.Body>
                     )}
-                    <Table.Body className="divide-y border-t">
-                        <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
-                            <Table.Cell colSpan={4}>
-                                <form className="flex w-full flex-col gap-4" onSubmit={handleSubmit(onSubmit)}>
-                                <h2 className="text-base font-semibold text-gray-900">Add expense</h2>
-                                <div>
-                                    <div className="mb-2 block">
-                                    <Label htmlFor="product" value="Product" />
-                                    </div>
-                                    <Controller 
-                                        name="productId" 
-                                        control={control}
-                                        render={({ field }) => <CreatableSelect 
-                                            {...field}
-                                            inputId="product"
-                                            instanceId="product"
-                                            className='react-select-container'
-                                            isClearable
-                                            onChange={(newValue) => setProduct(newValue)}
-                                            onCreateOption={handleCreateProduct}
-                                            options={options}
-                                            value={product}
-                                            styles={customStyles}
-                                        />}
-                                    />
-                                </div>
-                                <div className="flex space-x-4">
-                                    <div className="w-1/3">
+                    {!editingExpenseId && (
+                        <Table.Body className="divide-y border-t">
+                            <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
+                                <Table.Cell colSpan={4}>
+                                    <form className="flex w-full flex-col gap-4" onSubmit={handleSubmit(onSubmit)}>
+                                    <h2 className="text-base font-semibold text-gray-900">Add expense</h2>
+                                    <div>
                                         <div className="mb-2 block">
-                                        <Label htmlFor="priceEach" value="Price" />
+                                        <Label htmlFor="product" value="Product" />
                                         </div>
-                                        <TextInput 
-                                            id="priceEach" 
-                                            {...register('priceEach', { required: true })}
-                                            type="number" 
-                                            step={0.01}
-                                        />
-                                        {errors.priceEach && <span>This field is required</span>}
-                                    </div>
-                                    <div className="w-1/3">
-                                        <div className="mb-2 block">
-                                        <Label htmlFor="quantity" value="Quantity" />
-                                        </div>
-                                        <TextInput 
-                                            id="quantity" 
-                                            {...register('quantity', { required: true })}
-                                            type="number" 
-                                            defaultValue={1}
-                                        />
-                                        {errors.quantity && <span>This field is required</span>}
-                                    </div>
-                                    <div className="w-1/3">
-                                        <div className="mb-2 block">
-                                        <Label htmlFor="receiptTextId" value="Bounding box id" />
-                                        </div>
-                                        <TextInput 
-                                            id="receiptTextId" 
-                                            {...register('receiptTextId', { required: false })}
-                                            type="number" 
-                                            rightIcon={DrawSquare} 
-                                            value={selectedReceiptTextId ?? ''} disabled 
+                                        <Controller 
+                                            name="productId" 
+                                            control={control}
+                                            render={({ field }) => <CreatableSelect 
+                                                {...field}
+                                                inputId="product"
+                                                instanceId="product"
+                                                className='react-select-container'
+                                                isClearable
+                                                onChange={(newValue) => setProduct(newValue)}
+                                                onCreateOption={handleCreateProduct}
+                                                options={options}
+                                                value={product}
+                                                styles={customStyles}
+                                            />}
                                         />
                                     </div>
-                                </div>
-                                <div className="flex flex-wrap gap-2">
-                                    <Button type="submit">Save</Button>
-                                    <Button color="light">Clear</Button>
-                                </div>
-                                </form>
-                            </Table.Cell>
-                        </Table.Row>
-                    </Table.Body>
+                                    <div className="flex space-x-4">
+                                        <div className="w-1/3">
+                                            <div className="mb-2 block">
+                                            <Label htmlFor="priceEach" value="Price" />
+                                            </div>
+                                            <TextInput 
+                                                id="priceEach" 
+                                                {...register('priceEach', { required: true })}
+                                                type="number" 
+                                                step={0.01}
+                                            />
+                                            {errors.priceEach && <span>This field is required</span>}
+                                        </div>
+                                        <div className="w-1/3">
+                                            <div className="mb-2 block">
+                                            <Label htmlFor="quantity" value="Quantity" />
+                                            </div>
+                                            <TextInput 
+                                                id="quantity" 
+                                                {...register('quantity', { required: true })}
+                                                type="number" 
+                                                defaultValue={1}
+                                            />
+                                            {errors.quantity && <span>This field is required</span>}
+                                        </div>
+                                        <div className="w-1/3">
+                                            <div className="mb-2 block">
+                                            <Label htmlFor="receiptTextId" value="Bounding box id" />
+                                            </div>
+                                            <TextInput 
+                                                id="receiptTextId" 
+                                                {...register('receiptTextId', { required: false })}
+                                                type="number" 
+                                                rightIcon={DrawSquare} 
+                                                value={selectedReceiptTextId ?? ''} disabled 
+                                            />
+                                        </div>
+                                    </div>
+                                    <div className="flex flex-wrap gap-2">
+                                        <Button type="submit">Save</Button>
+                                        <Button color="light">Clear</Button>
+                                    </div>
+                                    </form>
+                                </Table.Cell>
+                            </Table.Row>
+                        </Table.Body>
+                    )}
                 </Table>
                 <div className="flex justify-end mt-4">
                     <Button 
