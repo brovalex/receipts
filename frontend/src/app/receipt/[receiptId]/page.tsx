@@ -73,6 +73,15 @@ const ReceiptPage = () => {
     const [editingExpenseId, setEditingExpenseId] = useState<number | null>(null);
     const [editingExpense, setEditingExpense] = useState<ExpenseWithRelationships | null>(null);
 
+    useEffect(() => {
+        if (editingExpenseId) {
+            const priceInput = document.getElementById(`priceEach-${editingExpenseId}`);
+            if (priceInput) {
+                priceInput.focus();
+            }
+        }
+    }, [editingExpenseId]);
+
     const handleEditClick = (expense: ExpenseWithRelationships) => {
         setEditingExpenseId(expense.id);
         setEditingExpense(expense);
@@ -361,7 +370,13 @@ const ReceiptPage = () => {
                                     {editingExpenseId === expense.id ? (
                                         // Edit form
                                         <Table.Cell colSpan={4}>
-                                            <form className="flex w-full flex-col gap-4">
+                                            <form 
+                                                className="flex w-full flex-col gap-4"
+                                                onSubmit={(e) => {
+                                                    e.preventDefault();
+                                                    handleSaveEdit();
+                                                }}
+                                            >
                                                 <div className="flex space-x-4">
                                                     <div className="w-1/3">
                                                         <div className="mb-2 block">
@@ -400,7 +415,7 @@ const ReceiptPage = () => {
                                                     </div>
                                                 </div>
                                                 <div className="flex flex-wrap gap-2">
-                                                    <Button onClick={handleSaveEdit}>Save</Button>
+                                                    <Button type="submit">Save</Button>
                                                     <Button color="light" onClick={handleCancelEdit}>Cancel</Button>
                                                 </div>
                                             </form>
@@ -418,11 +433,11 @@ const ReceiptPage = () => {
                                             </Table.Cell>
                                             <Table.Cell>
                                                 <div className="flex gap-1">
-                                                    <Pen className="w-5 h-5 text-cyan-600" />
                                                     <button 
                                                         onClick={() => handleEditClick(expense)}
-                                                        className="font-medium text-cyan-600 hover:underline dark:text-cyan-500"
+                                                        className="font-medium text-cyan-600 hover:underline dark:text-cyan-500 whitespace-nowrap flex items-center gap-1"
                                                     >
+                                                        <Pen className="w-5 h-5 text-cyan-600" />
                                                         Edit
                                                     </button>
                                                 </div>
@@ -594,6 +609,9 @@ const ReceiptPage = () => {
                                     const firstUnreviewedReceipt = receipts.find((r: any) => r.reviewed === null);
                                     if (firstUnreviewedReceipt) {
                                         window.location.href = `/receipt/${firstUnreviewedReceipt.id}`;
+                                    } else {
+                                        alert('🥳');
+                                        window.location.href = '/';
                                     }
                                 }
                             } catch (error) {
