@@ -7,7 +7,6 @@ WITH ClosestPriceProof AS (
         ppp.price,
         ppp.quantity,
         ppp.unit_of_measure,
-        ppp.reference_url,
         ppp.created_at AS price_proof_date,
         e.id AS expense_id,
         ROW_NUMBER() OVER (
@@ -20,7 +19,7 @@ WITH ClosestPriceProof AS (
     JOIN expense e ON e.product_id = p.id
     WHERE ppp.reference_item_id IS NOT NULL AND ppp.validated IS TRUE
 ),
-report AS (
+all_differences AS (
     SELECT 
         e.id AS expense_id,
         e.receipt_id,
@@ -39,45 +38,33 @@ report AS (
         cpp.price AS proof_price,
         cpp.quantity AS proof_quantity,
         cpp.unit_of_measure AS proof_unit_of_measure,
-        cpp.reference_url as proof_url,
         cpp.price_proof_date
     FROM expense e
     JOIN product p ON e.product_id = p.id
     JOIN reference_item ri ON p.reference_item_id = ri.id
     LEFT JOIN (SELECT * FROM ClosestPriceProof WHERE rn = 1) cpp 
         ON ri.id = cpp.reference_item_id AND e.id = cpp.expense_id
-    WHERE cpp.price_proof_id IS NOT NULL -- TODO: for now, remove later!
     ORDER BY e.created_at DESC
 )
 SELECT
---* 
---product_name, 
-reference_item_id, MIN(reference_item_name) AS reference_item_name_per_id, MIN(proof_url) AS proof_url, product_unit_of_measure, proof_unit_of_measure
-FROM report
+    reference_item_id, 
+    MIN(reference_item_name) AS reference_item_name_per_id, 
+    product_unit_of_measure, 
+    proof_unit_of_measure
+FROM all_differences
 WHERE product_unit_of_measure <> proof_unit_of_measure
-AND NOT EXISTS (
-    SELECT 1 
-    FROM product_conversion pc 
-    WHERE (
-        pc.from_unit = product_unit_of_measure 
-        AND pc.to_unit = proof_unit_of_measure
-    ) OR (
-        pc.from_unit = proof_unit_of_measure 
-        AND pc.to_unit = product_unit_of_measure
+    AND NOT EXISTS (
+        SELECT 1 
+        FROM product_conversion pc
+        WHERE pc.reference_item_id = all_differences.reference_item_id
+            AND (
+                (pc.from_unit = all_differences.product_unit_of_measure AND pc.to_unit = all_differences.proof_unit_of_measure)
+                OR
+                (pc.from_unit = all_differences.proof_unit_of_measure AND pc.to_unit = all_differences.product_unit_of_measure)
+            )
     )
-)
--- WHERE price_proof_id IS NULL
- GROUP BY reference_item_id, product_unit_of_measure, proof_unit_of_measure
+GROUP BY reference_item_id, product_unit_of_measure, proof_unit_of_measure
 ;
-
---select DISTINCT unit_of_measure
---from receipts_app.product_price_proof
---
---select name, unit_of_measure
---from product_price_proof
---where unit_of_measure = 'ca';
---
-
 
 
 
