@@ -6,3 +6,6 @@ __pycache__/
 tmp/
 services/nifi/
 .env
+node_modules/
+.next/
+*.log

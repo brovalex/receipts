@@ -11,14 +11,26 @@ const envSchema = z.object({
   // Node environment
   NODE_ENV: z.enum(['development', 'production', 'test']).default('development'),
 
-  // Kinde Auth - will be required in Phase 1
-  // KINDE_CLIENT_ID: z.string().optional(),
-  // KINDE_CLIENT_SECRET: z.string().optional(),
-  // KINDE_ISSUER_URL: z.string().url().optional(),
-  // KINDE_SITE_URL: z.string().url().optional(),
-  // KINDE_POST_LOGOUT_REDIRECT_URL: z.string().url().optional(),
-  // KINDE_POST_LOGIN_REDIRECT_URL: z.string().url().optional(),
+  // Kinde Auth - required for authentication
+  // These are optional during build but required at runtime for auth
+  KINDE_CLIENT_ID: z.string().optional(),
+  KINDE_CLIENT_SECRET: z.string().optional(),
+  KINDE_ISSUER_URL: z.string().optional(),
+  KINDE_SITE_URL: z.string().optional(),
+  KINDE_POST_LOGOUT_REDIRECT_URL: z.string().optional(),
+  KINDE_POST_LOGIN_REDIRECT_URL: z.string().optional(),
 });
+
+/**
+ * Check if Kinde auth is configured
+ */
+export function isKindeConfigured(): boolean {
+  return !!(
+    process.env.KINDE_CLIENT_ID &&
+    process.env.KINDE_CLIENT_SECRET &&
+    process.env.KINDE_ISSUER_URL
+  );
+}
 
 /**
  * Validate and export environment variables

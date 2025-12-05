@@ -3,6 +3,7 @@
 import { Navbar } from 'flowbite-react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import { AuthStatus } from '@/components/auth';
 
 export function Header() {
   const pathname = usePathname();
@@ -21,7 +22,10 @@ export function Header() {
           Receipts App
         </span>
       </Navbar.Brand>
-      <Navbar.Toggle />
+      <div className="flex items-center gap-4 md:order-2">
+        <AuthStatus />
+        <Navbar.Toggle />
+      </div>
       <Navbar.Collapse>
         <Navbar.Link
           as={Link}
@@ -37,8 +41,6 @@ export function Header() {
         >
           Price Proofs
         </Navbar.Link>
-        {/* Auth links will be added in Phase 1 */}
-        {/* <Navbar.Link href="/settings">Settings</Navbar.Link> */}
       </Navbar.Collapse>
     </Navbar>
   );
