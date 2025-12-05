@@ -20,8 +20,34 @@ model User {
   receipts       Receipt[]
   products       Product[]
   referenceItems ReferenceItem[]
+  taxYears       TaxYear[]
 
   @@map("user")
+}
+
+// Tax year status enum
+enum TaxYearStatus {
+  OPEN
+  CLOSED
+  ARCHIVED
+}
+
+// Tax year for organizing and closing receipts
+model TaxYear {
+  id        Int           @id @default(autoincrement())
+  year      Int
+  status    TaxYearStatus @default(OPEN)
+  closedAt  DateTime?     @map("closed_at")
+  notes     String?
+  userId    String        @map("user_id")
+  createdAt DateTime      @default(now()) @map("created_at")
+  updatedAt DateTime      @updatedAt @map("updated_at")
+
+  user     User      @relation(fields: [userId], references: [id])
+  receipts Receipt[]
+
+  @@unique([userId, year])
+  @@map("tax_year")
 }
 
 model Expense {
@@ -93,9 +119,11 @@ model Receipt {
   reviewed    Boolean?
   receiptDate DateTime?   @map("receipt_date") @db.Timestamp(6)
   userId      String?     @map("user_id")
+  taxYearId   Int?        @map("tax_year_id")
   expenses    Expense[]
   imageFiles  ImageFile[]
   user        User?       @relation(fields: [userId], references: [id])
+  taxYear     TaxYear?    @relation(fields: [taxYearId], references: [id])
 
   @@map("receipt")
 }

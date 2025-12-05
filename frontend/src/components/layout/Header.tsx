@@ -36,6 +36,13 @@ export function Header() {
         </Navbar.Link>
         <Navbar.Link
           as={Link}
+          href="/settings/tax-years"
+          active={isActive('/settings/tax-years')}
+        >
+          Tax Years
+        </Navbar.Link>
+        <Navbar.Link
+          as={Link}
           href="/admin/price-proofs"
           active={isActive('/admin')}
         >

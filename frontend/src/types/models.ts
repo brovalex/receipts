@@ -12,6 +12,33 @@ export interface User {
   updatedAt: Date | string;
 }
 
+export type TaxYearStatus = 'OPEN' | 'CLOSED' | 'ARCHIVED';
+
+export interface TaxYear {
+  id: number;
+  year: number;
+  status: TaxYearStatus;
+  closedAt: Date | string | null;
+  notes: string | null;
+  userId: string;
+  createdAt: Date | string;
+  updatedAt: Date | string;
+}
+
+export interface TaxYearSummary {
+  receiptCount: number;
+  expenseCount: number;
+  totalAmount: number;
+  dateRange: {
+    earliest: Date | string | null;
+    latest: Date | string | null;
+  };
+}
+
+export interface TaxYearWithSummary extends TaxYear {
+  summary: TaxYearSummary;
+}
+
 export interface Receipt {
   id: number;
   createdAt: Date | string;
@@ -19,6 +46,7 @@ export interface Receipt {
   reviewed: boolean | null;
   receiptDate: Date | string | null;
   userId: string | null;
+  taxYearId: number | null;
 }
 
 export interface Expense {
