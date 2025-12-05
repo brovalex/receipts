@@ -29,8 +29,15 @@ export function Header() {
       <Navbar.Collapse>
         <Navbar.Link
           as={Link}
+          href="/dashboard"
+          active={isActive('/dashboard')}
+        >
+          Dashboard
+        </Navbar.Link>
+        <Navbar.Link
+          as={Link}
           href="/"
-          active={isActive('/')}
+          active={isActive('/') && pathname === '/'}
         >
           Receipts
         </Navbar.Link>
