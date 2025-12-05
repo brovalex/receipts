@@ -3,12 +3,22 @@
  * These are standalone types that don't require Prisma client generation
  */
 
+export interface User {
+  id: string;
+  kindeId: string;
+  email: string;
+  name: string | null;
+  createdAt: Date | string;
+  updatedAt: Date | string;
+}
+
 export interface Receipt {
   id: number;
   createdAt: Date | string;
   updatedAt: Date | string;
   reviewed: boolean | null;
   receiptDate: Date | string | null;
+  userId: string | null;
 }
 
 export interface Expense {
@@ -28,6 +38,7 @@ export interface Product {
   weight: number | string;
   unitOfMeasure: string;
   referenceItemId: number;
+  userId: string | null;
   createdAt: Date | string;
   updatedAt: Date | string;
 }
@@ -40,6 +51,7 @@ export interface ReferenceItem {
   price: number | string;
   pricePerWeight: number | string;
   referenceUrl: string | null;
+  userId: string | null;
   createdAt: Date | string;
   updatedAt: Date | string;
 }

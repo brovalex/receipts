@@ -8,6 +8,22 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
+// User model - synced with Kinde authentication
+model User {
+  id        String   @id @default(cuid())
+  kindeId   String   @unique @map("kinde_id")
+  email     String   @unique
+  name      String?
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  receipts       Receipt[]
+  products       Product[]
+  referenceItems ReferenceItem[]
+
+  @@map("user")
+}
+
 model Expense {
   id            Int          @id @default(autoincrement())
   priceEach     Decimal      @map("price_each") @db.Decimal
@@ -42,10 +58,12 @@ model Product {
   weight          Decimal       @db.Decimal
   unitOfMeasure   String        @map("unit_of_measure")
   referenceItemId Int           @map("reference_item_id")
+  userId          String?       @map("user_id")
   createdAt       DateTime      @default(now()) @map("created_at") @db.Timestamp(6)
   updatedAt       DateTime      @default(now()) @map("updated_at") @db.Timestamp(6)
   expenses        Expense[]
   referenceItem   ReferenceItem @relation(fields: [referenceItemId], references: [id], map: "Product_referenceItemId_fkey")
+  user            User?         @relation(fields: [userId], references: [id])
 
   @@map("product")
 }
@@ -74,8 +92,10 @@ model Receipt {
   updatedAt   DateTime    @default(now()) @map("updated_at") @db.Timestamp(6)
   reviewed    Boolean?
   receiptDate DateTime?   @map("receipt_date") @db.Timestamp(6)
+  userId      String?     @map("user_id")
   expenses    Expense[]
   imageFiles  ImageFile[]
+  user        User?       @relation(fields: [userId], references: [id])
 
   @@map("receipt")
 }
@@ -101,11 +121,13 @@ model ReferenceItem {
   price              Decimal              @db.Decimal
   pricePerWeight     Decimal              @map("price_per_weight") @db.Decimal
   referenceUrl       String?              @map("reference_url")
+  userId             String?              @map("user_id")
   createdAt          DateTime             @default(now()) @map("created_at") @db.Timestamp(6)
   updatedAt          DateTime             @default(now()) @map("updated_at") @db.Timestamp(6)
   products           Product[]
   product_conversion product_conversion[]
   productPriceProofs ProductPriceProof[]
+  user               User?                @relation(fields: [userId], references: [id])
 
   @@map("reference_item")
 }
