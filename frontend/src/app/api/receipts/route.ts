@@ -1,5 +1,5 @@
 import { prisma } from '@/lib/prisma';
-import { NextResponse } from 'next/server';
+import { successResponse, handleApiError } from '@/lib/api-response';
 
 export async function GET() {
   try {
@@ -7,10 +7,13 @@ export async function GET() {
       include: {
         expenses: true,
       },
+      orderBy: {
+        receiptDate: 'desc',
+      },
     });
-    
-    return NextResponse.json(receipts);
+
+    return successResponse(receipts);
   } catch (error) {
-    return NextResponse.json({ error: 'Failed to fetch receipts' }, { status: 500 });
+    return handleApiError(error);
   }
 } 
